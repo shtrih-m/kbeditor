@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE sect1 SYSTEM "./dtd/dblite.dtd">
+  <sect1>
+    <title>Приложения</title>
+    <sect2 id="NOTES">
+        <title>Список нот</title>
+    	<indexterm>
+    		<primary>ноты</primary>
+    	</indexterm>
+        <para>
+            <table frame="all" colsep="1" rowsep="1">                
+ 	            <tgroup cols="13"> 
+ 	            	<colspec colnum="1" colwidth="70"/>
+ 	            	<colspec colnum="2" colwidth="30"/>
+ 	            	<colspec colnum="3" colwidth="30"/>
+ 	            	<colspec colnum="4" colwidth="30"/>
+ 	            	<colspec colnum="5" colwidth="30"/>
+ 	            	<colspec colnum="6" colwidth="30"/>
+ 	            	<colspec colnum="7" colwidth="30"/>
+ 	            	<colspec colnum="8" colwidth="30"/>
+ 	            	<colspec colnum="9" colwidth="30"/>
+ 	            	<colspec colnum="10" colwidth="30"/>
+ 	            	<colspec colnum="11" colwidth="30"/>
+ 	            	<colspec colnum="12" colwidth="30"/>
+ 	            	<colspec colnum="13" colwidth="30"/>  
+                    <thead>
+                        <row>
+ 	                        <entry> </entry>
+ 	                        <entry>До</entry>
+                        	<entry>До&nbsp;Диез</entry>
+                 	        <entry>Ре</entry>
+                        	<entry>Ре&nbsp;Диез</entry>
+                 	        <entry>Ми</entry>
+                 	        <entry>Фа</entry>
+                        	<entry>Фа&nbsp;Диез</entry>
+                 	        <entry>Соль</entry>
+                        	<entry>Соль&nbsp;Диез</entry>                 	        
+                 	        <entry>Ля</entry>
+                        	<entry>Ля&nbsp;Диез</entry>
+                 	        <entry>Си</entry>
+ 	                    </row>
+                    </thead>
+ 	                <tbody> 	                
+ 	                    <row>
+ 	                        <entry> </entry>
+ 	                        <entry><emphasis>C</emphasis></entry>
+ 	                        <entry><emphasis>Cis</emphasis></entry>
+                 	        <entry><emphasis>D</emphasis></entry>
+                 	        <entry><emphasis>Dis</emphasis></entry>
+                 	        <entry><emphasis>E</emphasis></entry>
+                 	        <entry><emphasis>F</emphasis></entry>
+                 	        <entry><emphasis>Fis</emphasis></entry>
+                 	        <entry><emphasis>G</emphasis></entry>
+                 	        <entry><emphasis>Gis</emphasis></entry>
+                 	        <entry><emphasis>A</emphasis></entry>
+                 	        <entry><emphasis>Ais</emphasis></entry>
+                 	        <entry><emphasis>B</emphasis></entry>
+ 	                    </row>
+ 	                    <row>
+ 	                        <entry> </entry>
+ 	                        <entry>C_0</entry>
+ 	                        <entry>Cis_0</entry>
+                 	        <entry>D_0</entry>
+                 	        <entry>Dis_0</entry>
+                 	        <entry>E_0</entry>
+                 	        <entry>F_0</entry>
+                 	        <entry>Fis_0</entry>
+                 	        <entry>G_0</entry>
+                 	        <entry>Gis_0</entry>
+                 	        <entry>A_0</entry>
+                 	        <entry>Ais_0</entry>
+                 	        <entry>B_0</entry>
+ 	                    </row>
+ 	                    <row>
+ 	                        <entry>Малая&nbsp;октава</entry>
+ 	                        <entry>C0</entry>
+ 	                        <entry>Cis0</entry>
+                 	        <entry>D0</entry>
+                 	        <entry>Dis0</entry>
+                 	        <entry>E0</entry>
+                 	        <entry>F0</entry>
+                 	        <entry>Fis0</entry>
+                 	        <entry>G0</entry>
+                 	        <entry>Gis0</entry>
+                 	        <entry>A0</entry>
+                 	        <entry>Ais0</entry>
+                 	        <entry>B0</entry>
+ 	                    </row>
+ 	                    <row>
+ 	                    	<entry>Первая&nbsp;октава</entry>
+ 	                        <entry>C1</entry>
+ 	                        <entry>Cis1</entry>
+                 	        <entry>D1</entry>
+                 	        <entry>Dis1</entry>
+                 	        <entry>E1</entry>
+                 	        <entry>F1</entry>
+                 	        <entry>Fis1</entry>
+                 	        <entry>G1</entry>
+                 	        <entry>Gis1</entry>
+                 	        <entry>A1</entry>
+                 	        <entry>Ais1</entry>
+                 	        <entry>B1</entry>
+ 	                    </row>
+ 	                    <row>
+ 	                    	<entry>Вторая&nbsp;октава</entry>
+ 	                        <entry>C2</entry>
+ 	                        <entry>Cis2</entry>
+                 	        <entry>D2</entry>
+                 	        <entry>Dis2</entry>
+                 	        <entry>E2</entry>
+                 	        <entry>F2</entry>
+                 	        <entry>Fis2</entry>
+                 	        <entry>G2</entry>
+                 	        <entry>Gis2</entry>
+                 	        <entry>A2</entry>
+                 	        <entry>Ais2</entry>
+                 	        <entry>B2</entry>
+ 	                    </row>
+ 	                    <row>
+ 	                    	<entry>Третья&nbsp;октава</entry>
+ 	                        <entry>C3</entry>
+ 	                        <entry>Cis3</entry>
+                 	        <entry>D3</entry>
+                 	        <entry>Dis3</entry>
+                 	        <entry>E3</entry>
+                 	        <entry>F3</entry>
+                 	        <entry>Fis3</entry>
+                 	        <entry>G3</entry>
+                 	        <entry>Gis3</entry>
+                 	        <entry>A3</entry>
+                 	        <entry>Ais3</entry>
+                 	        <entry>B3</entry>
+ 	                    </row>
+ 	                    <row>
+ 	                    	<entry>Четвертая&nbsp;октава</entry>
+ 	                        <entry>C4</entry>
+ 	                        <entry>Cis4</entry>
+                 	        <entry>D4</entry>
+                 	        <entry>Dis4</entry>
+                 	        <entry>E4</entry>
+                 	        <entry>F4</entry>
+                 	        <entry>Fis4</entry>
+                 	        <entry>G4</entry>
+                 	        <entry>Gis4</entry>
+                 	        <entry>A4</entry>
+                 	        <entry>Ais4</entry>
+                 	        <entry>B4</entry>
+ 	                    </row>
+ 	                </tbody> 	            
+ 	            </tgroup>
+ 	        </table>
+        </para>
+    </sect2>
+    <sect2>
+        <title>Комплектация</title>
+        <para>
+            <table frame="all" colsep="1" rowsep="1">                
+                <title>Для клавиатур с 60-ю клавишами</title>
+ 	            <tgroup cols="2">
+ 	            <thead>
+ 	                <row>
+ 	                    <entry>Наименование</entry>
+ 	                    <entry>Шт.</entry> 	                    
+ 	                </row>
+ 	            </thead>
+ 	            <tbody>
+ 	                <row>
+ 	                    <entry>Клавиатура</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Четвертных&nbsp;клавиш</entry>
+ 	                    <entry>2</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Двойных&nbsp;клавиш</entry>
+ 	                    <entry>4</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Одинарных&nbsp;клавиш</entry>
+ 	                    <entry>60</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Экстрактор&nbsp;клавиш</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Диск&nbsp;с&nbsp;программой&nbsp;"Редактор&nbsp;раскладки"</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Документация</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row> 	                
+ 	            </tbody>
+ 	            </tgroup>
+ 	        </table>
+ 	        <table frame="all" colsep="1" rowsep="1">                
+                <title>Для клавиатур с 64-я клавишами</title>
+ 	            <tgroup cols="2">
+ 	            <thead>
+ 	                <row>
+ 	                    <entry>Наименование</entry>
+ 	                    <entry>Шт.</entry> 	                    
+ 	                </row>
+ 	            </thead>
+ 	            <tbody>
+ 	                <row>
+ 	                    <entry>Клавиатура</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Четвертных&nbsp;клавиш</entry>
+ 	                    <entry>2</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Двойных&nbsp;клавиш</entry>
+ 	                    <entry>6</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Одинарных&nbsp;клавиш</entry>
+ 	                    <entry>64</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Экстрактор&nbsp;клавиш</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Диск&nbsp;с&nbsp;программой&nbsp;"Редактор&nbsp;раскладки"</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Документация</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row> 	                
+ 	            </tbody>
+ 	          </tgroup>
+ 	        </table>
+ 	        <table frame="all" colsep="1" rowsep="1">                
+                <title>Для клавиатур со 112-ю клавишами</title>
+ 	            <tgroup cols="2">
+ 	            <thead>
+ 	                <row>
+ 	                    <entry>Наименование</entry>
+ 	                    <entry>Шт.</entry> 	                    
+ 	                </row>
+ 	            </thead>
+ 	            <tbody>
+ 	                <row>
+ 	                    <entry>Клавиатура</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Четвертных&nbsp;клавиш</entry>
+ 	                    <entry>2</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Двойных&nbsp;клавиш</entry>
+ 	                    <entry>4</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Одинарных&nbsp;клавиш</entry>
+ 	                    <entry>112</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Экстрактор&nbsp;клавиш</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Диск&nbsp;с&nbsp;программой&nbsp;"Редактор&nbsp;раскладки"</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Документация</entry>
+ 	                    <entry>1</entry> 	                    
+ 	                </row> 	                
+ 	            </tbody>
+ 	          </tgroup>
+ 	        </table>
+        </para>
+    </sect2>
+    <sect2 id="SCANCODES">    
+        <title>Представление скан-кодов</title>
+    	<indexterm>
+    		<primary>скан-коды</primary>
+    	</indexterm>
+	    <para>
+	        <table frame="all" colsep="1" rowsep="1">                
+                <title>Таблица обозначений клавиш (управляющие клавиши):</title>
+ 	            <tgroup cols="2"> 	   
+ 	            <tbody>
+ 	                <row>
+ 	                    <entry>Backspace</entry>
+ 	                	<entry>Backspace</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                	<entry>Space</entry>
+ 	                    <entry>Пробел</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Tab</entry>
+ 	                    <entry>Таб</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>CAPS</entry>
+ 	                    <entry>CapsLock</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>LShift</entry>
+ 	                    <entry>Левый&nbsp;Shift</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>LCtrl</entry>
+ 	                    <entry>Левый&nbsp;Control</entry> 	                    
+ 	                </row>
+ 	                <row>
+ 	                    <entry>LWin</entry>
+ 	                    <entry>Левая&nbsp;клавиша&nbsp;со&nbsp;значком&nbsp;Windows</entry> 	       
+ 	                </row> 	                
+ 	                <row>
+ 	                    <entry>RAlt</entry>
+ 	                    <entry>Правый&nbsp;Alt</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>RShift</entry>
+ 	                    <entry>Правый&nbsp;Shift</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>RCtrl</entry>
+ 	                    <entry>Правый&nbsp;Control</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>RWin</entry>
+ 	                    <entry>Правая&nbsp;клавиша&nbsp;со&nbsp;значком&nbsp;Windows</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>RAlt</entry>
+ 	                    <entry>Правый&nbsp;Alt</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>APPS</entry>
+ 	                    <entry>Клавиша&nbsp;со&nbsp;значком&nbsp;меню</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>ENTER</entry>
+ 	                    <entry>Ввод</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>ESC</entry>
+ 	                    <entry>Escape</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>PrintScrn</entry>
+ 	                	<entry>Print Scrin</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Scroll</entry>
+ 	                    <entry>Scroll Lock</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Pause/Break</entry>
+ 	                    <entry>Пауза</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Up</entry>
+ 	                    <entry>Стрелка&nbsp;вверх</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Down</entry>
+ 	                    <entry>Стрелка&nbsp;вниз</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Left</entry>
+ 	                    <entry>Стрелка&nbsp;влево</entry> 	       
+ 	                </row>
+ 	                <row>
+ 	                    <entry>Right</entry>
+ 	                    <entry>Стрелка&nbsp;вправо</entry> 	       
+ 	                </row>
+ 	            </tbody>
+ 	          </tgroup>
+ 	        </table>
+	    </para>	        
+	    <para>
+	        Пример: строка “+LCtrl +ENTER +Space -ENTER -Space -LCtrl” 
+	        обозначает нажатие левого Control’а, нажатие
+	        Ввода, нажатие пробела, отжатие Ввода, отжатие пробела, отжатие левого Control’a.
+	    </para>
+    	<para>
+	        Если цифра или символ находится в угловых скобках 
+	        (например &lt;5&gt; или &lt;-&gt;), то это означает, что эта клавиша на NumPad’е.	    
+	    </para>
+    </sect2>
+  </sect1>

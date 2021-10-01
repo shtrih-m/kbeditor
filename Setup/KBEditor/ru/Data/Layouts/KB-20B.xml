@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Layout Vesion="02FF">
+	<Parameters KeyboardID="33" STop="1" SLeft="3" SRight="3" SBottom="1"/>
+	<Layers>
+		<Layer>
+			<Keys>
+				<Key Column="0" Row="0" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+0"/>
+					<ReleaseCodes ScanCodes="-0"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="0" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+Left"/>
+					<ReleaseCodes ScanCodes="-Left"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="0" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+7"/>
+					<ReleaseCodes ScanCodes="-7"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="0" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+4"/>
+					<ReleaseCodes ScanCodes="-4"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="0" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+1"/>
+					<ReleaseCodes ScanCodes="-1"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="1" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+Down"/>
+					<ReleaseCodes ScanCodes="-Down"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="1" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+Up"/>
+					<ReleaseCodes ScanCodes="-Up"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="1" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+8"/>
+					<ReleaseCodes ScanCodes="-8"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="1" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+5"/>
+					<ReleaseCodes ScanCodes="-5"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="1" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+2"/>
+					<ReleaseCodes ScanCodes="-2"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="2" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+F4"/>
+					<ReleaseCodes ScanCodes="-F4"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="2" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+Right"/>
+					<ReleaseCodes ScanCodes="-Right"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="2" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+9"/>
+					<ReleaseCodes ScanCodes="-9"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="2" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+6"/>
+					<ReleaseCodes ScanCodes="-6"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="2" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+3"/>
+					<ReleaseCodes ScanCodes="-3"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="3" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+ENTER"/>
+					<ReleaseCodes ScanCodes="-ENTER"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="3" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+ESC"/>
+					<ReleaseCodes ScanCodes="-ESC"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="3" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+F3"/>
+					<ReleaseCodes ScanCodes="-F3"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="3" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+F2"/>
+					<ReleaseCodes ScanCodes="-F2"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="3" RepeatEnabled="0" KeyType="1">
+					<PressCodes ScanCodes="+F1"/>
+					<ReleaseCodes ScanCodes="-F1"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+			</Keys>
+			<MSR SendEnter="0" StopOnError="0" LightIndication="1">
+				<Track1 Enabled="1"/>
+				<Track2 Enabled="1"/>
+				<Track3 Enabled="1"/>
+			</MSR>
+		</Layer>
+		<Layer>
+			<Keys>
+				<Key Column="0" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+			</Keys>
+			<MSR SendEnter="0" StopOnError="0" LightIndication="1">
+				<Track1 Enabled="1"/>
+				<Track2 Enabled="1"/>
+				<Track3 Enabled="1"/>
+			</MSR>
+		</Layer>
+		<Layer>
+			<Keys>
+				<Key Column="0" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+			</Keys>
+			<MSR SendEnter="0" StopOnError="0" LightIndication="1">
+				<Track1 Enabled="1"/>
+				<Track2 Enabled="1"/>
+				<Track3 Enabled="1"/>
+			</MSR>
+		</Layer>
+		<Layer>
+			<Keys>
+				<Key Column="0" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="0" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="1" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="2" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="0" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="1" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="2" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="3" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+				<Key Column="4" Row="3" RepeatEnabled="0" KeyType="0">
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Key>
+			</Keys>
+			<MSR SendEnter="0" StopOnError="0" LightIndication="1">
+				<Track1 Enabled="1"/>
+				<Track2 Enabled="1"/>
+				<Track3 Enabled="1"/>
+			</MSR>
+		</Layer>
+	</Layers>
+</Layout>

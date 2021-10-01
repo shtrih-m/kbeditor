@@ -1,0 +1,32 @@
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,7,0,154
+PRODUCTVERSION 1,7,0,154 
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041904E3"
+    BEGIN
+      VALUE "CompanyName", "ШТРИХ-М\0"
+      VALUE "FileDescription", "Редактор раскладки\0"
+      VALUE "FileVersion", "1.7.0.154\0"
+      VALUE "InternalName", "KBEditor\0"
+      VALUE "LegalCopyright", "Copyright \251 2008 ШТРИХ-М\0"
+      VALUE "OriginalFilename", "KBEditor.exe\0"
+      VALUE "ProductName", "Редактор раскладки\0"
+      VALUE "ProductVersion","1.7\0"
+      VALUE "Comments", "http://www.shtrih-m.ru\0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 1049,1251
+  END
+END
+
+MAINICON  ICON  DISCARDABLE  "MAINICON.ico"

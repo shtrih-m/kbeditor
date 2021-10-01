@@ -1,0 +1,406 @@
+<!--
+  WANT - A build management tool.                                 
+  Copyright (c) 2001-2003 Juancarlo Anez, Caracas, Venezuela.          
+  All rights reserved.
+  
+
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+  
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+  
+  You should have received a copy of the GNU Lesser General Public
+  License along with this library; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+{ $Id: want.xml,v 1.83 2004/05/29 17:23:09 juanco Exp $ }
+
+This is the Want script for building Want.
+See http://www.suigeneris.org/want/ for details.
+-->
+<project name="kbeditor"
+         basedir="."
+         default="compile" >
+
+  <property name="old.version"    value="?{release.ini:releases:current}" />
+  <regexp   property="old.build"  text="${old.version}" pattern="^.*\.([0-9]+)$" subst ="\1" />
+
+  <property name="build" value="={${old.build}}"/>
+
+  <regexp property="version" text="${old.version}" pattern="\.[0-9]*$" subst=".${build}" />
+  <regexp property="comma.version" pattern="\." subst="," text="${version}" />
+  <regexp property="version2" pattern="^[0-9]*\.[0-9]*" text="${version}" />
+  <regexp property="basedir" pattern="^\/" subst="" text="${basedir}" />
+  <regexp property="basepath" pattern="^\/" subst="" text="${basedir}" />
+
+  <tstamp>
+    <format property="when"      pattern="yyyy,mm,dd,HH,nn,ss" />
+    <format property="date.tag"  pattern="yyyy-mm-dd" />
+  </tstamp>
+  
+  <property name="bin"          value="${basepath}/bin"/>
+  <property name="dcu"          value="${basepath}/dcu"/>
+  <property name="src"          value="${basepath}/src"/>
+  <property name="test"         value="${basepath}/tests"/>
+  <property name="kbtest"       value="${src}/kbtest"/>
+  <property name="kbeditor"     value="${src}/kbeditor"/>
+  <property name="setup"        value="${basepath}/setup" />
+  <property name="kbeditortest" value="${basepath}/tests/kbeditortest" />
+  <property name="kbtesttest" value="${basepath}/tests/kbtesttest" />
+
+  <target name="kbeditor" depends="clean,prepare,test-kbeditor,compile-kbeditor,compile-kbeditor-rus,sign-kbeditor,sign-driver,setup-kbeditor,sign-setup-kbeditor,clean"/>
+  <target name="kbtest" depends="clean,prepare,test-kbtest,compile-kbtest,compile-kbtest-rus,sign-kbtest,sign-driver,setup-kbtest,sign-setup-kbtest,clean"/>
+  <target name="kbeditor-ns" depends="clean,prepare,test-kbeditor,compile-kbeditor,compile-kbeditor-rus,setup-kbeditor,clean"/>
+  <target name="kbtest-ns" depends="clean,prepare,test-kbtest,compile-kbtest,compile-kbtest-rus,setup-kbtest,clean"/>
+  <target name="compile" depends="kbeditor,kbtest,finalclean"/>
+  <target name="compile-ns" depends="kbeditor-ns,kbtest-ns,finalclean"/>
+  
+  <target name="prepare" >
+    <mkdir dir="${dcu}" />
+    <mkdir dir="${bin}" />
+    <echo  message="version=${version}" />
+    <echo  message="build=${build}" />
+    <delete dir="${src}" >
+      <include name="**/*.dcu" />
+      <include name="**/*.dll" />
+      <include name="**/*.rsm" />
+      <include name="**/*.log" />
+      <include name="**/*.~*" />
+      <include name="**/*.bak" />
+    </delete>
+    <delete dir="${test}" >
+      <include name="**/*.dcu" />
+      <include name="**/*.dll" />
+      <include name="**/*.rsm" />
+      <include name="**/*.log" />
+      <include name="**/*.~*" />
+      <include name="**/*.bak" />
+    </delete>
+    <delete dir="${basepath}/data" >
+      <include name="**/*.ini" />
+      <include name="**/*.log" />
+    </delete>
+  </target>
+
+  <target name="clean" >
+    <delete dir="${bin}" >
+      <include name="**" />
+    </delete>
+    <delete dir="${dcu}" >
+      <include name="**" />
+    </delete>
+    <delete dir="${bin}"/>
+    <delete dir="${dcu}" />
+  </target >
+
+  <target name="finalclean" >
+    <delete dir="${bin}"/>
+    <delete dir="${dcu}" />
+  </target >
+
+  <target name="test-kbeditor" depends="prepare">
+    <delete dir="${dcu}" >
+      <include name="*.dcu" />
+    </delete>
+    <dcc basedir="${kbeditortest}" source="kbeditortestlib.dpr" >
+      <exeoutput path="${kbeditortest}/Bin" />
+      <dcuoutput path="${dcu}"  />
+
+      <align value="8"/>
+      <optimize  value="false" />
+      <debug     value="false" />
+      <console   value="true" />
+      <hugestrings value="true" />
+      <writeableconst value="true" />
+      <optimize value="false"/>
+      <warnings value="true"/>
+      <overflowchecks value="false" />
+      <rangechecks value="false" />
+      <iochecks value="false" />
+      <hints value="true" />
+      <build value="false" />
+      <warning name="SYMBOL_PLATFORM" value="off" />
+      <warning name="SYMBOL_DEPRECATED" value="off" />
+      <warning name="UNIT_PLATFORM" value="off" />
+      <warning name="UNSAFE_CODE" value="off" />
+      <warning name="UNSAFE_TYPE" value="off" />
+      <warning name="UNSAFE_CAST" value="off" />
+      <arguments value="-U${src}/Rus" />
+    </dcc>
+    <dunit basedir="${kbeditortest}/bin" testlib="${kbeditortest}/bin/kbeditortestlib.dll" />
+  </target>
+
+  <target name="test-kbtest" depends="prepare">
+    <delete dir="${dcu}" >
+      <include name="*.dcu" />
+    </delete>
+    <dcc basedir="${kbtesttest}" source="kbtesttestlib.dpr" >
+      <exeoutput path="${kbtesttest}/Bin" />
+      <dcuoutput path="${dcu}"  />
+
+      <align value="8"/>
+      <optimize  value="false" />
+      <debug     value="false" />
+      <console   value="true" />
+      <hugestrings value="true" />
+      <writeableconst value="true" />
+      <optimize value="false"/>
+      <warnings value="true"/>
+      <overflowchecks value="false" />
+      <rangechecks value="false" />
+      <iochecks value="false" />
+      <hints value="true" />
+      <build value="false" />
+      <warning name="SYMBOL_PLATFORM" value="off" />
+      <warning name="SYMBOL_DEPRECATED" value="off" />
+      <warning name="UNIT_PLATFORM" value="off" />
+      <warning name="UNSAFE_CODE" value="off" />
+      <warning name="UNSAFE_TYPE" value="off" />
+      <warning name="UNSAFE_CAST" value="off" />
+      <arguments value="-U${src}/Rus" />
+    </dcc>
+    <dunit basedir="${kbtesttest}/bin" testlib="${kbtesttest}/bin/kbtesttestlib.dll" />
+  </target>
+  
+  <target name="compile-kbtest" depends="prepare">
+    
+    <delete dir="${dcu}" >
+      <include name="**" />
+    </delete>
+    
+    <echo input="${kbtest}/kbtest.rt" file="${kbtest}/kbtest.rc" />
+    <brcc file="${kbtest}/kbtest.rc" output="${kbtest}/kbtest.res" />
+
+    <dcc basedir="${kbtest}" source="kbtest.dpr">
+      <exeoutput path="${bin}" />
+      <dcuoutput path="${dcu}" />
+
+      <align value="8"/>
+      <optimize  value="false" />
+      <debug     value="false" />
+      <console   value="false" />
+      <hugestrings value="true" />
+      <writeableconst value="true" />
+      <optimize value="false"/>
+      <warnings value="true"/>
+      <overflowchecks value="false" />
+      <rangechecks value="false" />
+      <iochecks value="false" />
+      <hints value="true" />
+      <build value="false" />
+      <warning name="SYMBOL_PLATFORM" value="off" />
+      <warning name="SYMBOL_DEPRECATED" value="off" />
+      <warning name="UNIT_PLATFORM" value="off" />
+      <warning name="UNSAFE_CODE" value="off" />
+      <warning name="UNSAFE_TYPE" value="off" />
+      <warning name="UNSAFE_CAST" value="off" />
+      <arguments value="-U${src}/Rus" />
+    </dcc>
+  </target>
+
+  <target name="compile-kbeditor-rus" depends="prepare">
+
+    <delete dir="${dcu}" >
+      <include name="**" />
+    </delete>
+    
+    <echo input="${kbeditor}/RUS/kbeditor.rt" file="${kbeditor}/RUS/kbeditor.rc" />
+    <brcc file="${kbeditor}/RUS/kbeditor.rc" output="${kbeditor}/RUS/kbeditor.res" />
+    <dcc basedir="${kbeditor}/RUS" source="kbeditor.dpr">
+      <exeoutput path="${bin}" />
+      <dcuoutput path="${dcu}" />
+
+      <align value="8"/>
+      <optimize  value="false" />
+      <debug     value="false" />
+      <console   value="false" />
+      <hugestrings value="true" />
+      <writeableconst value="true" />
+      <optimize value="false"/>
+      <warnings value="true"/>
+      <overflowchecks value="false" />
+      <rangechecks value="false" />
+      <iochecks value="false" />
+      <hints value="true" />
+      <build value="false" />
+      <warning name="SYMBOL_PLATFORM" value="off" />
+      <warning name="SYMBOL_DEPRECATED" value="off" />
+      <warning name="UNIT_PLATFORM" value="off" />
+      <warning name="UNSAFE_CODE" value="off" />
+      <warning name="UNSAFE_TYPE" value="off" />
+      <warning name="UNSAFE_CAST" value="off" />
+    </dcc>
+  </target>
+
+  <target name="compile-kbeditor" depends="prepare">
+
+    <delete dir="${dcu}" >
+      <include name="**" />
+    </delete>
+    <echo input="${kbeditor}/kbeditor.rt" file="${kbeditor}/kbeditor.rc" />
+    <brcc file="${kbeditor}/kbeditor.rc" output="${kbeditor}/kbeditor.res" />
+    <dcc basedir="${kbeditor}" source="kbeditor.dpr">
+      <exeoutput path="${bin}" />
+      <dcuoutput path="${dcu}" />
+
+      <align value="8"/>
+      <optimize  value="false" />
+      <debug     value="false" />
+      <console   value="false" />
+      <hugestrings value="true" />
+      <writeableconst value="true" />
+      <optimize value="false"/>
+      <warnings value="true"/>
+      <overflowchecks value="false" />
+      <rangechecks value="false" />
+      <iochecks value="false" />
+      <hints value="true" />
+      <build value="false" />
+      <warning name="SYMBOL_PLATFORM" value="off" />
+      <warning name="SYMBOL_DEPRECATED" value="off" />
+      <warning name="UNIT_PLATFORM" value="off" />
+      <warning name="UNSAFE_CODE" value="off" />
+      <warning name="UNSAFE_TYPE" value="off" />
+      <warning name="UNSAFE_CAST" value="off" />
+      <arguments value="-U${src}/Rus" />
+    </dcc>
+  </target>
+  
+  <target name="compile-kbtest-rus" depends="prepare">
+
+    <delete dir="${dcu}" >
+      <include name="**" />
+    </delete>
+    
+    <echo input="${kbtest}/RUS/kbtest.rt" file="${kbtest}/RUS/kbtest.rc" />
+    <brcc file="${kbtest}/RUS/kbtest.rc" output="${kbtest}/RUS/kbtest.res" />
+    <dcc basedir="${kbtest}/RUS" source="kbtest.dpr">
+      <exeoutput path="${bin}" />
+      <dcuoutput path="${dcu}" />
+
+      <align value="8"/>
+      <optimize  value="false" />
+      <debug     value="false" />
+      <console   value="false" />
+      <hugestrings value="true" />
+      <writeableconst value="true" />
+      <optimize value="false"/>
+      <warnings value="true"/>
+      <overflowchecks value="false" />
+      <rangechecks value="false" />
+      <iochecks value="false" />
+      <hints value="true" />
+      <build value="false" />
+      <warning name="SYMBOL_PLATFORM" value="off" />
+      <warning name="SYMBOL_DEPRECATED" value="off" />
+      <warning name="UNIT_PLATFORM" value="off" />
+      <warning name="UNSAFE_CODE" value="off" />
+      <warning name="UNSAFE_TYPE" value="off" />
+      <warning name="UNSAFE_CAST" value="off" />
+    </dcc>
+  </target>
+
+  <target name="setup-kbeditor">
+    <echo input="${setup}/kbeditor/setup_template.iss" file="${setup}/kbeditor/setup.iss"/>
+    <exec executable="iscc">
+      <arg value="${setup}/kbeditor/setup.iss" />
+      <arg value="/Q" />
+    </exec>
+    <move tofile="${basepath}/KBEditor_${version2}_${build}.exe">
+      <include name="${setup}/kbeditor/setup.exe" />
+    </move>
+    <delete file="${setup}/kbeditor/setup.iss" />
+  </target>
+
+  <target name="setup-kbtest">
+    <echo input="${setup}/kbtest/setup_template.iss" file="${setup}/kbtest/setup.iss"/>
+    <exec executable="iscc">
+      <arg value="/Q" />
+      <arg value="${setup}/kbtest/setup.iss" />
+    </exec>
+    <move tofile="${basedir}/KBTest_${version2}_${build}.exe">
+      <include name="${setup}/kbtest/setup.exe" />
+    </move>
+    <delete file="${setup}/kbtest/setup.iss" />
+  </target>
+
+
+	<target name="copy-driver">
+		<copy tofile="${basepath}/setup/driver/driver32/smkbddrv.sys">
+			<include name="${basepath}/setup/driveru/driver32/smkbddrv.sys" />
+		</copy>
+		<copy tofile="${basepath}/setup/driver/driver32/smkbddrv.cat">
+			<include name="${basepath}/setup/driveru/driver32/smkbddrv.cat" />
+		</copy>
+		<copy tofile="${basepath}/setup/driver/driver32/Inst.inf">
+			<include name="${basepath}/setup/driveru/driver32/Inst.inf" />
+		</copy>
+		<copy tofile="${basepath}/setup/driver/driver32/DPInst.exe">
+			<include name="${basepath}/setup/driveru/driver32/DPInst.exe" />
+		</copy>
+		
+		<copy tofile="${basepath}/setup/driver/driver64/smkbddrv.sys">
+			<include name="${basepath}/setup/driveru/driver64/smkbddrv.sys" />
+		</copy>
+		<copy tofile="${basepath}/setup/driver/driver64/smkbddrv.cat">
+			<include name="${basepath}/setup/driveru/driver64/smkbddrv.cat" />
+		</copy>
+		<copy tofile="${basepath}/setup/driver/driver64/Inst.inf">
+			<include name="${basepath}/setup/driveru/driver64/Inst.inf" />
+		</copy>
+		<copy tofile="${basepath}/setup/driver/driver64/DPInst.exe">
+			<include name="${basepath}/setup/driveru/driver64/DPInst.exe" />
+		</copy>
+	</target>
+		
+	<target name="sign-driver" depends="copy-driver">
+		<exec executable="SignShtrih.bat">
+			<arg value="${basepath}/setup/driver/driver32/smkbddrv.sys" />
+		</exec>
+		<exec executable="SignShtrih.bat">
+			<arg value="${basepath}/setup/driver/driver32/smkbddrv.cat" />
+		</exec>
+		<exec executable="SignShtrih.bat">
+			<arg value="${basepath}/setup/driver/driver64/smkbddrv.sys" />
+		</exec>
+		<exec executable="SignShtrih.bat">
+			<arg value="${basepath}/setup/driver/driver64/smkbddrv.cat" />
+		</exec>
+	</target>
+	
+	<target name="sign-kbeditor">
+		<exec executable="SignShtrih.bat">
+			<arg value="${bin}/KBEditor.exe" />
+		</exec>
+		<exec executable="SignShtrih.bat">
+			<arg value="${bin}/KBEditor.rus" />
+		</exec>
+	</target>
+  
+	<target name="sign-kbtest">
+		<exec executable="SignShtrih.bat">
+			<arg value="${bin}/KBTest.exe" />
+		</exec>
+		<exec executable="SignShtrih.bat">
+			<arg value="${bin}/KBTest.rus" />
+		</exec>
+	</target>
+  
+	<target name="sign-setup-kbeditor">
+		<exec executable="SignShtrih.bat">
+			<arg value="${basepath}/KBEditor_${version2}_${build}.exe" />
+		</exec>
+	</target>
+	
+	<target name="sign-setup-kbtest">
+		<exec executable="SignShtrih.bat">
+			<arg value="${basepath}/KBTest_${version2}_${build}.exe" />
+		</exec>
+	</target>
+  
+</project>

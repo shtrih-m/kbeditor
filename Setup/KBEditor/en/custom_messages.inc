@@ -1,0 +1,16 @@
+en.AppPublisher=SHTRIH-M
+en.AppComments=Retail equipment
+en.AppCopyright=Copyright © 2008 SHTRIH-M®
+en.DefaultDirName=\SHTRIH-M\KBEditor
+en.DefaultGroupName=SHTRIH-M\KBEditor
+en.HistoryIcon=Version history
+en.LPLineDisplayTstIcon=Line display test
+en.LineDisplayDllIcon=Line display driver
+en.LineDisplayInterfaceIcon=Line display protocol
+en.Uninstall=Uninstall
+en.StartApplication=Start driver test
+en.VersionInfoDescription=LightPOS-Pro drivers
+en.AppID=LightPOSProEng
+en.HistoryFileName=Doc\en\History.txt
+en.LineDisplayDllpdf=\Doc\en\LineDisplayDll.pdf
+en.LineDisplayInterfacepdf=\Doc\en\LineDisplayInterface.pdf

@@ -1,0 +1,136 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: kbfiltr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\VED0B~1.KRA\LOCALS~1\Temp\RSP3020.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/kbfiltr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\Projects\Work\KBEditor\src\WDMDriver\Buffer.c"
+"I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c"
+"I:\Projects\Work\KBEditor\src\WDMDriver\kbfiltr.c"
+"I:\Projects\Work\KBEditor\src\WDMDriver\LockCount.c"
+"I:\Projects\Work\KBEditor\src\WDMDriver\Utils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\VED0B~1.KRA\LOCALS~1\Temp\RSP3020.tmp" 
+Creating temporary file "C:\DOCUME~1\VED0B~1.KRA\LOCALS~1\Temp\RSP3021.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/kbfiltr.pdb" /debug /machine:I386 /out:"Debug/kbfiltr.exe" /pdbtype:sept 
+.\Debug\Buffer.obj
+.\Debug\KbdProc.obj
+.\Debug\kbfiltr.obj
+.\Debug\LockCount.obj
+.\Debug\Utils.obj
+.\Debug\kbfiltr.res
+]
+Creating command line "link.exe @C:\DOCUME~1\VED0B~1.KRA\LOCALS~1\Temp\RSP3021.tmp"
+<h3>Output Window</h3>
+Compiling...
+Buffer.c
+c:\winddk\2600.1106\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+KbdProc.c
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(9) : error C2061: syntax error : identifier 'DPCRoutine'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(9) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2061: syntax error : identifier 'DPCRoutine'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2146: syntax error : missing ')' before identifier 'PKDPC'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2061: syntax error : identifier 'PKDPC'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2146: syntax error : missing ';' before identifier 'PDEVICE_OBJECT'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2061: syntax error : identifier 'DeviceObject'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2059: syntax error : ','
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(11) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2061: syntax error : identifier 'FilterKbdProc'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_OBJECT'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2061: syntax error : identifier 'PDEVICE_OBJECT'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2146: syntax error : missing ';' before identifier 'DataByte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(22) : error C2054: expected '(' to follow 'DataByte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(36) : error C2061: syntax error : identifier 'IsSolitaryObject'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(36) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(36) : error C2146: syntax error : missing ')' before identifier 'DeviceObject'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(36) : error C2061: syntax error : identifier 'DeviceObject'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(36) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(36) : error C2449: found '{' at file scope (missing function header?)
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(41) : error C2059: syntax error : '}'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(69) : error C2146: syntax error : missing ')' before identifier 'Byte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(69) : error C2061: syntax error : identifier 'Byte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(69) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(69) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(70) : error C2449: found '{' at file scope (missing function header?)
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(77) : error C2059: syntax error : '}'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2061: syntax error : identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2146: syntax error : missing ';' before identifier 'UCHAR'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2061: syntax error : identifier 'CommandByte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(95) : error C2449: found '{' at file scope (missing function header?)
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(99) : error C2059: syntax error : '}'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(187) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(187) : error C2061: syntax error : identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(187) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(187) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(187) : error C2054: expected '(' to follow 'devExt'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2061: syntax error : identifier 'StopRead'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2061: syntax error : identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2146: syntax error : missing ';' before identifier 'ReadMode'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(196) : error C2054: expected '(' to follow 'ReadMode'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(206) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(206) : error C2061: syntax error : identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(206) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(206) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(206) : error C2054: expected '(' to follow 'devExt'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2061: syntax error : identifier 'ReadCommandByte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2061: syntax error : identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2146: syntax error : missing ';' before identifier 'PUCHAR'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2061: syntax error : identifier 'CommandByte'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(216) : error C2449: found '{' at file scope (missing function header?)
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(224) : error C2059: syntax error : '}'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(260) : warning C4013: 'KbdWriteCmd' undefined; assuming extern returning int
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(260) : error C2065: 'I8042_ENABLE_MOUSE_DEVICE' : undeclared identifier
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(268) : error C2065: 'I8042_ENABLE_KEYBOARD_DEVICE' : undeclared identifier
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(276) : error C2065: 'I8042_DISABLE_MOUSE_DEVICE' : undeclared identifier
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(284) : error C2065: 'I8042_DISABLE_KEYBOARD_DEVICE' : undeclared identifier
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2061: syntax error : identifier 'KbdBlock'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2146: syntax error : missing ')' before identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2061: syntax error : identifier 'PDEVICE_EXTENSION'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2146: syntax error : missing ';' before identifier 'BOOLEAN'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2061: syntax error : identifier 'fBlock'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2059: syntax error : ';'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2059: syntax error : ')'
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(294) : error C2449: found '{' at file scope (missing function header?)
+I:\Projects\Work\KBEditor\src\WDMDriver\KbdProc.c(310) : error C2059: syntax error : '}'
+kbfiltr.c
+c:\winddk\2600.1106\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+LockCount.c
+c:\winddk\2600.1106\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+Utils.c
+c:\winddk\2600.1106\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/kbfiltr.bsc"  .\Debug\Buffer.sbr .\Debug\KbdProc.sbr .\Debug\kbfiltr.sbr .\Debug\LockCount.sbr .\Debug\Utils.sbr"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\Buffer.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+kbfiltr.exe - 86 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

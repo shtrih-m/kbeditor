@@ -1,0 +1,32 @@
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION ${comma.version}
+PRODUCTVERSION ${comma.version} 
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041904E3"
+    BEGIN
+      VALUE "CompanyName", "SHTRIH-M\0"
+      VALUE "FileDescription", "KBEditor\0"
+      VALUE "FileVersion", "${version}\0"
+      VALUE "InternalName", "KBEditor\0"
+      VALUE "LegalCopyright", "Copyright \251 2008 SHTRIH-M\0"
+      VALUE "OriginalFilename", "KBEditor.exe\0"
+      VALUE "ProductName", "Layout editor\0"
+      VALUE "ProductVersion","${version2}\0"
+      VALUE "Comments", "http://www.shtrih-m.ru\0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 409,1251
+  END
+END
+
+MAINICON  ICON  DISCARDABLE  "MAINICON.ico"

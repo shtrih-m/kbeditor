@@ -1,0 +1,12 @@
+TARGETNAME=kbfiltr
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+INCLUDES=..\inc
+
+SOURCES=kbfiltr.c \
+        utils.c \
+        buffer.c \
+        lockcount.c \
+        kbfiltr.rc
+

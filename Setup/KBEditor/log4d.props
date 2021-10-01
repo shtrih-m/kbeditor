@@ -1,0 +1,31 @@
+# Set internal debugging
+log4d.debug=TRUE
+
+# Set category factory
+log4d.categoryFactory=TLogDefaultCategoryFactory
+
+# Set root priority
+log4d.rootCategory=DEBUG,ODS
+
+# Establish category hierarchy
+log4d.category.kbeditor.debug=DEBUG,FileAppender
+log4d.category.kbeditor.info=INFO,FileAppender
+log4d.category.kbeditor.warn=WARN,FileAppender
+log4d.category.kbeditor.error=ERROR,FileAppender
+log4d.category.kbeditor.fatal=FATAL,FileAppender
+
+# Create root appender
+log4d.appender.ODS=TLogODSAppender
+#log4d.appender.ODS.layout=TLogSimpleLayout
+log4d.appender.ODS.layout=TLogPatternLayout
+log4d.appender.ODS.layout.pattern=[%d, Thread: %t] %p: %m%n
+log4d.appender.ODS.layout.dateFormat=dd.mm.yyyy hh:nn:ss.zzz
+
+# Create a file appender
+log4d.appender.FileAppender=TLogFileAppender
+log4d.appender.FileAppender.append=TRUE
+log4d.appender.FileAppender.fileName=C:\Log4D.log
+log4d.appender.FileAppender.errorHandler=TLogOnlyOnceErrorHandler
+log4d.appender.FileAppender.layout=TLogPatternLayout
+log4d.appender.FileAppender.layout.pattern=[%d, Thread: %t] %p: %m%n
+log4d.appender.FileAppender.layout.dateFormat=dd.mm.yyyy hh:nn:ss.zzz

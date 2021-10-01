@@ -1,0 +1,2 @@
+@echo off
+SET PARAM_DEFINE=%PARAM_DEFINE% %1

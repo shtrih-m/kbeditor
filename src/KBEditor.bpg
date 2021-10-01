@@ -1,0 +1,52 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = KBEditor.exe KBEditor.RUS KBTest.exe KBTest.RUS KBEditorTest.exe \
+  KBEditorTestLib.dll KBTestTest.exe KBTestTestLib.dll DeviceTest.exe \
+  SystemInfo.exe DPInstTest.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+KBEditor.exe: KBEditor\KBEditor.dpr
+  $(DCC)
+
+KBEditor.RUS: KBEditor\RUS\KBEditor.dpr
+  $(DCC)
+
+KBTest.exe: KBTest\KBTest.dpr
+  $(DCC)
+
+KBTest.RUS: KBTest\RUS\KBTest.dpr
+  $(DCC)
+
+KBEditorTest.exe: ..\Tests\KBEditorTest\KBEditorTest.dpr
+  $(DCC)
+
+KBEditorTestLib.dll: ..\Tests\KBEditorTest\KBEditorTestLib.dpr
+  $(DCC)
+
+KBTestTest.exe: ..\Tests\KBTestTest\KBTestTest.dpr
+  $(DCC)
+
+KBTestTestLib.dll: ..\Tests\KBTestTest\KBTestTestLib.dpr
+  $(DCC)
+
+DeviceTest.exe: ..\Tests\DeviceTest\DeviceTest.dpr
+  $(DCC)
+
+SystemInfo.exe: ..\Tools\SystemInfo\SystemInfo.dpr
+  $(DCC)
+
+DPInstTest.exe: ..\Tests\DPInstTest\DPInstTest.dpr
+  $(DCC)
+
+

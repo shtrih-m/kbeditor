@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Keyboard Name="KB-20B" KeysCount="128" ModelID="32" Height="4" Width="5" ID="33" HasReader="1" Track1="1" Track2="1" Track3="0" HasKey="0" KeyPos="0" Layers="4">
+	<Params>
+		<Group Name="Keyboard model parameters">
+			<Param Name="Model" Value="KB-20B"/>
+		</Group>
+		<Group Name="Techical details">
+			<Param Name="Key count" Value="20"/>
+			<Param Name="Height, keys" Value="4"/>
+			<Param Name="Width, keys" Value="5"/>
+			<Param Name="Keylock present" Value="No"/>
+			<Param Name="MSR present" Value="Yes"/>
+			<Param Name="Layer count" Value="4"/>
+		</Group>
+	</Params>
+
+	<Key Left="1" Top="1" LogicalNumber="1"/>
+	<Key Left="2" Top="1" LogicalNumber="2"/>
+	<Key Left="3" Top="1" LogicalNumber="3"/>
+	<Key Left="4" Top="1" LogicalNumber="4"/>
+	<Key Left="5" Top="1" LogicalNumber="5"/>
+
+  <Key Left="1" Top="2" LogicalNumber="9"/>
+  <Key Left="2" Top="2" LogicalNumber="10"/>
+  <Key Left="3" Top="2" LogicalNumber="11"/>
+  <Key Left="4" Top="2" LogicalNumber="12"/>
+  <Key Left="5" Top="2" LogicalNumber="13"/>
+
+  <Key Left="1" Top="3" LogicalNumber="17"/>
+  <Key Left="2" Top="3" LogicalNumber="18"/>
+  <Key Left="3" Top="3" LogicalNumber="19"/>
+  <Key Left="4" Top="3" LogicalNumber="20"/>
+  <Key Left="5" Top="3" LogicalNumber="21"/>
+
+  <Key Left="1" Top="4" LogicalNumber="25"/>
+  <Key Left="2" Top="4" LogicalNumber="26"/>
+  <Key Left="3" Top="4" LogicalNumber="27"/>
+  <Key Left="4" Top="4" LogicalNumber="28"/>
+  <Key Left="5" Top="4" LogicalNumber="29"/>
+  
+</Keyboard>

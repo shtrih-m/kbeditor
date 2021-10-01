@@ -1,0 +1,1008 @@
+<HTML><HEAD>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta NAME="GENERATOR" CONTENT="ChkInf">
+<TITLE>Summary of ChkInf results for .\keyboard_64.inf</TITLE></HEAD>
+<BODY VLINK=#000000>
+<H1>Summary of "<FONT COLOR=#990099>.\keyboard_64.inf</FONT>"</H1>
+<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0>
+	<TR><TD><H3><A HREF="#ERRORS">Total Errors:</A></TD>
+	    <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+	    <TD ALIGN=RIGHT><H3><FONT COLOR=RED>10</FONT></TD></TR>
+	<TR><TD><H3><A HREF="#WARNINGS">Total Warnings:</A></TD>
+	    <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+	    <TD ALIGN=RIGHT><H3><FONT COLOR=BLUE>12</FONT></TD></TR>
+</TABLE><BR>
+	<HR>
+	<FONT COLOR=RED><H3><A NAME="ERRORS">Errors:</A></H3>
+		<LI><A HREF="#Lnum3">Line 3</A>: (E22.1.1081) Directive: CatalogFile required (and must not be blank) in section [Version] for WHQL digital signature. 
+		<LI><A HREF="#Lnum7">Line 7</A>: (E22.1.1004) Provider listed is Microsoft, but should be the organization who wrote this INF. 
+		<LI><A HREF="#Lnum82">Line 82</A>: (E22.1.1025) No value for hw-id. 
+		<LI><A HREF="#Lnum287">Line 287</A>: (E22.1.1305) Registry keys under HLKM\SYSTEM\CurrentControlSet\Services must be set using an HKR abbreviation in an add-registry-section entry invoked from a service-install-section. 
+		<LI><A HREF="#Lnum288">Line 288</A>: (E22.1.1305) Registry keys under HLKM\SYSTEM\CurrentControlSet\Services must be set using an HKR abbreviation in an add-registry-section entry invoked from a service-install-section. 
+		<LI><A HREF="#Lnum289">Line 289</A>: (E22.1.1305) Registry keys under HLKM\SYSTEM\CurrentControlSet\Services must be set using an HKR abbreviation in an add-registry-section entry invoked from a service-install-section. 
+		<LI><A HREF="#Lnum292">Line 292</A>: (E22.1.1066) Bad value for flags (256) in STANDARD_CopyFiles. 
+		<LI><A HREF="#Lnum293">Line 293</A>: (E22.1.1066) Bad value for flags (256) in STANDARD_CopyFiles. 
+		<LI><A HREF="#Lnum690">Line 690</A>: (E22.1.1066) Bad value for flags (256) in HID_Keyboard_Inst.CopyFiles.NT. 
+		<LI><A HREF="#Lnum691">Line 691</A>: (E22.1.1066) Bad value for flags (256) in HID_Keyboard_Inst.CopyFiles.NT. 
+	</FONT>
+	<HR>
+	<FONT COLOR=BLUE><H3><A NAME="WARNINGS">Warnings:</A></H3>
+		<LI><A HREF="#Lnum271">Line 271</A>: (W22.1.2083) Section [STANDARD_INST.MIGRATETODEVNODE] not referenced 
+		<LI><A HREF="#Lnum320">Line 320</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum360">Line 360</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum395">Line 395</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum430">Line 430</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum463">Line 463</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum499">Line 499</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum522">Line 522</A>: (W22.1.2083) Section [I8042PRT_SERVICE_INST] not referenced 
+		<LI><A HREF="#Lnum584">Line 584</A>: (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+		<LI><A HREF="#Lnum606">Line 606</A>: (W22.1.2083) Section [LEGACYXLATE.DEVID] not referenced 
+		<LI><A HREF="#Lnum629">Line 629</A>: (W22.1.2083) Section [LEGACYXLATE.DRIVER] not referenced 
+		<LI><A HREF="#Lnum730">Line 730</A>: (W22.1.2083) Section [KBDCLASS.SERVICES] not referenced 
+	</FONT>
+	<BR><HR>
+<H3>Annotated INF:</H3>
+<PRE>
+<A NAME="Lnum0">
+<A NAME="Lnum1">; Copyright (c) Microsoft Corporation.  All rights reserved.</A>
+<A NAME="Lnum2"></A>
+<A NAME="Lnum3">[Version]</A>
+<FONT COLOR=RED>; (E22.1.1081) Directive: CatalogFile required (and must not be blank) in section [Version] for WHQL digital signature. 
+</FONT><A NAME="Lnum4">Signature="$Windows NT$"</A>
+<A NAME="Lnum5">Class=Keyboard</A>
+<A NAME="Lnum6">ClassGUID={4D36E96B-E325-11CE-BFC1-08002BE10318}</A>
+<A NAME="Lnum7">Provider=%MS%</A>
+<FONT COLOR=RED>; (E22.1.1004) Provider listed is Microsoft, but should be the organization who wrote this INF. 
+</FONT><A NAME="Lnum8">DriverVer=06/21/2006,6.1.7600.16385</A>
+<A NAME="Lnum9"></A>
+<A NAME="Lnum10">[SourceDisksNames]</A>
+<A NAME="Lnum11">3426=windows cd</A>
+<A NAME="Lnum12"></A>
+<A NAME="Lnum13">[SourceDisksFiles]</A>
+<A NAME="Lnum14">i8042prt.sys 		= 3426</A>
+<A NAME="Lnum15">kbdclass.sys 		= 3426</A>
+<A NAME="Lnum16">kbdhid.sys 		= 3426</A>
+<A NAME="Lnum17"></A>
+<A NAME="Lnum18">[DestinationDirs]</A>
+<A NAME="Lnum19">DefaultDestDir = 12 ; DIRID_DRIVERS</A>
+<A NAME="Lnum20">101B_TYPE_LayerDriverFiles    = 11 ; DIRID_SYSTEM</A>
+<A NAME="Lnum21">101C_TYPE_LayerDriverFiles    = 11 ; DIRID_SYSTEM</A>
+<A NAME="Lnum22">103_TYPE_LayerDriverFiles     = 11 ; DIRID_SYSTEM</A>
+<A NAME="Lnum23">106_TYPE_LayerDriverFiles     = 11 ; DIRID_SYSTEM</A>
+<A NAME="Lnum24"></A>
+<A NAME="Lnum25">[ControlFlags]</A>
+<A NAME="Lnum26">;</A>
+<A NAME="Lnum27">; Mark any install sections for drivers that also control the PS/2 mouse port,</A>
+<A NAME="Lnum28">; so that we can warn the user that they may also be affecting their mouse with</A>
+<A NAME="Lnum29">; a keyboard driver change.</A>
+<A NAME="Lnum30">;</A>
+<A NAME="Lnum31">SharedDriver=STANDARD_Inst,%STANDARD_Inst.SharedDriverMsg%</A>
+<A NAME="Lnum32">SharedDriver=101B_TYPE_Inst,%STANDARD_Inst.SharedDriverMsg%</A>
+<A NAME="Lnum33">SharedDriver=101C_TYPE_Inst,%STANDARD_Inst.SharedDriverMsg%</A>
+<A NAME="Lnum34">SharedDriver=103_TYPE_Inst,%STANDARD_Inst.SharedDriverMsg%</A>
+<A NAME="Lnum35">SharedDriver=106_TYPE_Inst,%STANDARD_Inst.SharedDriverMsg%</A>
+<A NAME="Lnum36"></A>
+<A NAME="Lnum37">[Manufacturer]</A>
+<A NAME="Lnum38">%Std-Keyboards%=MS_KBD,NTamd64</A>
+<A NAME="Lnum39">%MICROSOFT%=MICROSOFT_KBD,NTamd64</A>
+<A NAME="Lnum40">%ALPS%=ALPS_KBD,NTamd64</A>
+<A NAME="Lnum41">%CHERRY%=CHERRY_KBD,NTamd64</A>
+<A NAME="Lnum42">%MITSUMI%=MITSUMI_KBD,NTamd64</A>
+<A NAME="Lnum43">%FUJITSU%=FUJITSU_KBD,NTamd64</A>
+<A NAME="Lnum44">%TOSHIBA%=TOSHIBA_KBD,NTamd64</A>
+<A NAME="Lnum45">%KEYTRONIC%=KEYTRONIC_KBD,NTamd64</A>
+<A NAME="Lnum46">%PHILIPS%=PHILIPS_KBD,NTamd64</A>
+<A NAME="Lnum47">%SILITEK%=SILITEK_KBD,NTamd64</A>
+<A NAME="Lnum48">%NMB%=NMB_KBD,NTamd64</A>
+<A NAME="Lnum49">%STSL%=STSL_KBD,NTamd64</A>
+<A NAME="Lnum50">%ACER%=ACER_KBD,NTamd64</A>
+<A NAME="Lnum51">%CHICONY%=CHICONY_KBD,NTamd64</A>
+<A NAME="Lnum52">%BTC%=BTC_KBD,NTamd64</A>
+<A NAME="Lnum53">%FOCUS%=FOCUS_KBD,NTamd64</A>
+<A NAME="Lnum54">%JINGMOLD%=JINGMOLD_KBD,NTamd64</A>
+<A NAME="Lnum55">%MAXISWITCH%=MAXISWITCH_KBD,NTamd64</A>
+<A NAME="Lnum56">%MONTEREY%=MONTEREY_KBD,NTamd64</A>
+<A NAME="Lnum57">%ORTEK%=ORTEK_KBD,NTamd64</A>
+<A NAME="Lnum58">%SAMSUNG%=SAMSUNG_KBD,NTamd64</A>
+<A NAME="Lnum59">%FORWARD%=FORWARD_KBD,NTamd64</A>
+<A NAME="Lnum60">%SUH%=SUH_KBD,NTamd64</A>
+<A NAME="Lnum61">%SEJIN%=SEJIN_KBD,NTamd64</A>
+<A NAME="Lnum62">%SUPERGATE%=SUPERGATE_KBD,NTamd64</A>
+<A NAME="Lnum63">%SOLIDYEAR%=SOLIDYEAR_KBD,NTamd64</A>
+<A NAME="Lnum64">%QTRONIX%=QTRONIX_KBD,NTamd64</A>
+<A NAME="Lnum65">%ATT%=ATT_KBD,NTamd64</A>
+<A NAME="Lnum66">%COMPAQ%=COMPAQ_KBD,NTamd64</A>
+<A NAME="Lnum67">%OLIVETTI%=OLIVETTI_KBD,NTamd64</A>
+<A NAME="Lnum68">%NEC%=NEC_KBD,NTamd64</A>
+<A NAME="Lnum69"></A>
+<A NAME="Lnum70">[MS_KBD.NTamd64]</A>
+<A NAME="Lnum71">%*PNP0300.DeviceDesc%              = STANDARD_Inst,*PNP0300        ;PC/XT (83-Key)</A>
+<A NAME="Lnum72">%*PNP0301.DeviceDesc%              = STANDARD_Inst,*PNP0301        ;PC/AT (84-Key)</A>
+<A NAME="Lnum73">%*PNP0302.DeviceDesc%              = STANDARD_Inst,*PNP0302        ;PC/XT (84-Key)</A>
+<A NAME="Lnum74">%*PNP0303.DeviceDesc%              = STANDARD_Inst,*PNP0303        ;PC/AT Enh(101/102-Key)</A>
+<A NAME="Lnum75">%*PNP030b.DeviceDesc%              = STANDARD_Inst,*PNP030b,PS2_KEYBOARD   ;Default keyboard</A>
+<A NAME="Lnum76">%*PNP0320.DeviceDesc%              = 106_TYPE_Inst,*PNP0320        ;PC/AT Enh(106 Japanese key)</A>
+<A NAME="Lnum77">%*PNP0320.DeviceDesc2%             = 106N_TYPE_Inst,*PNP0320       ;PC/AT Enh(106 Japanese key CTRL + EISUU)</A>
+<A NAME="Lnum78">%*PNP0343.DeviceDesc%              = 101B_TYPE_Inst,*PNP0343       ;Enh 101b</A>
+<A NAME="Lnum79">%*PNP0344.DeviceDesc%              = 101C_TYPE_Inst,*PNP0344       ;Enh 101S</A>
+<A NAME="Lnum80">%*PNP0345.DeviceDesc%              = 103_TYPE_Inst,*PNP0345        ;Enh 103</A>
+<A NAME="Lnum81">%HID.KeyboardDevice%               = HID_Keyboard_Inst,,HID_DEVICE_SYSTEM_KEYBOARD ; Generic HID Keybaord</A>
+<A NAME="Lnum82">%RESTORE_STANDARD_101.DeviceDesc% = RESTORE_STANDARD_101_Inst,,   ;Restore to std keyboard (pnp id purposely omiitted to prevent match)</A>
+<FONT COLOR=RED>; (E22.1.1025) No value for hw-id. 
+</FONT><A NAME="Lnum83"></A>
+<A NAME="Lnum84">[ATT_KBD.NTamd64]</A>
+<A NAME="Lnum85">%*PNP030a.DeviceDesc%    = STANDARD_Inst,*PNP030a        ;AT&T 302</A>
+<A NAME="Lnum86"></A>
+<A NAME="Lnum87">[COMPAQ_KBD.NTamd64]</A>
+<A NAME="Lnum88">%*CPQA0D7.DeviceDesc%    = STANDARD_Inst,*CPQA0D7        ;Compaq Enhanced Keyboard</A>
+<A NAME="Lnum89"></A>
+<A NAME="Lnum90">[OLIVETTI_KBD.NTamd64]</A>
+<A NAME="Lnum91">%*PNP0304.DeviceDesc%    = STANDARD_Inst,*PNP0304        ;Olivetti (83-Key)</A>
+<A NAME="Lnum92">%*PNP0305.DeviceDesc%    = STANDARD_Inst,*PNP0305        ;Olivetti (102-Key)</A>
+<A NAME="Lnum93">%*PNP0306.DeviceDesc%    = STANDARD_Inst,*PNP0306        ;Olivetti (86-Key)</A>
+<A NAME="Lnum94">%*PNP0309.DeviceDesc%    = STANDARD_Inst,*PNP0309        ;Olivetti (101/102-Key)</A>
+<A NAME="Lnum95"></A>
+<A NAME="Lnum96">[ALPS_KBD.NTamd64]</A>
+<A NAME="Lnum97">%HID\VID_0433&PID_ABAB.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0433&PID_ABAB</A>
+<A NAME="Lnum98">%HID\VID_044e&PID_1104.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_044e&PID_1104</A>
+<A NAME="Lnum99"></A>
+<A NAME="Lnum100">[CHERRY_KBD.NTamd64]</A>
+<A NAME="Lnum101">%HID\VID_046A&PID_0001.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_046A&PID_0001</A>
+<A NAME="Lnum102"></A>
+<A NAME="Lnum103">[MITSUMI_KBD.NTamd64]</A>
+<A NAME="Lnum104">%HID\VID_03ee&PID_5609&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_03ee&PID_5609&MI_00</A>
+<A NAME="Lnum105"></A>
+<A NAME="Lnum106">[KEYTRONIC_KBD.NTamd64]</A>
+<A NAME="Lnum107">%HID\VID_03F9&PID_0100.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_03F9&PID_0100</A>
+<A NAME="Lnum108">%HID\VID_03F9&PID_0101.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_03F9&PID_0101</A>
+<A NAME="Lnum109">%HID\VID_03F9&PID_0102&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_03F9&PID_0102&MI_00</A>
+<A NAME="Lnum110"></A>
+<A NAME="Lnum111">[PHILIPS_KBD.NTamd64]</A>
+<A NAME="Lnum112">%HID\VID_0471&PID_0601&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0471&PID_0601&MI_00</A>
+<A NAME="Lnum113">%HID\VID_0471&PID_0401.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0471&PID_0401</A>
+<A NAME="Lnum114">%HID\VID_0471&PID_0402&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0471&PID_0402&MI_00</A>
+<A NAME="Lnum115"></A>
+<A NAME="Lnum116">[FUJITSU_KBD.NTamd64]</A>
+<A NAME="Lnum117">%*FJT0101.DeviceDesc%    = THUMB_TYPE_Inst,*FJT0101      ;Fujitsu OYAYUBI Keyboard</A>
+<A NAME="Lnum118">%HID\VID_0430&PID_0002&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0430&PID_0002&MI_00</A>
+<A NAME="Lnum119">%HID\VID_0430&PID_000A&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0430&PID_000A&MI_00</A>
+<A NAME="Lnum120">%HID\VID_0430&PID_000B.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0430&PID_000B</A>
+<A NAME="Lnum121">%HID\VID_0430&PID_0082.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0430&PID_0082</A>
+<A NAME="Lnum122">%HID\VID_0430&PID_0083&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0430&PID_0083&MI_00</A>
+<A NAME="Lnum123">%HID\VID_04c5&PID_1020&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_04c5&PID_1020&MI_00</A>
+<A NAME="Lnum124">%HID\VID_04c5&PID_1018&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_04c5&PID_1018&Col01</A>
+<A NAME="Lnum125">%HID\VID_04c5&PID_1022&MI_00&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_04c5&PID_1022&MI_00&Col01</A>
+<A NAME="Lnum126"></A>
+<A NAME="Lnum127">[TOSHIBA_KBD.NTamd64]</A>
+<A NAME="Lnum128">%HID\VID_06D5&PID_4000.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_06D5&PID_4000</A>
+<A NAME="Lnum129"></A>
+<A NAME="Lnum130">[SILITEK_KBD.NTamd64]</A>
+<A NAME="Lnum131">%HID\VID_047B&PID_0001.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_047B&PID_0001</A>
+<A NAME="Lnum132">%HID\VID_047B&PID_0002&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_047B&PID_0002&MI_00</A>
+<A NAME="Lnum133"></A>
+<A NAME="Lnum134">[NMB_KBD.NTamd64]</A>
+<A NAME="Lnum135">; %HID\VID_0446&PID_6782.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0446&PID_6782</A>
+<A NAME="Lnum136">%HID\VID_0446&PID_6781&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0446&PID_6781&MI_00</A>
+<A NAME="Lnum137"></A>
+<A NAME="Lnum138">[STSL_KBD.NTamd64]</A>
+<A NAME="Lnum139">%HID\VID_05FA&PID_3302.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05FA&PID_3302</A>
+<A NAME="Lnum140">%HID\VID_05FA&PID_3301&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05FA&PID_3301&MI_00</A>
+<A NAME="Lnum141">%HID\VID_05FA&PID_3303&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05FA&PID_3303&MI_00</A>
+<A NAME="Lnum142"></A>
+<A NAME="Lnum143">[ACER_KBD.NTamd64]</A>
+<A NAME="Lnum144">%HID\VID_04A5&PID_0001.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04A5&PID_0001</A>
+<A NAME="Lnum145">%HID\VID_04A5&PID_0002.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04A5&PID_0002</A>
+<A NAME="Lnum146">%HID\VID_04A5&PID_0003&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04A5&PID_0003&MI_00</A>
+<A NAME="Lnum147"></A>
+<A NAME="Lnum148">[CHICONY_KBD.NTamd64]</A>
+<A NAME="Lnum149">%HID\VID_04F2&PID_0002.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04F2&PID_0002</A>
+<A NAME="Lnum150">%HID\VID_04F2&PID_0001&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04F2&PID_0001&MI_00</A>
+<A NAME="Lnum151"></A>
+<A NAME="Lnum152">[BTC_KBD.NTamd64]</A>
+<A NAME="Lnum153">%HID\VID_046E&PID_0100.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_046E&PID_0100</A>
+<A NAME="Lnum154">%HID\VID_046E&PID_6782&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_046E&PID_6782&MI_00</A>
+<A NAME="Lnum155"></A>
+<A NAME="Lnum156">[FOCUS_KBD.NTamd64]</A>
+<A NAME="Lnum157">%HID\VID_05B2&PID_6200.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05B2&PID_6200</A>
+<A NAME="Lnum158">%HID\VID_05B2&PID_7200&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05B2&PID_7200&MI_00</A>
+<A NAME="Lnum159"></A>
+<A NAME="Lnum160">[JINGMOLD_KBD.NTamd64]</A>
+<A NAME="Lnum161">%HID\VID_05AF&PID_9167.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05AF&PID_9167</A>
+<A NAME="Lnum162">%HID\VID_05AF&PID_9267&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05AF&PID_9267&MI_00</A>
+<A NAME="Lnum163"></A>
+<A NAME="Lnum164">[MAXISWITCH_KBD.NTamd64]</A>
+<A NAME="Lnum165">%HID\VID_04C3&PID_1101.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04C3&PID_1101</A>
+<A NAME="Lnum166">%HID\VID_04C3&PID_1102&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04C3&PID_1102&MI_00</A>
+<A NAME="Lnum167">%HID\VID_04C3&PID_2101.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04C3&PID_2101</A>
+<A NAME="Lnum168">%HID\VID_04C3&PID_2102&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_04C3&PID_2102&MI_00</A>
+<A NAME="Lnum169"></A>
+<A NAME="Lnum170">[MONTEREY_KBD.NTamd64]</A>
+<A NAME="Lnum171">%HID\VID_0566&PID_2800.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0566&PID_2800</A>
+<A NAME="Lnum172">%HID\VID_0566&PID_2801&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0566&PID_2801&MI_00</A>
+<A NAME="Lnum173"></A>
+<A NAME="Lnum174">[SAMSUNG_KBD.NTamd64]</A>
+<A NAME="Lnum175">%HID\VID_055D&PID_6780.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_055D&PID_6780</A>
+<A NAME="Lnum176">%HID\VID_055D&PID_6781&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_055D&PID_6781&MI_00</A>
+<A NAME="Lnum177">%HID\VID_055D&PID_0001.DeviceDesc%=HID_Keyboard_Inst,,HID\VID_055D&PID_0001</A>
+<A NAME="Lnum178"></A>
+<A NAME="Lnum179">[FORWARD_KBD.NTamd64]</A>
+<A NAME="Lnum180">%HID\VID_05BC&PID_0002.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05BC&PID_0002</A>
+<A NAME="Lnum181">%HID\VID_05BC&PID_0001&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05BC&PID_0001&MI_00</A>
+<A NAME="Lnum182"></A>
+<A NAME="Lnum183">[SUH_KBD.NTamd64]</A>
+<A NAME="Lnum184">%HID\VID_0500&PID_0002.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0500&PID_0002</A>
+<A NAME="Lnum185">%HID\VID_0500&PID_0001&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0500&PID_0001&MI_00</A>
+<A NAME="Lnum186"></A>
+<A NAME="Lnum187">[SEJIN_KBD.NTamd64]</A>
+<A NAME="Lnum188">%HID\VID_0510&PID_0001.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0510&PID_0001</A>
+<A NAME="Lnum189">%HID\VID_0510&PID_1000&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_0510&PID_1000&MI_00</A>
+<A NAME="Lnum190"></A>
+<A NAME="Lnum191">[SUPERGATE_KBD.NTamd64]</A>
+<A NAME="Lnum192">%HID\VID_05D5&PID_6782&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05D5&PID_6782&MI_00</A>
+<A NAME="Lnum193"></A>
+<A NAME="Lnum194">[ORTEK_KBD.NTamd64]</A>
+<A NAME="Lnum195">%HID\VID_05A4&PID_9722.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05A4&PID_9722</A>
+<A NAME="Lnum196">%HID\VID_05A4&PID_9720&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05A4&PID_9720&MI_00</A>
+<A NAME="Lnum197"></A>
+<A NAME="Lnum198">[SOLIDYEAR_KBD.NTamd64]</A>
+<A NAME="Lnum199">%HID\VID_060B&PID_2101&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_060B&PID_2101&MI_00</A>
+<A NAME="Lnum200">%HID\VID_060B&PID_5903.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_060B&PID_5903</A>
+<A NAME="Lnum201">%HID\VID_060B&PID_6003&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_060B&PID_6003&MI_00</A>
+<A NAME="Lnum202">%HID\VID_060B&PID_1006&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_060B&PID_1006&MI_00</A>
+<A NAME="Lnum203"></A>
+<A NAME="Lnum204">[QTRONIX_KBD.NTamd64]</A>
+<A NAME="Lnum205">%HID\VID_05C7&PID_2001.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05C7&PID_2001</A>
+<A NAME="Lnum206">%HID\VID_05C7&PID_6001.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_05C7&PID_6001</A>
+<A NAME="Lnum207"></A>
+<A NAME="Lnum208">[MICROSOFT_KBD.NTamd64]</A>
+<A NAME="Lnum209">%HID\VID_045E&PID_000B.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_045E&PID_000B</A>
+<A NAME="Lnum210">%HID\VID_045E&PID_001D&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_045E&PID_001D&MI_00</A>
+<A NAME="Lnum211">%HID\VID_045E&PID_002B&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_045E&PID_002B&MI_00</A>
+<A NAME="Lnum212">%HID\VID_045E&PID_002D&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_045E&PID_002D&MI_00</A>
+<A NAME="Lnum213">%HID\VID_045E&PID_0048&MI_00.DeviceDesc%=HID_Keyboard_Inst,, HID\VID_045E&PID_0048&MI_00</A>
+<A NAME="Lnum214">%HID\VID_045E&PID_005C&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_005C&MI_00</A>
+<A NAME="Lnum215">%HID\VID_045E&PID_0061&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0061&MI_00</A>
+<A NAME="Lnum216">%HID\VID_045E&PID_0065&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0065&MI_00</A>
+<A NAME="Lnum217">%HID\VID_045E&PID_0071&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0071&MI_00</A>
+<A NAME="Lnum218">%HID\VID_045E&PID_0073&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0073&MI_00</A>
+<A NAME="Lnum219">%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001045e_PID&007f&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001045e_PID&007f&Col01</A>
+<A NAME="Lnum220">%HID\VID_045E&PID_0089&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0089&MI_00</A>
+<A NAME="Lnum221">%HID\VID_045E&PID_008B&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_008B&MI_00</A>
+<A NAME="Lnum222">%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&009A&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&009A&Col01</A>
+<A NAME="Lnum223">%HID\VID_045E&PID_009E&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_009E&MI_00</A>
+<A NAME="Lnum224">%HID\VID_045E&PID_00AD&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00AD&MI_00</A>
+<A NAME="Lnum225">%HID\VID_045E&PID_00AF&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00AF&MI_00</A>
+<A NAME="Lnum226">%HID\VID_045E&PID_00B1&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00B1&MI_00</A>
+<A NAME="Lnum227">%HID\VID_045E&PID_00B5&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00B5&MI_00</A>
+<A NAME="Lnum228">%HID\VID_045E&PID_00BC&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00BC&MI_00</A>
+<A NAME="Lnum229">%HID\VID_045E&PID_00DC&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00DC&MI_00</A>
+<A NAME="Lnum230">%HID\VID_045E&PID_00DE&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00DE&MI_00</A>
+<A NAME="Lnum231">%HID\VID_045E&PID_00E0&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_00E0&MI_00</A>
+<A NAME="Lnum232">%HID\Vid_045E&Pid_00E4&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_00E4&MI_00</A>
+<A NAME="Lnum233">%HID\Vid_045E&Pid_00F2&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_00F2&MI_00</A>
+<A NAME="Lnum234">%HID\Vid_045E&Pid_00FA&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_00FA&MI_00</A>
+<A NAME="Lnum235">%HID\Vid_045E&Pid_00FD&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_00FD&MI_00</A>
+<A NAME="Lnum236">%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0704&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0704&Col01</A>
+<A NAME="Lnum237">%HID\Vid_045E&Pid_0716.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_0716</A>
+<A NAME="Lnum238">%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0706&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0706&Col01</A>
+<A NAME="Lnum239">%HID\Vid_045E&Pid_0718.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_0718</A>
+<A NAME="Lnum240">%HID\Vid_045E&Pid_071E&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\Vid_045E&Pid_071E&MI_00</A>
+<A NAME="Lnum241">%HID\VID_045E&PID_0731&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0731&MI_00</A>
+<A NAME="Lnum242">%HID\VID_045E&PID_0733&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0733&MI_00</A>
+<A NAME="Lnum243">%HID\VID_045E&PID_0735&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0735&MI_00</A>
+<A NAME="Lnum244">%HID\VID_045E&PID_0746&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0746&MI_00</A>
+<A NAME="Lnum245">%HID\VID_045E&PID_074C&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_074C&MI_00</A>
+<A NAME="Lnum246">%HID\VID_045E&PID_0751&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0751&MI_00</A>
+<A NAME="Lnum247">%HID\VID_045E&PID_0753&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_045E&PID_0753&MI_00</A>
+<A NAME="Lnum248">%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0763&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0763&Col01</A>
+<A NAME="Lnum249">%HID\IrDevice&COL05.DeviceDesc%=eHome_Keyboard_Inst,, HID\IrDevice&COL05</A>
+<A NAME="Lnum250">%HID\IrDevice&COL06.DeviceDesc%=eHome_Keyboard_Inst,, HID\IrDevice&COL06</A>
+<A NAME="Lnum251">%HID\IrDevice&COL07.DeviceDesc%=eHome_106_Keyboard_Inst,, HID\IrDevice&COL07</A>
+<A NAME="Lnum252"></A>
+<A NAME="Lnum253">[NEC_KBD.NTamd64]</A>
+<A NAME="Lnum254">%HID\VID_0409&PID_0014&MI_00.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_0014&MI_00</A>
+<A NAME="Lnum255">%HID\VID_0409&PID_0019.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_0019</A>
+<A NAME="Lnum256">%HID\VID_0409&PID_0025.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_0025</A>
+<A NAME="Lnum257">%HID\VID_0409&PID_0034&COL01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_0034&COL01</A>
+<A NAME="Lnum258">%HID\VID_0409&PID_0094&COL01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_0094&COL01</A>
+<A NAME="Lnum259">%HID\VID_0409&PID_0095.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_0095</A>
+<A NAME="Lnum260">%HID\VID_0409&PID_003F&MI_00&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_003F&MI_00&Col01</A>
+<A NAME="Lnum261">%HID\VID_0409&PID_004F&MI_00&Col01.DeviceDesc%=HID_106_Keyboard_Inst,, HID\VID_0409&PID_004F&MI_00&Col01</A>
+<A NAME="Lnum262"></A>
+<A NAME="Lnum263">;=====================================================================</A>
+<A NAME="Lnum264">[STANDARD_Inst]         ; All keyboard IDs (except unknown) map to the same driver</A>
+<A NAME="Lnum265">CopyFiles  = STANDARD_CopyFiles</A>
+<A NAME="Lnum266">AddReg      = STANDARD_AddReg</A>
+<A NAME="Lnum267"></A>
+<A NAME="Lnum268">[STANDARD_AddReg]</A>
+<A NAME="Lnum269">HKR,,LocationInformationOverride,,%LocationOverride%</A>
+<A NAME="Lnum270"></A>
+<A NAME="Lnum271">[STANDARD_Inst.MigrateToDevnode]</A>
+<FONT COLOR=BLUE>; (W22.1.2083) Section [STANDARD_INST.MIGRATETODEVNODE] not referenced 
+</FONT><A NAME="Lnum272">i8402prt=KeyboardDataQueueSize,PollStatusIterations</A>
+<A NAME="Lnum273"></A>
+<A NAME="Lnum274">[STANDARD_Inst.Services]</A>
+<A NAME="Lnum275">AddService = i8042prt, 0x00000002, STANDARD_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<A NAME="Lnum276">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum277"></A>
+<A NAME="Lnum278">[STANDARD_Inst.HW]</A>
+<A NAME="Lnum279">AddReg = STANDARD_AddReg.HW</A>
+<A NAME="Lnum280"></A>
+<A NAME="Lnum281">[STANDARD_AddReg.HW]</A>
+<A NAME="Lnum282">HKR,,"KeyboardDataQueueSize",0x00010003,100</A>
+<A NAME="Lnum283">;HKR,,"PowerCapabilities",,0x00010003,0</A>
+<A NAME="Lnum284">HKR,,"PollStatusIterations",0x00010003,1</A>
+<A NAME="Lnum285"></A>
+<A NAME="Lnum286">; global to i8042prt.sys (affects both keyboard and mouse)</A>
+<A NAME="Lnum287">HKLM,"SYSTEM\CurrentControlSet\Services\i8042prt\Parameters","PollingIterations",0x00010003,12000</A>
+<FONT COLOR=RED>; (E22.1.1305) Registry keys under HLKM\SYSTEM\CurrentControlSet\Services must be set using an HKR abbreviation in an add-registry-section entry invoked from a service-install-section. 
+</FONT><A NAME="Lnum288">HKLM,"SYSTEM\CurrentControlSet\Services\i8042prt\Parameters","PollingIterationsMaximum",0x00010003,12000</A>
+<FONT COLOR=RED>; (E22.1.1305) Registry keys under HLKM\SYSTEM\CurrentControlSet\Services must be set using an HKR abbreviation in an add-registry-section entry invoked from a service-install-section. 
+</FONT><A NAME="Lnum289">HKLM,"SYSTEM\CurrentControlSet\Services\i8042prt\Parameters","ResendIterations",0x00010003,3</A>
+<FONT COLOR=RED>; (E22.1.1305) Registry keys under HLKM\SYSTEM\CurrentControlSet\Services must be set using an HKR abbreviation in an add-registry-section entry invoked from a service-install-section. 
+</FONT><A NAME="Lnum290"></A>
+<A NAME="Lnum291">[STANDARD_CopyFiles]</A>
+<A NAME="Lnum292">i8042prt.sys,,,0x100</A>
+<FONT COLOR=RED>; (E22.1.1066) Bad value for flags (256) in STANDARD_CopyFiles. 
+</FONT><A NAME="Lnum293">kbdclass.sys,,,0x100</A>
+<FONT COLOR=RED>; (E22.1.1066) Bad value for flags (256) in STANDARD_CopyFiles. 
+</FONT><A NAME="Lnum294"></A>
+<A NAME="Lnum295">[STANDARD_i8042prt_Service_Inst]</A>
+<A NAME="Lnum296">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum297">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum298">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum299">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum300">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum301">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum302">AddReg         = STANDARD_i8042prt_Service_AddReg</A>
+<A NAME="Lnum303"></A>
+<A NAME="Lnum304">[STANDARD_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum305">HKR,Parameters,"LayerDriver JPN",0x00000002,"kbd101.dll"</A>
+<A NAME="Lnum306">HKR,Parameters,"LayerDriver KOR",0x00000002,"kbd101a.dll"</A>
+<A NAME="Lnum307"></A>
+<A NAME="Lnum308"></A>
+<A NAME="Lnum309">;======================================================================</A>
+<A NAME="Lnum310">;This section will overwrite 106/109 keyboard settings allowing user</A>
+<A NAME="Lnum311">;to revert back to 101 keyboard</A>
+<A NAME="Lnum312">;======================================================================</A>
+<A NAME="Lnum313">[RESTORE_STANDARD_101_Inst]</A>
+<A NAME="Lnum314">DelReg     = RESTORE_STANDARD_101_DelReg</A>
+<A NAME="Lnum315">AddReg     = STANDARD_AddReg</A>
+<A NAME="Lnum316"></A>
+<A NAME="Lnum317">[RESTORE_STANDARD_101_DelReg]</A>
+<A NAME="Lnum318"></A>
+<A NAME="Lnum319">[RESTORE_STANDARD_101_Inst.Services]</A>
+<A NAME="Lnum320">AddService = i8042prt, 0x00000002, RESTORE_STANDARD_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum321">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum322"></A>
+<A NAME="Lnum323">[RESTORE_STANDARD_i8042prt_Service_Inst]</A>
+<A NAME="Lnum324">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum325">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum326">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum327">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum328">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum329">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum330">AddReg         = RESTORE_STANDARD_i8042prt_Service_AddReg</A>
+<A NAME="Lnum331">DelReg         = RESTORE_STANDARD_i8042prt_Service_DelReg</A>
+<A NAME="Lnum332"></A>
+<A NAME="Lnum333">[RESTORE_STANDARD_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum334">HKR,Parameters,"LayerDriver JPN",0x00000002,"kbd101.dll"</A>
+<A NAME="Lnum335">HKR,Parameters,"LayerDriver KOR",0x00000002,"kbd101a.dll"</A>
+<A NAME="Lnum336"></A>
+<A NAME="Lnum337">[RESTORE_STANDARD_i8042prt_Service_DelReg]</A>
+<A NAME="Lnum338">HKR,Parameters,OverrideKeyboardType</A>
+<A NAME="Lnum339">HKR,Parameters,OverrideKeyboardSubtype</A>
+<A NAME="Lnum340">HKR,Parameters,OverrideKeyboardIdentifier</A>
+<A NAME="Lnum341">HKR,Parameters,"LayerDriver JPN"</A>
+<A NAME="Lnum342">HKR,Parameters,"LayerDriver KOR"</A>
+<A NAME="Lnum343"></A>
+<A NAME="Lnum344">; ==============================================</A>
+<A NAME="Lnum345">; Korean 101 Keyboard, Type 2</A>
+<A NAME="Lnum346">; ==============================================</A>
+<A NAME="Lnum347">[101B_TYPE_Inst]</A>
+<A NAME="Lnum348">CopyFiles  = 101B_TYPE_LayerDriverFiles, STANDARD_CopyFiles</A>
+<A NAME="Lnum349">AddReg     = 101B_TYPE_AddReg</A>
+<A NAME="Lnum350"></A>
+<A NAME="Lnum351">[101B_TYPE_AddReg]</A>
+<A NAME="Lnum352">HKR,,LocationInformationOverride,,%LocationOverride%</A>
+<A NAME="Lnum353"></A>
+<A NAME="Lnum354">[101B_TYPE_Inst.HW]</A>
+<A NAME="Lnum355">AddReg = STANDARD_AddReg.HW</A>
+<A NAME="Lnum356"></A>
+<A NAME="Lnum357">[101B_TYPE_LayerDriverFiles]</A>
+<A NAME="Lnum358"></A>
+<A NAME="Lnum359">[101B_TYPE_Inst.Services]</A>
+<A NAME="Lnum360">AddService = i8042prt, 0x00000002, 101B_TYPE_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum361">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum362"></A>
+<A NAME="Lnum363">[101B_TYPE_i8042prt_Service_Inst]</A>
+<A NAME="Lnum364">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum365">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum366">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum367">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum368">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum369">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum370">AddReg         = 101B_TYPE_i8042prt_Service_AddReg</A>
+<A NAME="Lnum371"></A>
+<A NAME="Lnum372">[101B_TYPE_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum373">HKR,Parameters,OverrideKeyboardType,%REG_DWORD%,0x8</A>
+<A NAME="Lnum374">HKR,Parameters,OverrideKeyboardSubtype,%REG_DWORD%,0x4</A>
+<A NAME="Lnum375">HKR,Parameters,OverrideKeyboardIdentifier,%REG_SZ%,"PCAT_101BKEY"</A>
+<A NAME="Lnum376">HKR,Parameters,"LayerDriver KOR",%REG_SZ%,"kbd101b.dll"</A>
+<A NAME="Lnum377">HKR,Parameters,"LayerDriver JPN",%REG_SZ%,"kbd101.dll"</A>
+<A NAME="Lnum378"></A>
+<A NAME="Lnum379">; ==============================================</A>
+<A NAME="Lnum380">; Korean 101 Keyboard, Type 3 (PS/2)</A>
+<A NAME="Lnum381">; ==============================================</A>
+<A NAME="Lnum382">[101C_TYPE_Inst]</A>
+<A NAME="Lnum383">CopyFiles  = 101C_TYPE_LayerDriverFiles, STANDARD_CopyFiles</A>
+<A NAME="Lnum384">AddReg     = 101C_TYPE_AddReg</A>
+<A NAME="Lnum385"></A>
+<A NAME="Lnum386">[101C_TYPE_AddReg]</A>
+<A NAME="Lnum387">HKR,,LocationInformationOverride,,%LocationOverride%</A>
+<A NAME="Lnum388"></A>
+<A NAME="Lnum389">[101C_TYPE_Inst.HW]</A>
+<A NAME="Lnum390">AddReg = STANDARD_AddReg.HW</A>
+<A NAME="Lnum391"></A>
+<A NAME="Lnum392">[101C_TYPE_LayerDriverFiles]</A>
+<A NAME="Lnum393"></A>
+<A NAME="Lnum394">[101C_TYPE_Inst.Services]</A>
+<A NAME="Lnum395">AddService = i8042prt, 0x00000002, 101C_TYPE_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum396">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum397"></A>
+<A NAME="Lnum398">[101C_TYPE_i8042prt_Service_Inst]</A>
+<A NAME="Lnum399">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum400">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum401">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum402">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum403">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum404">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum405">AddReg         = 101C_TYPE_i8042prt_Service_AddReg</A>
+<A NAME="Lnum406"></A>
+<A NAME="Lnum407">[101C_TYPE_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum408">HKR,Parameters,OverrideKeyboardType,%REG_DWORD%,0x8</A>
+<A NAME="Lnum409">HKR,Parameters,OverrideKeyboardSubtype,%REG_DWORD%,0x5</A>
+<A NAME="Lnum410">HKR,Parameters,OverrideKeyboardIdentifier,%REG_SZ%,"PCAT_101CKEY"</A>
+<A NAME="Lnum411">HKR,Parameters,"LayerDriver KOR",%REG_SZ%,"kbd101c.dll"</A>
+<A NAME="Lnum412">HKR,Parameters,"LayerDriver JPN",%REG_SZ%,"kbd101.dll"</A>
+<A NAME="Lnum413"></A>
+<A NAME="Lnum414">; ==============================================</A>
+<A NAME="Lnum415">; Korean 103/106 Keyboard (PS/2)</A>
+<A NAME="Lnum416">; ==============================================</A>
+<A NAME="Lnum417">[103_TYPE_Inst]</A>
+<A NAME="Lnum418">CopyFiles  = 103_TYPE_LayerDriverFiles, STANDARD_CopyFiles</A>
+<A NAME="Lnum419">AddReg     = 103_TYPE_AddReg</A>
+<A NAME="Lnum420"></A>
+<A NAME="Lnum421">[103_TYPE_AddReg]</A>
+<A NAME="Lnum422">HKR,,LocationInformationOverride,,%LocationOverride%</A>
+<A NAME="Lnum423"></A>
+<A NAME="Lnum424">[103_TYPE_Inst.HW]</A>
+<A NAME="Lnum425">AddReg = STANDARD_AddReg.HW</A>
+<A NAME="Lnum426"></A>
+<A NAME="Lnum427">[103_TYPE_LayerDriverFiles]</A>
+<A NAME="Lnum428"></A>
+<A NAME="Lnum429">[103_TYPE_Inst.Services]</A>
+<A NAME="Lnum430">AddService = i8042prt, 0x00000002, 103_TYPE_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum431">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum432"></A>
+<A NAME="Lnum433">[103_TYPE_i8042prt_Service_Inst]</A>
+<A NAME="Lnum434">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum435">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum436">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum437">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum438">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum439">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum440">AddReg         = 103_TYPE_i8042prt_Service_AddReg</A>
+<A NAME="Lnum441"></A>
+<A NAME="Lnum442">[103_TYPE_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum443">HKR,Parameters,OverrideKeyboardType,%REG_DWORD%,0x8</A>
+<A NAME="Lnum444">HKR,Parameters,OverrideKeyboardSubtype,%REG_DWORD%,0x6</A>
+<A NAME="Lnum445">HKR,Parameters,OverrideKeyboardIdentifier,%REG_SZ%,"PCAT_103KEY"</A>
+<A NAME="Lnum446">HKR,Parameters,"LayerDriver KOR",%REG_SZ%,"kbd103.dll"</A>
+<A NAME="Lnum447">HKR,Parameters,"LayerDriver JPN",%REG_SZ%,"kbd101.dll"</A>
+<A NAME="Lnum448"></A>
+<A NAME="Lnum449">; ==============================================</A>
+<A NAME="Lnum450">; Japanese 106/109 Keyboard (PS/2)</A>
+<A NAME="Lnum451">; ==============================================</A>
+<A NAME="Lnum452">[106_TYPE_Inst]</A>
+<A NAME="Lnum453">CopyFiles  = 106_TYPE_LayerDriverFiles, STANDARD_CopyFiles</A>
+<A NAME="Lnum454">AddReg     = 106_TYPE_AddReg</A>
+<A NAME="Lnum455"></A>
+<A NAME="Lnum456">[106_TYPE_AddReg]</A>
+<A NAME="Lnum457">HKR,,LocationInformationOverride,,%LocationOverride%</A>
+<A NAME="Lnum458"></A>
+<A NAME="Lnum459">[106_TYPE_Inst.HW]</A>
+<A NAME="Lnum460">AddReg = STANDARD_AddReg.HW</A>
+<A NAME="Lnum461"></A>
+<A NAME="Lnum462">[106_TYPE_Inst.Services]</A>
+<A NAME="Lnum463">AddService = i8042prt, 0x00000002, 106_TYPE_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum464">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum465"></A>
+<A NAME="Lnum466">[106_TYPE_LayerDriverFiles]</A>
+<A NAME="Lnum467"></A>
+<A NAME="Lnum468">[106_TYPE_i8042prt_Service_Inst]</A>
+<A NAME="Lnum469">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum470">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum471">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum472">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum473">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum474">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum475">AddReg         = 106_TYPE_i8042prt_Service_AddReg</A>
+<A NAME="Lnum476"></A>
+<A NAME="Lnum477">[106_TYPE_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum478">HKR,Parameters,OverrideKeyboardType,%REG_DWORD%,0x7</A>
+<A NAME="Lnum479">HKR,Parameters,OverrideKeyboardSubtype,%REG_DWORD%,0x2</A>
+<A NAME="Lnum480">HKR,Parameters,OverrideKeyboardIdentifier,%REG_SZ%,"PCAT_106KEY"</A>
+<A NAME="Lnum481">HKR,Parameters,"LayerDriver JPN",%REG_SZ%,"kbd106.dll"</A>
+<A NAME="Lnum482">HKR,Parameters,"LayerDriver KOR",%REG_SZ%,"kbd101a.dll"</A>
+<A NAME="Lnum483"></A>
+<A NAME="Lnum484"></A>
+<A NAME="Lnum485">; ==============================================</A>
+<A NAME="Lnum486">; Japanese 106N Keyboard (PS/2) - PC/AT Enh(106 Japanese key CTRL + EISUU)</A>
+<A NAME="Lnum487">; ==============================================</A>
+<A NAME="Lnum488">[106N_TYPE_Inst]</A>
+<A NAME="Lnum489">CopyFiles  = STANDARD_CopyFiles</A>
+<A NAME="Lnum490">AddReg     = 106N_TYPE_AddReg</A>
+<A NAME="Lnum491"></A>
+<A NAME="Lnum492">[106N_TYPE_AddReg]</A>
+<A NAME="Lnum493">HKR,,LocationInformationOverride,,%LocationOverride%</A>
+<A NAME="Lnum494"></A>
+<A NAME="Lnum495">[106N_TYPE_Inst.HW]</A>
+<A NAME="Lnum496">AddReg = STANDARD_AddReg.HW</A>
+<A NAME="Lnum497"></A>
+<A NAME="Lnum498">[106N_TYPE_Inst.Services]</A>
+<A NAME="Lnum499">AddService = i8042prt, 0x00000002, 106N_TYPE_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum500">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum501"></A>
+<A NAME="Lnum502">[106N_TYPE_i8042prt_Service_Inst]</A>
+<A NAME="Lnum503">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum504">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum505">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum506">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum507">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum508">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum509">AddReg         = 106N_TYPE_i8042prt_Service_AddReg</A>
+<A NAME="Lnum510"></A>
+<A NAME="Lnum511">[106N_TYPE_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum512">HKR,Parameters,OverrideKeyboardType,%REG_DWORD%,0x7</A>
+<A NAME="Lnum513">HKR,Parameters,OverrideKeyboardSubtype,%REG_DWORD%,0x2</A>
+<A NAME="Lnum514">HKR,Parameters,OverrideKeyboardIdentifier,%REG_SZ%,"PCAT_106KEY"</A>
+<A NAME="Lnum515">HKR,Parameters,"LayerDriver JPN",%REG_SZ%,"kbd106n.dll"</A>
+<A NAME="Lnum516">HKR,Parameters,"LayerDriver KOR",%REG_SZ%,"kbd101a.dll"</A>
+<A NAME="Lnum517"></A>
+<A NAME="Lnum518"></A>
+<A NAME="Lnum519">; ==============================================</A>
+<A NAME="Lnum520">; Standard Sections</A>
+<A NAME="Lnum521">; ==============================================</A>
+<A NAME="Lnum522">[i8042prt_Service_Inst]</A>
+<FONT COLOR=BLUE>; (W22.1.2083) Section [I8042PRT_SERVICE_INST] not referenced 
+</FONT><A NAME="Lnum523">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum524">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum525">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum526">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum527">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum528">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum529"></A>
+<A NAME="Lnum530">[i8042prt_EventLog_Inst]</A>
+<A NAME="Lnum531">AddReg = i8042prt_EventLog_AddReg</A>
+<A NAME="Lnum532"></A>
+<A NAME="Lnum533">[i8042prt_EventLog_AddReg]</A>
+<A NAME="Lnum534">HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\i8042prt.sys"</A>
+<A NAME="Lnum535">HKR,,TypesSupported,0x00010001,7</A>
+<A NAME="Lnum536"></A>
+<A NAME="Lnum537">[kbdclass_Service_Inst]</A>
+<A NAME="Lnum538">DisplayName    = %kbdclass.SvcDesc%</A>
+<A NAME="Lnum539">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum540">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum541">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum542">ServiceBinary  = %12%\kbdclass.sys</A>
+<A NAME="Lnum543">LoadOrderGroup = Keyboard Class</A>
+<A NAME="Lnum544"></A>
+<A NAME="Lnum545">[kbdclass_EventLog_Inst]</A>
+<A NAME="Lnum546">AddReg = kbdclass_EventLog_AddReg</A>
+<A NAME="Lnum547"></A>
+<A NAME="Lnum548">[kbdclass_EventLog_AddReg]</A>
+<A NAME="Lnum549">HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\kbdclass.sys"</A>
+<A NAME="Lnum550">HKR,,TypesSupported,0x00010001,7</A>
+<A NAME="Lnum551"></A>
+<A NAME="Lnum552">; ==============================================</A>
+<A NAME="Lnum553">; Japanese 106/109 Keyboard (USB)</A>
+<A NAME="Lnum554">; ==============================================</A>
+<A NAME="Lnum555">[HID_106_Keyboard_Inst.NT]</A>
+<A NAME="Lnum556">Copyfiles = HID_Keyboard_Inst.CopyFiles.NT</A>
+<A NAME="Lnum557">Copyfiles = 106_TYPE_LayerDriverFiles</A>
+<A NAME="Lnum558">AddReg = HID_106_Keyboard_Inst.AddReg</A>
+<A NAME="Lnum559"></A>
+<A NAME="Lnum560">[HID_106_Keyboard_Inst.AddReg]</A>
+<A NAME="Lnum561"></A>
+<A NAME="Lnum562">[HID_106_Keyboard_Inst.NT.HW]</A>
+<A NAME="Lnum563">AddReg = HID_106_Keyboard_Inst.AddReg.NT.HW</A>
+<A NAME="Lnum564">AddReg = HID_Keyboard_Inst.AddReg.NT</A>
+<A NAME="Lnum565"></A>
+<A NAME="Lnum566">[HID_106_Keyboard_Inst.AddReg.NT.HW]</A>
+<A NAME="Lnum567">HKR,,"KeyboardTypeOverride",0x00010001,7</A>
+<A NAME="Lnum568">HKR,,"KeyboardSubtypeOverride",0x00010001,2</A>
+<A NAME="Lnum569"></A>
+<A NAME="Lnum570">[HID_106_Keyboard_Inst.NT.Services]</A>
+<A NAME="Lnum571">AddService = kbdhid,%SPSVCINST_ASSOCSERVICE%,KbdHid_Service_Inst,KbdHid_EventLog_Inst ; Port Driver</A>
+<A NAME="Lnum572">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum573"></A>
+<A NAME="Lnum574"></A>
+<A NAME="Lnum575">; ==============================================</A>
+<A NAME="Lnum576">; Fujitsu Oyayubi Keyboard (PS/2)</A>
+<A NAME="Lnum577">; ==============================================</A>
+<A NAME="Lnum578"></A>
+<A NAME="Lnum579">[THUMB_TYPE_Inst]</A>
+<A NAME="Lnum580">CopyFiles  = STANDARD_CopyFiles</A>
+<A NAME="Lnum581">AddReg     = THUMB_TYPE_AddReg</A>
+<A NAME="Lnum582"></A>
+<A NAME="Lnum583">[THUMB_TYPE_Inst.Services]</A>
+<A NAME="Lnum584">AddService = i8042prt, 0x00000002, THUMB_TYPE_i8042prt_Service_Inst, i8042prt_EventLog_Inst ; Port Driver</A>
+<FONT COLOR=BLUE>; (W22.1.2004) Service i8042prt already defined in section [STANDARD_i8042prt_Service_Inst]. 
+</FONT><A NAME="Lnum585">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum586"></A>
+<A NAME="Lnum587">[THUMB_TYPE_AddReg]</A>
+<A NAME="Lnum588"></A>
+<A NAME="Lnum589">[THUMB_TYPE_i8042prt_Service_Inst]</A>
+<A NAME="Lnum590">DisplayName    = %i8042prt.SvcDesc%</A>
+<A NAME="Lnum591">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum592">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum593">ErrorControl   = %SERVICE_ERROR_NORMAL%</A>
+<A NAME="Lnum594">ServiceBinary  = %12%\i8042prt.sys</A>
+<A NAME="Lnum595">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum596">AddReg         = THUMB_TYPE_i8042prt_Service_AddReg</A>
+<A NAME="Lnum597"></A>
+<A NAME="Lnum598">[THUMB_TYPE_i8042prt_Service_AddReg]</A>
+<A NAME="Lnum599">HKR,Parameters,OverrideKeyboardType,%REG_DWORD%,0x7</A>
+<A NAME="Lnum600">HKR,Parameters,OverrideKeyboardSubtype,%REG_DWORD%,0x52</A>
+<A NAME="Lnum601">HKR,Parameters,OverrideKeyboardIdentifier,%REG_SZ%,"FUJITSU_OYAYUBI"</A>
+<A NAME="Lnum602">HKR,Parameters,"LayerDriver JPN",%REG_SZ%,"f3ahvoas.dll"</A>
+<A NAME="Lnum603">HKR,Parameters,"LayerDriver KOR",%REG_SZ%,"kbd101a.dll"</A>
+<A NAME="Lnum604"></A>
+<A NAME="Lnum605"></A>
+<A NAME="Lnum606">[LegacyXlate.DevId]</A>
+<FONT COLOR=BLUE>; (W22.1.2083) Section [LEGACYXLATE.DEVID] not referenced 
+</FONT><A NAME="Lnum607">;</A>
+<A NAME="Lnum608">; This section is used during startup by the Windows NT Plug&Play Manager to</A>
+<A NAME="Lnum609">; simulate enumeration of the keyboard based on information retrieved from</A>
+<A NAME="Lnum610">; ARC firmware/NTDETECT.</A>
+<A NAME="Lnum611">;</A>
+<A NAME="Lnum612">XT_83KEY        = *PNP0300</A>
+<A NAME="Lnum613">PCAT_86KEY      = *PNP0301</A>
+<A NAME="Lnum614">PCXT_84KEY      = *PNP0302</A>
+<A NAME="Lnum615">XT_84KEY        = *PNP0302</A>
+<A NAME="Lnum616">101-KEY         = *PNP0303</A>
+<A NAME="Lnum617">OLI_83KEY       = *PNP0304</A>
+<A NAME="Lnum618">ATT_301         = *PNP0304</A>
+<A NAME="Lnum619">OLI_102KEY      = *PNP0305</A>
+<A NAME="Lnum620">OLI_86KEY       = *PNP0306</A>
+<A NAME="Lnum621">OLI_A101_102KEY = *PNP0309</A>
+<A NAME="Lnum622">ATT_302         = *PNP030a</A>
+<A NAME="Lnum623">PCAT_ENHANCED   = *PNP030b</A>
+<A NAME="Lnum624"></A>
+<A NAME="Lnum625">;</A>
+<A NAME="Lnum626">; This section is used during fresh install/upgrade to determine what Win95-style</A>
+<A NAME="Lnum627">; INF install section to associate with the currently installed keyboard driver.</A>
+<A NAME="Lnum628">;</A>
+<A NAME="Lnum629">[LegacyXlate.Driver]</A>
+<FONT COLOR=BLUE>; (W22.1.2083) Section [LEGACYXLATE.DRIVER] not referenced 
+</FONT><A NAME="Lnum630">i8042prt = STANDARD_Inst</A>
+<A NAME="Lnum631"></A>
+<A NAME="Lnum632">;=====================================================================</A>
+<A NAME="Lnum633">[eHome_Keyboard_Inst.NT]</A>
+<A NAME="Lnum634">Copyfiles = HID_Keyboard_Inst.CopyFiles.NT</A>
+<A NAME="Lnum635"></A>
+<A NAME="Lnum636">[eHome_Keyboard_Inst.AddReg.NT]</A>
+<A NAME="Lnum637">HKR,,"WaitWakeEnabled",0x00010001,1</A>
+<A NAME="Lnum638"></A>
+<A NAME="Lnum639">[eHome_Keyboard_Inst.NT.HW]</A>
+<A NAME="Lnum640">AddReg = HID_Keyboard_Inst.AddReg.NT, eHome_Keyboard_Inst.AddReg.NT</A>
+<A NAME="Lnum641"></A>
+<A NAME="Lnum642">[eHome_Keyboard_Inst.NT.Services]</A>
+<A NAME="Lnum643">AddService = kbdhid,%SPSVCINST_ASSOCSERVICE%,KbdHid_Service_Inst,KbdHid_EventLog_Inst ; Port Driver</A>
+<A NAME="Lnum644">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum645"></A>
+<A NAME="Lnum646">;=====================================================================</A>
+<A NAME="Lnum647"></A>
+<A NAME="Lnum648">[eHome_106_Keyboard_Inst.NT]</A>
+<A NAME="Lnum649">Needs = HID_Keyboard_Inst.NT</A>
+<A NAME="Lnum650">Copyfiles = 106_TYPE_LayerDriverFiles</A>
+<A NAME="Lnum651"></A>
+<A NAME="Lnum652">[eHome_106_Keyboard_Inst.AddReg.NT]</A>
+<A NAME="Lnum653">HKR,,"WaitWakeEnabled",0x00010001,1</A>
+<A NAME="Lnum654"></A>
+<A NAME="Lnum655">[eHome_106_Keyboard_Inst.NT.HW]</A>
+<A NAME="Lnum656">AddReg = HID_106_Keyboard_Inst.AddReg.NT.HW, eHome_106_Keyboard_Inst.AddReg.NT</A>
+<A NAME="Lnum657"></A>
+<A NAME="Lnum658">[eHome_106_Keyboard_Inst.NT.Services]</A>
+<A NAME="Lnum659">AddService = kbdhid,%SPSVCINST_ASSOCSERVICE%,KbdHid_Service_Inst,KbdHid_EventLog_Inst ; Port Driver</A>
+<A NAME="Lnum660">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum661"></A>
+<A NAME="Lnum662">;=====================================================================</A>
+<A NAME="Lnum663"></A>
+<A NAME="Lnum664"></A>
+<A NAME="Lnum665">[HID_NEC_Keyboard_Inst.NT]</A>
+<A NAME="Lnum666">Copyfiles = HID_Keyboard_Inst.CopyFiles.NT</A>
+<A NAME="Lnum667"></A>
+<A NAME="Lnum668">[HID_NEC_Keyboard_Inst.NT.HW]</A>
+<A NAME="Lnum669">AddReg = HID_NEC_Keyboard_Inst.AddReg.NT</A>
+<A NAME="Lnum670"></A>
+<A NAME="Lnum671">[HID_NEC_Keyboard_Inst.AddReg.NT]</A>
+<A NAME="Lnum672">HKR,,"KeyboardTypeOverride",0x00010001,7</A>
+<A NAME="Lnum673">HKR,,"KeyboardSubtypeOverride",0x00010001,0xd02</A>
+<A NAME="Lnum674"></A>
+<A NAME="Lnum675">[HID_NEC_Keyboard_Inst.NT.Services]</A>
+<A NAME="Lnum676">AddService = kbdhid,%SPSVCINST_ASSOCSERVICE%,KbdHid_Service_Inst,KbdHid_EventLog_Inst ; Port Driver</A>
+<A NAME="Lnum677">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum678"></A>
+<A NAME="Lnum679"></A>
+<A NAME="Lnum680">[HID_Keyboard_Inst.NT]</A>
+<A NAME="Lnum681">Copyfiles = HID_Keyboard_Inst.CopyFiles.NT</A>
+<A NAME="Lnum682"></A>
+<A NAME="Lnum683">[HID_Keyboard_Inst.NT.HW]</A>
+<A NAME="Lnum684">AddReg = HID_Keyboard_Inst.AddReg.NT</A>
+<A NAME="Lnum685"></A>
+<A NAME="Lnum686">[HID_Keyboard_Inst.AddReg.NT]</A>
+<A NAME="Lnum687">;HKR,,"LowerFilters",0x00010000,"valueadd"</A>
+<A NAME="Lnum688"></A>
+<A NAME="Lnum689">[HID_Keyboard_Inst.CopyFiles.NT]</A>
+<A NAME="Lnum690">kbdhid.sys,,,0x100</A>
+<FONT COLOR=RED>; (E22.1.1066) Bad value for flags (256) in HID_Keyboard_Inst.CopyFiles.NT. 
+</FONT><A NAME="Lnum691">kbdclass.sys,,,0x100</A>
+<FONT COLOR=RED>; (E22.1.1066) Bad value for flags (256) in HID_Keyboard_Inst.CopyFiles.NT. 
+</FONT><A NAME="Lnum692"></A>
+<A NAME="Lnum693">[HID_Keyboard_Inst.NT.Services]</A>
+<A NAME="Lnum694">AddService = kbdhid,%SPSVCINST_ASSOCSERVICE%,KbdHid_Service_Inst,KbdHid_EventLog_Inst ; Port Driver</A>
+<A NAME="Lnum695">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum696">; AddService = valueadd,,ValueAdd_Service_Inst</A>
+<A NAME="Lnum697"></A>
+<A NAME="Lnum698">[KbdHid_Service_Inst]</A>
+<A NAME="Lnum699">DisplayName    = %KBDHID.SvcDesc%</A>
+<A NAME="Lnum700">ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum701">StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum702">ErrorControl   = %SERVICE_ERROR_IGNORE%</A>
+<A NAME="Lnum703">ServiceBinary  = %12%\kbdhid.sys</A>
+<A NAME="Lnum704">LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum705">AddReg = KbdHid_Service_Inst_AddReg</A>
+<A NAME="Lnum706"></A>
+<A NAME="Lnum707">[KbdHid_Service_Inst_AddReg]</A>
+<A NAME="Lnum708">HKR,"Parameters","WorkNicely",0x00010001,0</A>
+<A NAME="Lnum709"></A>
+<A NAME="Lnum710">[KbdHid_EventLog_Inst]</A>
+<A NAME="Lnum711">AddReg = KbdHid_EventLog_AddReg</A>
+<A NAME="Lnum712"></A>
+<A NAME="Lnum713">[KbdHid_EventLog_AddReg]</A>
+<A NAME="Lnum714">HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\kbdhid.sys"</A>
+<A NAME="Lnum715">HKR,,TypesSupported,0x00010001,7</A>
+<A NAME="Lnum716"></A>
+<A NAME="Lnum717">; [ValueAdd_Service_Inst]</A>
+<A NAME="Lnum718">; DisplayName    = %VALUEADD.SvcDesc%</A>
+<A NAME="Lnum719">; ServiceType    = %SERVICE_KERNEL_DRIVER%</A>
+<A NAME="Lnum720">; StartType      = %SERVICE_DEMAND_START%</A>
+<A NAME="Lnum721">; ErrorControl   = %SERVICE_ERROR_IGNORE%</A>
+<A NAME="Lnum722">; ServiceBinary  = %12%\value.sys</A>
+<A NAME="Lnum723">; LoadOrderGroup = Keyboard Port</A>
+<A NAME="Lnum724">; AddReg = ValueAdd_Service_Inst_AddReg</A>
+<A NAME="Lnum725"></A>
+<A NAME="Lnum726">; [ValueAdd_Service_Inst_AddReg]</A>
+<A NAME="Lnum727">; HKR,"Parameters","WorkNicely",0x00010001,0</A>
+<A NAME="Lnum728"></A>
+<A NAME="Lnum729">; Included by OEM / 3rd party INFs to install kbdclass</A>
+<A NAME="Lnum730">[KbdClass.Services]</A>
+<FONT COLOR=BLUE>; (W22.1.2083) Section [KBDCLASS.SERVICES] not referenced 
+</FONT><A NAME="Lnum731">AddService = kbdclass,, kbdclass_Service_Inst, kbdclass_EventLog_Inst            ; Class Driver</A>
+<A NAME="Lnum732"></A>
+<A NAME="Lnum733">[NEC_KBD.NTamd64]</A>
+<A NAME="Lnum734">%HID\VID_0409&PID_0011&MI_00.DeviceDesc%=HID_NEC_Keyboard_Inst, HID\VID_0409&PID_0011&MI_00</A>
+<A NAME="Lnum735">%HID\VID_0409&PID_001A.DeviceDesc%=HID_NEC_Keyboard_Inst, HID\VID_0409&PID_001A</A>
+<A NAME="Lnum736">%HID\VID_0409&PID_0024.DeviceDesc%=HID_NEC_Keyboard_Inst, HID\VID_0409&PID_0024</A>
+<A NAME="Lnum737"></A>
+<A NAME="Lnum738"></A>
+<A NAME="Lnum739">[Strings]</A>
+<A NAME="Lnum740">;Localizable</A>
+<A NAME="Lnum741">*PNP0303.DeviceDesc     = "Standard PS/2 Keyboard"</A>
+<A NAME="Lnum742">i8042prt.SvcDesc        = "i8042 Keyboard and PS/2 Mouse Port Driver"</A>
+<A NAME="Lnum743"></A>
+<A NAME="Lnum744">LocationOverride        = "plugged into keyboard port"</A>
+<A NAME="Lnum745"></A>
+<A NAME="Lnum746">; Manufacturers</A>
+<A NAME="Lnum747">ATT                     = "AT&T"</A>
+<A NAME="Lnum748">COMPAQ                  = "Compaq"</A>
+<A NAME="Lnum749">OLIVETTI                = "Olivetti"</A>
+<A NAME="Lnum750">MS                      = "Microsoft"</A>
+<A NAME="Lnum751">MICROSOFT               = "Microsoft"</A>
+<A NAME="Lnum752">Std-Keyboards           = "(Standard keyboards)"</A>
+<A NAME="Lnum753">ALPS                    = "ALPS"</A>
+<A NAME="Lnum754">FUJITSU                 = "Fujitsu"</A>
+<A NAME="Lnum755">TOSHIBA                 = "Toshiba"</A>
+<A NAME="Lnum756">KEYTRONIC               = "Key Tronic"</A>
+<A NAME="Lnum757">PHILIPS                 = "Philips"</A>
+<A NAME="Lnum758">CHERRY                  = "Cherry GmbH"</A>
+<A NAME="Lnum759">MITSUMI                 = "Mitsumi"</A>
+<A NAME="Lnum760">SILITEK                 = "Silitek"</A>
+<A NAME="Lnum761">NMB                     = "NMB"</A>
+<A NAME="Lnum762">STSL                    = "STSL"</A>
+<A NAME="Lnum763">ACER                    = "Acer"</A>
+<A NAME="Lnum764">BTC                     = "BTC"</A>
+<A NAME="Lnum765">FOCUS                   = "Focus"</A>
+<A NAME="Lnum766">JINGMOLD                = "Jing Mold"</A>
+<A NAME="Lnum767">MAXISWITCH              = "Maxi Switch, Inc."</A>
+<A NAME="Lnum768">MONTEREY                = "Monterey"</A>
+<A NAME="Lnum769">ORTEK                   = "Ortek"</A>
+<A NAME="Lnum770">CHICONY                 = "Chicony"</A>
+<A NAME="Lnum771">FORWARD                 = "Forward"</A>
+<A NAME="Lnum772">SAMSUNG                 = "Samsung"</A>
+<A NAME="Lnum773">SEJIN                   = "Sejin"</A>
+<A NAME="Lnum774">SUPERGATE               = "SUPERGATE"</A>
+<A NAME="Lnum775">SUH                     = "SUH"</A>
+<A NAME="Lnum776">SOLIDYEAR               = "Solid Year"</A>
+<A NAME="Lnum777">NEC                     = "NEC"</A>
+<A NAME="Lnum778">QTRONIX                 = "Qtronix"</A>
+<A NAME="Lnum779"></A>
+<A NAME="Lnum780">; Standard Device IDs</A>
+<A NAME="Lnum781">*PNP0300.DeviceDesc     = "PC/XT PS/2 Keyboard (83-Key)"</A>
+<A NAME="Lnum782">*PNP0301.DeviceDesc     = "PC/AT PS/2 Keyboard (84-Key)"</A>
+<A NAME="Lnum783">*PNP0302.DeviceDesc     = "PC/XT PS/2 Keyboard (84-Key)"</A>
+<A NAME="Lnum784">*PNP0304.DeviceDesc     = "Olivetti PS/2 Keyboard (83-Key) or AT&T 301 Keyboard"</A>
+<A NAME="Lnum785">*PNP0305.DeviceDesc     = "Olivetti PS/2 Keyboard (102-Key)"</A>
+<A NAME="Lnum786">*PNP0306.DeviceDesc     = "Olivetti PS/2 Keyboard (86-Key)"</A>
+<A NAME="Lnum787">*PNP0309.DeviceDesc     = "Olivetti PS/2 Keyboard (A101/102-Key)"</A>
+<A NAME="Lnum788">*PNP030a.DeviceDesc     = "AT&T 302 PS/2 Keyboard"</A>
+<A NAME="Lnum789">*PNP030b.DeviceDesc     = "PC/AT Enhanced PS/2 Keyboard (101/102-Key)" ; default</A>
+<A NAME="Lnum790">*PNP0320.DeviceDesc     = "Japanese PS/2 Keyboard (106/109 Key)"</A>
+<A NAME="Lnum791">*PNP0320.DeviceDesc2    = "Japanese PS/2 Keyboard (106/109 Key Ctrl + Eisuu)"</A>
+<A NAME="Lnum792">*FJT0101.DeviceDesc     = "Fujitsu Thumb Shift PS/2 Keyboard"</A>
+<A NAME="Lnum793">*PNP0343.DeviceDesc     = "Korean PC/AT 101-Key Compatible Keyboard/MS Natural Keyboard (Type 2)"</A>
+<A NAME="Lnum794">*PNP0344.DeviceDesc     = "Korean PC/AT 101-Key Compatible Keyboard/MS Natural Keyboard (Type 3)"</A>
+<A NAME="Lnum795">*PNP0345.DeviceDesc     = "Korean PS/2 Keyboard (103/106 Key)"</A>
+<A NAME="Lnum796">*CPQA0D7.DeviceDesc     = "Compaq Enhanced PS/2 Keyboard"</A>
+<A NAME="Lnum797">RESTORE_STANDARD_101.DeviceDesc     = "Standard PS/2 101/102 Keyboard"</A>
+<A NAME="Lnum798"></A>
+<A NAME="Lnum799">kbdclass.SvcDesc        = "Keyboard Class Driver"</A>
+<A NAME="Lnum800">KBDHID.SvcDesc          = "Keyboard HID Driver"</A>
+<A NAME="Lnum801"></A>
+<A NAME="Lnum802">STANDARD_Inst.SharedDriverMsg = "PS/2 mouse port"</A>
+<A NAME="Lnum803"></A>
+<A NAME="Lnum804">; HID device IDs</A>
+<A NAME="Lnum805"></A>
+<A NAME="Lnum806">HID.KeyboardDevice    = "HID Keyboard Device"</A>
+<A NAME="Lnum807">HID\VID_0433&PID_ABAB.DeviceDesc = "ALPS USB Keyboard"</A>
+<A NAME="Lnum808">HID\VID_044e&PID_1104.DeviceDesc = "ALPS Japanese USB Keyboard"</A>
+<A NAME="Lnum809">HID\VID_03F9&PID_0100.DeviceDesc = "Key Tronic USB Keyboard"</A>
+<A NAME="Lnum810">HID\VID_0471&PID_0401.DeviceDesc = "Philips Semiconductors CICT USB Keyboard"</A>
+<A NAME="Lnum811">HID\VID_0471&PID_0402&MI_00.DeviceDesc = "Philips Semiconductors CICT USB Keyboard"</A>
+<A NAME="Lnum812">HID\VID_0471&PID_0601&MI_00.DeviceDesc = "Philips USB Wireless Keyboard"</A>
+<A NAME="Lnum813">HID\VID_046A&PID_0001.DeviceDesc = "Cherry GmbH USB Keyboard"</A>
+<A NAME="Lnum814">HID\VID_03ee&PID_5609&MI_00.DeviceDesc = "Mitsumi Japanese USB Keyboard"</A>
+<A NAME="Lnum815">HID\VID_047B&PID_0001.DeviceDesc = "Silitek USB Keyboard"</A>
+<A NAME="Lnum816">HID\VID_047B&PID_0002&MI_00.DeviceDesc = "Silitek USB Keyboard"</A>
+<A NAME="Lnum817">HID\VID_04A5&PID_0001.DeviceDesc = "API Generic USB K/B"</A>
+<A NAME="Lnum818">HID\VID_04A5&PID_0002.DeviceDesc = "API Ergo USB K/B"</A>
+<A NAME="Lnum819">HID\VID_04A5&PID_0003&MI_00.DeviceDesc = "API Generic USB K/B"</A>
+<A NAME="Lnum820">HID\VID_03F9&PID_0101.DeviceDesc = "Key Tronic USB Keyboard"</A>
+<A NAME="Lnum821">HID\VID_03F9&PID_0102&MI_00.DeviceDesc = "Key Tronic USB Keyboard"</A>
+<A NAME="Lnum822">HID\VID_0446&PID_6782.DeviceDesc = "NMB USB Keyboard"</A>
+<A NAME="Lnum823">HID\VID_0446&PID_6781&MI_00.DeviceDesc = "NMB USB Keyboard with PS/2 Mouse Port"</A>
+<A NAME="Lnum824">HID\VID_05FA&PID_3302.DeviceDesc = "STSL USB Keyboard"</A>
+<A NAME="Lnum825">HID\VID_05FA&PID_3301&MI_00.DeviceDesc = "STSL USB Keyboard with PS/2 Mouse Port"</A>
+<A NAME="Lnum826">HID\VID_05FA&PID_3303&MI_00.DeviceDesc = "STSL USB Keyboard with PS/2 Mouse Port"</A>
+<A NAME="Lnum827">HID\VID_04F2&PID_0002.DeviceDesc = "Chicony USB Keyboard"</A>
+<A NAME="Lnum828">HID\VID_04F2&PID_0001&MI_00.DeviceDesc = "Chicony USB Keyboard"</A>
+<A NAME="Lnum829">HID\VID_046E&PID_0100.DeviceDesc = "BTC USB Keyboard"</A>
+<A NAME="Lnum830">HID\VID_046E&PID_6782&MI_00.DeviceDesc = "BTC USB Keyboard"</A>
+<A NAME="Lnum831">HID\VID_05B2&PID_6200.DeviceDesc = "Focus USB Keyboard"</A>
+<A NAME="Lnum832">HID\VID_05B2&PID_7200&MI_00.DeviceDesc = "Focus USB Keyboard"</A>
+<A NAME="Lnum833">HID\VID_05AF&PID_9167.DeviceDesc = "KB 9151B - 678"</A>
+<A NAME="Lnum834">HID\VID_05AF&PID_9267&MI_00.DeviceDesc = "KB 9251B - 678"</A>
+<A NAME="Lnum835">HID\VID_04C3&PID_1101.DeviceDesc = "Maxi Switch, Inc. #1101"</A>
+<A NAME="Lnum836">HID\VID_04C3&PID_1102&MI_00.DeviceDesc = "Maxi Switch, Inc. #1102"</A>
+<A NAME="Lnum837">HID\VID_04C3&PID_2101.DeviceDesc = "Maxi Switch, Inc. #2101"</A>
+<A NAME="Lnum838">HID\VID_04C3&PID_2102&MI_00.DeviceDesc = "Maxi Switch, Inc. #2102"</A>
+<A NAME="Lnum839">HID\VID_0566&PID_2800.DeviceDesc = "MIC USB K/B"</A>
+<A NAME="Lnum840">HID\VID_0566&PID_2801&MI_00.DeviceDesc = "MIC USB K/B M"</A>
+<A NAME="Lnum841">HID\VID_05A4&PID_9722.DeviceDesc = "ORTEK Keyboard"</A>
+<A NAME="Lnum842">HID\VID_05A4&PID_9720&MI_00.DeviceDesc = "ORTEK Keyboard"</A>
+<A NAME="Lnum843">HID\VID_0430&PID_0002&MI_00.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum844">HID\VID_0430&PID_000A&MI_00.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum845">HID\VID_0430&PID_000B.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum846">HID\VID_0430&PID_0082.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum847">HID\VID_0430&PID_0083&MI_00.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum848">HID\VID_04c5&PID_1020&MI_00.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum849">HID\VID_04c5&PID_1018&Col01.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum850">HID\VID_04c5&PID_1022&MI_00&Col01.DeviceDesc="Fujitsu 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum851">HID\VID_06D5&PID_4000.DeviceDesc = "Toshiba USB 109 Japanese keyboard"</A>
+<A NAME="Lnum852">HID\VID_055D&PID_6780.DeviceDesc = "Samsung USB Keyboard V1"</A>
+<A NAME="Lnum853">HID\VID_055D&PID_6781&MI_00.DeviceDesc = "Samsung USB Keyboard V2"</A>
+<A NAME="Lnum854">HID\VID_055D&PID_0001.DeviceDesc="Samsung USB Keyboard"</A>
+<A NAME="Lnum855">HID\VID_05BC&PID_0002.DeviceDesc = "Forward USB K/B"</A>
+<A NAME="Lnum856">HID\VID_05BC&PID_0001&MI_00.DeviceDesc = "Forward USB K/B with PS/2 Mouse"</A>
+<A NAME="Lnum857">HID\VID_0500&PID_0002.DeviceDesc = "SUH DART-2 USB Keyboard"</A>
+<A NAME="Lnum858">HID\VID_0500&PID_0001&MI_00.DeviceDesc = "SUH DART USB Keyboard"</A>
+<A NAME="Lnum859">HID\VID_0510&PID_0001.DeviceDesc = "Sejin USB Keyboard"</A>
+<A NAME="Lnum860">HID\VID_0510&PID_1000&MI_00.DeviceDesc="Sejin USB Keyboard with PS/2 Mouse Port"</A>
+<A NAME="Lnum861">HID\VID_05D5&PID_6782&MI_00.DeviceDesc = "SUPERGATE USB Keyboard with PS/2 Mouse Port"</A>
+<A NAME="Lnum862">HID\VID_045E&PID_000B.DeviceDesc = "Microsoft USB Natural Keyboard"</A>
+<A NAME="Lnum863">HID\VID_045E&PID_001D&MI_00.DeviceDesc = "Microsoft USB Natural Keyboard Pro"</A>
+<A NAME="Lnum864">HID\VID_045E&PID_002B&MI_00.DeviceDesc = "Microsoft USB Internet Keyboard Pro"</A>
+<A NAME="Lnum865">HID\VID_045E&PID_002D&MI_00.DeviceDesc = "Microsoft USB Internet Keyboard"</A>
+<A NAME="Lnum866">HID\VID_045E&PID_0048&MI_00.DeviceDesc = "Microsoft USB Office Keyboard"</A>
+<A NAME="Lnum867">HID\VID_045E&PID_005C&MI_00.DeviceDesc = "Microsoft USB Office Keyboard (106/109)"</A>
+<A NAME="Lnum868">HID\VID_045E&PID_0061&MI_00.DeviceDesc = "Microsoft USB Wireless MultiMedia Keyboard (106/109)"</A>
+<A NAME="Lnum869">HID\VID_045E&PID_0065&MI_00.DeviceDesc = "Microsoft USB Wireless Natural MultiMedia Keyboard (106/109)"</A>
+<A NAME="Lnum870">HID\VID_045E&PID_0071&MI_00.DeviceDesc = "Microsoft USB Wireless MultiMedia Keyboard (106/109)"</A>
+<A NAME="Lnum871">HID\VID_045E&PID_0073&MI_00.DeviceDesc = "Microsoft USB Wireless Natural MultiMedia Keyboard (106/109)"</A>
+<A NAME="Lnum872">HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001045e_PID&007f&Col01.DeviceDesc = "Microsoft Wireless Optical Desktop for Bluetooth Keyboard (106/109)"</A>
+<A NAME="Lnum873">HID\VID_045E&PID_0089&MI_00.DeviceDesc = "Microsoft Basic Keyboard (106/109)"</A>
+<A NAME="Lnum874">HID\VID_045E&PID_008B&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum875">HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&009A&Col01.DeviceDesc = "Microsoft Keyboard Elite for Bluetooth (106/109)"</A>
+<A NAME="Lnum876">HID\VID_045E&PID_009E&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum877">HID\VID_045E&PID_00AD&MI_00.DeviceDesc = "Microsoft MultiMedia Keyboard (106/109)"</A>
+<A NAME="Lnum878">HID\VID_045E&PID_00AF&MI_00.DeviceDesc = "Microsoft Natural MultiMedia Keyboard (106/109)"</A>
+<A NAME="Lnum879">HID\VID_045E&PID_00B1&MI_00.DeviceDesc = "Microsoft USB Digital Media Pro Keyboard (106/109)"</A>
+<A NAME="Lnum880">HID\VID_045E&PID_00B5&MI_00.DeviceDesc = "Microsoft USB Digital Media Keyboard (106/109)"</A>
+<A NAME="Lnum881">HID\VID_045E&PID_00BC&MI_00.DeviceDesc = "Microsoft USB Keyboard with Fingerprint Reader (106/109)"</A>
+<A NAME="Lnum882">HID\VID_045E&PID_00DC&MI_00.DeviceDesc = "Microsoft USB Natural Ergonomic Keyboard 4000 (106/109)"</A>
+<A NAME="Lnum883">HID\VID_045E&PID_00DE&MI_00.DeviceDesc = "Microsoft USB Comfort Curve Keyboard 2000 (106/109)"</A>
+<A NAME="Lnum884">HID\VID_045E&PID_00E0&MI_00.DeviceDesc = "Microsoft USB Comfort Curve Keyboard 2000 (106/109)"</A>
+<A NAME="Lnum885">HID\Vid_045E&Pid_00E4&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum886">HID\Vid_045E&Pid_00F2&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum887">HID\Vid_045E&Pid_00FA&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum888">HID\Vid_045E&Pid_00FD&MI_00.DeviceDesc = "Microsoft Reclusa (106/109)"</A>
+<A NAME="Lnum889">HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0704&Col01.DeviceDesc = "Microsoft Wireless Entertainment Keyboard 8000 (106/109)"</A>
+<A NAME="Lnum890">HID\Vid_045E&Pid_0716.DeviceDesc = "Microsoft Wireless Entertainment Keyboard 8000 (106/109)"</A>
+<A NAME="Lnum891">HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0706&Col01.DeviceDesc = "Microsoft Wireless Entertainment Keyboard 7000 (106/109)"</A>
+<A NAME="Lnum892">HID\Vid_045E&Pid_0718.DeviceDesc = "Microsoft Wireless Entertainment Keyboard 7000 (106/109)"</A>
+<A NAME="Lnum893">HID\Vid_045E&Pid_071E&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum894">HID\VID_045E&PID_0731&MI_00.DeviceDesc = "Microsoft Digital Media Keyboard 3000 (106/109)"</A>
+<A NAME="Lnum895">HID\VID_045E&PID_0733&MI_00.DeviceDesc = "Microsoft Digital Media Keyboard 3000 (106/109)"</A>
+<A NAME="Lnum896">HID\VID_045E&PID_0735&MI_00.DeviceDesc = "Microsoft Wireless Keyboard 700 v2.0 (106/109)"</A>
+<A NAME="Lnum897">HID\VID_045E&PID_0746&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109)"</A>
+<A NAME="Lnum898">HID\VID_045E&PID_074C&MI_00.DeviceDesc = "Microsoft SideWinder X6 Keyboard (106/109)"</A>
+<A NAME="Lnum899">HID\VID_045E&PID_0751&MI_00.DeviceDesc = "Microsoft Wired Keyboard 600 (106/109)"</A>
+<A NAME="Lnum900">HID\VID_045E&PID_0753&MI_00.DeviceDesc = "Microsoft Wired Keyboard 400 (106/109)"</A>
+<A NAME="Lnum901">HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0763&Col01.DeviceDesc = "Microsoft Bluetooth Mobile Keyboard 6000 (106/109)"</A>
+<A NAME="Lnum902">HID\VID_060B&PID_2101&MI_00.DeviceDesc = "Japanese USB Keyboard with PS/2 Mouse Port"</A>
+<A NAME="Lnum903">HID\VID_060B&PID_5903.DeviceDesc="Japanese USB Keyboard - 595U"</A>
+<A NAME="Lnum904">HID\VID_060B&PID_6003&MI_00.DeviceDesc="Japanese USB Keyboard - 600HM"</A>
+<A NAME="Lnum905">HID\VID_060B&PID_1006&MI_00.DeviceDesc="Japanese USB Keyboard - 260U"</A>
+<A NAME="Lnum906">HID\VID_0409&PID_0014&MI_00.DeviceDesc="NEC 109 Japanese USB Keyboard"</A>
+<A NAME="Lnum907">HID\VID_0409&PID_0011&MI_00.DeviceDesc="NEC PC98 Series Layout USB Keyboard"</A>
+<A NAME="Lnum908">HID\VID_0409&PID_0019.DeviceDesc="NEC 109 Japanese USB Keyboard with Bus-Powered Hub"</A>
+<A NAME="Lnum909">HID\VID_0409&PID_001A.DeviceDesc="NEC PC98 Series Layout USB Keyboard with Bus-Powered Hub"</A>
+<A NAME="Lnum910">HID\VID_0409&PID_0024.DeviceDesc="NEC PC98 Series Layout USB Keyboard with Bus-Powered Hub"</A>
+<A NAME="Lnum911">HID\VID_0409&PID_0025.DeviceDesc="NEC USB Mini Keyboard with Bus-Powered Hub"</A>
+<A NAME="Lnum912">HID\VID_0409&PID_0034&COL01.DeviceDesc="NEC 109 Japanese USB Keyboard with One-touch start buttons"</A>
+<A NAME="Lnum913">HID\VID_0409&PID_0094&COL01.DeviceDesc="NEC 109 USB Small Keyboard with One-touch start buttons"</A>
+<A NAME="Lnum914">HID\VID_0409&PID_0095.DeviceDesc="NEC 109 USB Small Keyboard with Bus-Powered Hub"</A>
+<A NAME="Lnum915">HID\VID_0409&PID_003F&MI_00&Col01.DeviceDesc="NEC Wireless USB Keyboard with One-touch start buttons"</A>
+<A NAME="Lnum916">HID\VID_0409&PID_004F&MI_00&Col01.DeviceDesc="NEC Wireless USB Keyboard with One-touch start buttons"</A>
+<A NAME="Lnum917">HID\VID_05C7&PID_2001.DeviceDesc = "Qtronix USB Keyboard"</A>
+<A NAME="Lnum918">HID\VID_05C7&PID_6001.DeviceDesc = "Qtronix USB Ten-Keypad"</A>
+<A NAME="Lnum919">HID\IrDevice&COL05.DeviceDesc = "Microsoft eHome Remote Control Keyboard keys"</A>
+<A NAME="Lnum920">HID\IrDevice&COL06.DeviceDesc = "Microsoft eHome MCIR Keyboard"</A>
+<A NAME="Lnum921">HID\IrDevice&COL07.DeviceDesc = "Microsoft eHome MCIR 109 Keyboard"</A>
+<A NAME="Lnum922"></A>
+<A NAME="Lnum923">; Standard defs</A>
+<A NAME="Lnum924">;Non-localizable</A>
+<A NAME="Lnum925">SPSVCINST_TAGTOFRONT  = 0x00000001</A>
+<A NAME="Lnum926">SPSVCINST_ASSOCSERVICE= 0x00000002</A>
+<A NAME="Lnum927">SERVICE_KERNEL_DRIVER = 1</A>
+<A NAME="Lnum928">SERVICE_BOOT_START    = 0</A>
+<A NAME="Lnum929">SERVICE_DEMAND_START  = 3</A>
+<A NAME="Lnum930">SERVICE_ERROR_NORMAL  = 1</A>
+<A NAME="Lnum931">SERVICE_ERROR_IGNORE  = 0</A>
+<A NAME="Lnum932">REG_EXPAND_SZ         = 0x00020000</A>
+<A NAME="Lnum933">REG_DWORD             = 0x00010001</A>
+<A NAME="Lnum934">REG_SZ                = 0x00000000</A>
+<A NAME="Lnum935"></A>
+<A NAME="Lnum936"></A>
+<A NAME="Lnum937"></A>
+<A NAME="Lnum938"></A>
+</PRE>
+</PRE>

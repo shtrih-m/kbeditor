@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+  <Ðàñêëàäêà Vesion="02 08 ">
+    <Ïàðàìåòðû Ïàðàìåòðû="2" STop="1" SLeft="7" SRight="7" SBottom="1"/>
+    <Ñëîè>
+      <Ñëîé>
+        <Êëàâèøè>
+          <Êëàâèøà Íîìåð="1" Êîëîíêà="0" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+ESC -ESC"/>
+            <Íîòû>
+              <Íîòà Íîìåð="1" Íîòà="0" Äëèòåëüíîñòü="0" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="2" Íîòà="0" Äëèòåëüíîñòü="1" Ãðîìêîñòü="114"/>
+              <Íîòà Íîìåð="3" Íîòà="224" Äëèòåëüíîñòü="0" Ãðîìêîñòü="0"/>
+            </Íîòû>
+            <Picture BackgroundColor="00FFFFFF" Text="Âûõîä" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="2" Êîëîíêà="1" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F1 -LAlt -F1"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Áëîê." TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="3" Êîëîíêà="2" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +X -LCtrl -X"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ïðîñì ïå÷àòü ÷åêà" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="4" Êîëîíêà="3" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +Y -LCtrl -Y"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ïîâòîð ïðîä" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="5" Êîëîíêà="4" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F10 -LAlt -F10"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Íîëü" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="6" Êîëîíêà="5" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +F8 -LCtrl -F8"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Âèç. Ïîäáîð" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="7" Êîëîíêà="6" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F8 -LAlt -F8"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ðåä. Öåíó" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="8" Êîëîíêà="7" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +F7 -LCtrl -F7"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ñåðâèñ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="9" Êîëîíêà="8" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="1" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+Up -Up"/>
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="2" FontColor="80000008" FontHeight="-37" FontName="Wingdings 3" FontSize="28" FontStyle="0">
+              <Data>
+                545046300B544B657950696374757265000C506963747572652E446174610A4207000007544269746D617036070000424D360700000000000076000000280000002D000000480000000100040000000000C0060000000000000000000010000000100000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F0000000000000000000000000000000000000000000F000F0000000000000000000000000000000000000000000F000FF00000000000000000000000000000000000000000FF000FF00000000000000000000000000000000000000000FF000FFF000000000000000000000000000000000000000FFF000FFFF0000000000000000000000000000000000000FFFF000FFFF0000000000000000000000000000000000000FFFF000FFFFF00000000000000000000000000000000000FFFFF000FFFFF00000000000000000000000000000000000FFFFF000FFFFFF000000000000000000000000000000000FFFFFF000FFFFFF000000000000000000000000000000000FFFFFF000FFFFFFF0000000000000000000000000000000FFFFFFF000FFFFFFF0000000000000000000000000000000FFFFFFF000FFFFFFFF00000000000000000000000000000FFFFFFFF000FFFFFFFF00000000000000000000000000000FFFFFFFF000FFFFFFFFF000000000000000000000000000FFFFFFFFF000FFFFFFFFF000000000000000000000000000FFFFFFFFF000FFFFFFFFFF0000000000000000000000000FFFFFFFFFF000FFFFFFFFFF0000000000000000000000000FFFFFFFFFF000FFFFFFFFFFF00000000000000000000000FFFFFFFFFFF000FFFFFFFFFFFF000000000000000000000FFFFFFFFFFFF000FFFFFFFFFFFF000000000000000000000FFFFFFFFFFFF000FFFFFFFFFFFFF0000000000000000000FFFFFFFFFFFFF000FFFFFFFFFFFFF0000000000000000000FFFFFFFFFFFFF000FFFFFFFFFFFFFF00000000000000000FFFFFFFFFFFFFF000FFFFFFFFFFFFFF00000000000000000FFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF000000000000000FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFF0000000000000FFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFF0000000000000FFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFF00000000000FFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFF00000000000FFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFF000000000FFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFF0000000FFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFF0000000FFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFF0000000
+              </Data>
+            </Picture>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="10" Êîëîíêà="9" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +F6 -LCtrl -F6"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Îòêð. ßùèê" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="11" Êîëîíêà="0" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +F1 -LCtrl -F1"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Äèñê. Êàðòà" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="12" Êîëîíêà="1" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F2 -LAlt -F2"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Âîçâð." TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="13" Êîëîíêà="2" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+- --"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ñòîðíî" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="14" Êîëîíêà="3" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +F5 -LCtrl -F5"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Îòìåíà ÷åêà" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="15" Êîëîíêà="4" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F1 -LShift -F1"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ñåêöèÿ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="16" Êîëîíêà="5" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F9 -LShift -F9"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Òàðà" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="17" Êîëîíêà="6" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F7 -LAlt -F7"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ðåä. Êîë-âî" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="18" Êîëîíêà="7" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="1" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+Left -Left"/>
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="2" FontColor="80000008" FontHeight="-37" FontName="Wingdings 3" FontSize="28" FontStyle="0">
+              <Data>
+                545046300B544B657950696374757265000C506963747572652E446174610AD606000007544269746D6170CA060000424DCA060000000000007600000028000000480000002D0000000100040000000000540600000000000000000000100000001000000000000000111111002222220033333300444444005555550066666600777777008888880099999900AAAAAA00BBBBBB00CCCCCC00DDDDDD00EEEEEE00FFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD64FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE7114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE721114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF82111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9311111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB41111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB4111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD511111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD61111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE7211111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE721111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF93111111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA311111111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB41111111111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC4111111111111111111111111114BBBBBBBBBBBBBBBBBBBBBBBBBBBBBCFFFFFFFFFFFD611111111111111111111111111111111111111111111111111111111111FFFFFFFFFE71111111111111111111111111111111111111111111111111111111111111FFFFFFFE7211111111111111111111111111111111111111111111111111111111111111FFFFFF821111111111111111111111111111111111111111111111111111111111111111FFFF93111111111111111111111111111111111111111111111111111111111111111111FFB411111111111111111111111111111111111111111111111111111111111111111111B41111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111D61111111111111111111111111111111111111111111111111111111111111111111111FFD411111111111111111111111111111111111111111111111111111111111111111111FFFFB4111111111111111111111111111111111111111111111111111111111111111111FFFFFFA31111111111111111111111111111111111111111111111111111111111111111FFFFFFFF9211111111111111111111111111111111111111111111111111111111111111FFFFFFFFFE82111111111111111111111111111111111111111111111111111111111111FFFFFFFFFFFE711111111111111111111111111111111111111111111111111111111111FFFFFFFFFFFFFD6111111111111111111111111114BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFC41111111111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB411111111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF93111111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF821111111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE7211111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE61111111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD611111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB4111111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB41111111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9311111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF72111114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE821114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD6114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD55FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+              </Data>
+            </Picture>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="19" Êîëîíêà="8" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="1" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+Down -Down"/>
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="2" FontColor="80000008" FontHeight="-37" FontName="Wingdings 3" FontSize="28" FontStyle="0">
+              <Data>
+                545046300B544B657950696374757265000C506963747572652E446174610A4207000007544269746D617036070000424D360700000000000076000000280000002D000000480000000100040000000000C00600000000000000000000100000001000000000000000111111002222220033333300444444005555550066666600777777008888880099999900AAAAAA00BBBBBB00CCCCCC00DDDDDD00EEEEEE00FFFFFF00FFFFFFFFFFFFFFFFFFFFFD1BFFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFF614FFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFD111BFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFF41114FFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFB111119FFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFF4111113FFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFA11111118FFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFF311111112EFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFF91111111117FFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFE21111111112EFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFF8111111111117FFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFE2111111111111DFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF711111111111116FFFFFFFFFFFFFFF000FFFFFFFFFFFFFFD111111111111111CFFFFFFFFFFFFFF000FFFFFFFFFFFFFF61111111111111114FFFFFFFFFFFFFF000FFFFFFFFFFFFFC11111111111111111BFFFFFFFFFFFFF000FFFFFFFFFFFFF4111111111111111114FFFFFFFFFFFFF000FFFFFFFFFFFFB1111111111111111111AFFFFFFFFFFFF000FFFFFFFFFFFF411111111111111111113FFFFFFFFFFFF000FFFFFFFFFFF91111111111111111111119FFFFFFFFFFF000FFFFFFFFFFF31111111111111111111113EFFFFFFFFFF000FFFFFFFFFF8111111111111111111111117FFFFFFFFFF000FFFFFFFFFE2111111111111111111111112EFFFFFFFFF000FFFFFFFFF711111111111111111111111117FFFFFFFFF000FFFFFFFFE211111111111111111111111112DFFFFFFFF000FFFFFFFF61111111111111111111111111116FFFFFFFF000FFFFFFFD11111111111111111111111111111DFFFFFFF000FFFFFFF6111111111111111111111111111115FFFFFFF000FFFFFFB1111111111111111111111111111111BFFFFFF000FFFFFF411111111111111111111111111111114FFFFFF000FFFFFB111111111111111111111111111111111BFFFFF000FFFFF41111111111111111111111111111111114FFFFF000FFFF9111111111111111111111111111111111119FFFF000FFFF3111111111111111111111111111111111113FFFF000FFF711111111111111111111111111111111111118FFF000FFE211111111111111111111111111111111111112EFF000FF81111111111111111111111111111111111111117FF000FD21111111111111111111111111111111111111112EF000F6111111111111111111111111111111111111111117F000D1111111111111111111111111111111111111111111D000511111111111111111111111111111111111111111116000544444444444444111111111111111444444444444444000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111BFFFFFFFFFFFFFF000FFFFFFFFFFFFFFB111111111111111CFFFFFFFFFFFFFF0000000
+              </Data>
+            </Picture>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="20" Êîëîíêà="9" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="1" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+Right -Right"/>
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="2" FontColor="80000008" FontHeight="-37" FontName="Wingdings 3" FontSize="28" FontStyle="0">
+              <Data>
+                545046300B544B657950696374757265000C506963747572652E446174610AD606000007544269746D6170CA060000424DCA060000000000007600000028000000480000002D000000010004000000000054060000000000000000000010000000100000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF778FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000087FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000000000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000000000077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000000000000077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000000000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000000000000000000078FFFFFFFFFFFFFFF88888888888888888888888888888870000000000000000000000000078FFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000007FFFFFFFFFFFF00000000000000000000000000000000000000000000000000000000000077FFFFFFFFFF0000000000000000000000000000000000000000000000000000000000000077FFFFFFFF000000000000000000000000000000000000000000000000000000000000000078FFFFFF00000000000000000000000000000000000000000000000000000000000000000078FFFF0000000000000000000000000000000000000000000000000000000000000000000078FF0000000000000000000000000000000000000000000000000000000000000000000000780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000780000000000000000000000000000000000000000000000000000000000000000000078FF00000000000000000000000000000000000000000000000000000000000000000078FFFF000000000000000000000000000000000000000000000000000000000000000077FFFFFF0000000000000000000000000000000000000000000000000000000000000077FFFFFFFF00000000000000000000000000000000000000000000000000000000000007FFFFFFFFFF0000000000000000000000000000000000000000000000000000000000078FFFFFFFFFFF88888888888888888888888888888870000000000000000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000000000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000000000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000000000000077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000000000077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF778FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+              </Data>
+            </Picture>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="21" Êîëîíêà="0" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+A -A"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="22" Êîëîíêà="1" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+B -B"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="23" Êîëîíêà="3" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="009B9B9B" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-29" FontName="Times New Roman" FontSize="22" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="24" Êîëîíêà="4" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+F5 -F5"/>
+            <Picture BackgroundColor="00FFFFFF" Text="ÊÎÄ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-16" FontName="Times New Roman" FontSize="12" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="25" Êîëîíêà="5" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+F6 -F6"/>
+            <Picture BackgroundColor="00FFFFFF" Text="ØÊ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-16" FontName="Times New Roman" FontSize="12" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="26" Êîëîíêà="6" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+F12 -F12"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ñ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-27" FontName="Times New Roman" FontSize="20" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="27" Êîëîíêà="8" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+F9 -F9"/>
+            <Picture BackgroundColor="00FFFFFF" Text="-%" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-16" FontName="Times New Roman" FontSize="12" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="28" Êîëîíêà="9" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F5 -LShift -F5"/>
+            <Picture BackgroundColor="00FFFFFF" Text="+%" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-16" FontName="Times New Roman" FontSize="12" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="29" Êîëîíêà="0" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+C -C"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="30" Êîëîíêà="1" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+D -D"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="31" Êîëîíêà="3" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;7&gt; -&lt;7&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="7" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="32" Êîëîíêà="4" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;8&gt; -&lt;8&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="8" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="33" Êîëîíêà="5" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;9&gt; -&lt;9&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="9" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="34" Êîëîíêà="6" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;*&gt; -&lt;*&gt;"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Õ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-27" FontName="Times New Roman" FontSize="20" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="35" Êîëîíêà="8" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +F9 -LCtrl -F9"/>
+            <Picture BackgroundColor="00FFFFFF" Text="-Ñóìì" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="36" Êîëîíêà="9" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F6 -LShift -F6"/>
+            <Picture BackgroundColor="00FFFFFF" Text="+Ñóìì" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="37" Êîëîíêà="0" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+E -E"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="38" Êîëîíêà="1" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+F -F"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="39" Êîëîíêà="3" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;4&gt; -&lt;4&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="4" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="40" Êîëîíêà="4" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;5&gt; -&lt;5&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="5" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="41" Êîëîíêà="5" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;6&gt; -&lt;6&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="6" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="42" Êîëîíêà="6" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+/ -/"/>
+            <Picture BackgroundColor="00FFFFFF" Text="ÏÐÎÌ ÈÒÎÃ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="43" Êîëîíêà="8" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F2 -LShift -F2"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Ôèêñ. Ñêèäêà" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="44" Êîëîíêà="9" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F9 -LAlt -F9"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Îòìåíà ñêèäêè" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="45" Êîëîíêà="0" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+G -G"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="46" Êîëîíêà="1" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+H -H"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="47" Êîëîíêà="3" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;1&gt; -&lt;1&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="1" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="48" Êîëîíêà="4" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;2&gt; -&lt;2&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="49" Êîëîíêà="5" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;3&gt; -&lt;3&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="3" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="50" Êîëîíêà="6" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+ENTER -ENTER"/>
+            <Picture BackgroundColor="00FFFFFF" Text="ÎÏËÀÒÀ" TextOrientation="1" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-16" FontName="Times New Roman" FontSize="12" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="51" Êîëîíêà="8" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F7 -LShift -F7"/>
+            <Picture BackgroundColor="00FFFFFF" Text="ÂÍ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="52" Êîëîíêà="9" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LShift +F8 -LShift -F8"/>
+            <Picture BackgroundColor="00FFFFFF" Text="ÂÛÏ" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="53" Êîëîíêà="0" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+J -J"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="54" Êîëîíêà="1" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+K -K"/>
+            <Picture BackgroundColor="00A2A2A2" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-11" FontName="Times New Roman" FontSize="8" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="55" Êîëîíêà="3" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;0&gt; -&lt;0&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="0" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="56" Êîëîíêà="4" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;.&gt; -&lt;.&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="." TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="57" Êîëîíêà="5" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+&lt;+&gt; -&lt;+&gt;"/>
+            <Picture BackgroundColor="009B9B9B" Text="00" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-35" FontName="Times New Roman" FontSize="26" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="58" Êîëîíêà="6" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+ENTER -ENTER"/>
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-29" FontName="Times New Roman" FontSize="22" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="59" Êîëîíêà="8" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LCtrl +ENTER -LCtrl -ENTER"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Îïë. Êðåäèò" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="60" Êîëîíêà="9" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <ÊîäûÍàæàòèÿ ÑêàíÊîäû="+LAlt +F5 -LAlt -F5"/>
+            <Picture BackgroundColor="00FFFFFF" Text="Îïë. Òàðîé" TextOrientation="0" FontFixels="96" FontCharset="204" FontColor="80000008" FontHeight="-12" FontName="Times New Roman" FontSize="9" FontStyle="1"/>
+          </Êëàâèøà>
+        </Êëàâèøè>
+        <MSR ÏîñûëàòüEnter="0" ÑòîïÏðèÎøèáêå="0">
+          <Òðåê1 Âêëþ÷åí="1"/>
+          <Òðåê2 Âêëþ÷åí="1"/>
+          <Òðåê3 Âêëþ÷åí="0"/>
+          <Íîòû>
+            <Íîòà Íîìåð="1" Íîòà="32" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="2" Íîòà="28" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="3" Íîòà="44" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="4" Íîòà="47" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="5" Íîòà="51" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="6" Íîòà="52" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="7" Íîòà="57" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="8" Íîòà="61" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="9" Íîòà="64" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+            <Íîòà Íîìåð="10" Íîòà="69" Äëèòåëüíîñòü="4" Ãðîìêîñòü="1"/>
+          </Íîòû>
+        </MSR>
+        <KeyLock>
+          <Ïîçèöèÿ Íîìåð="1" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+= +1 -= -1"/>
+            <Íîòû>
+              <Íîòà Íîìåð="1" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="100"/>
+              <Íîòà Íîìåð="2" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="3" Íîòà="27" Äëèòåëüíîñòü="4" Ãðîìêîñòü="100"/>
+              <Íîòà Íîìåð="4" Íîòà="49" Äëèòåëüíîñòü="4" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="5" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="25"/>
+            </Íîòû>
+          </Ïîçèöèÿ>
+          <Ïîçèöèÿ Íîìåð="2" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+= +2 -= -2"/>
+            <Íîòû>
+              <Íîòà Íîìåð="1" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="100"/>
+              <Íîòà Íîìåð="2" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="3" Íîòà="27" Äëèòåëüíîñòü="4" Ãðîìêîñòü="100"/>
+              <Íîòà Íîìåð="4" Íîòà="49" Äëèòåëüíîñòü="4" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="5" Íîòà="37" Äëèòåëüíîñòü="4" Ãðîìêîñòü="25"/>
+            </Íîòû>
+          </Ïîçèöèÿ>
+          <Ïîçèöèÿ Íîìåð="3" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+= +3 -= -3"/>
+            <Íîòû>
+              <Íîòà Íîìåð="1" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="100"/>
+              <Íîòà Íîìåð="2" Íîòà="25" Äëèòåëüíîñòü="4" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="3" Íîòà="27" Äëèòåëüíîñòü="4" Ãðîìêîñòü="100"/>
+              <Íîòà Íîìåð="4" Íîòà="49" Äëèòåëüíîñòü="4" Ãðîìêîñòü="0"/>
+              <Íîòà Íîìåð="5" Íîòà="49" Äëèòåëüíîñòü="4" Ãðîìêîñòü="25"/>
+            </Íîòû>
+          </Ïîçèöèÿ>
+        </KeyLock>
+      </Ñëîé>
+      <Ñëîé>
+        <Êëàâèøè>
+          <Êëàâèøà Íîìåð="1" Êîëîíêà="0" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="2" Êîëîíêà="1" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="3" Êîëîíêà="2" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="4" Êîëîíêà="3" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="5" Êîëîíêà="4" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="6" Êîëîíêà="5" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="7" Êîëîíêà="6" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="8" Êîëîíêà="7" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="9" Êîëîíêà="8" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="10" Êîëîíêà="9" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="11" Êîëîíêà="0" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="12" Êîëîíêà="1" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="13" Êîëîíêà="2" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="14" Êîëîíêà="3" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="15" Êîëîíêà="4" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="16" Êîëîíêà="5" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="17" Êîëîíêà="6" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="18" Êîëîíêà="7" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="19" Êîëîíêà="8" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="20" Êîëîíêà="9" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="21" Êîëîíêà="0" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="22" Êîëîíêà="1" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="23" Êîëîíêà="3" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="24" Êîëîíêà="4" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="25" Êîëîíêà="5" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="26" Êîëîíêà="6" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="27" Êîëîíêà="8" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="28" Êîëîíêà="9" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="29" Êîëîíêà="0" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="30" Êîëîíêà="1" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="31" Êîëîíêà="3" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="32" Êîëîíêà="4" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="33" Êîëîíêà="5" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="34" Êîëîíêà="6" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="35" Êîëîíêà="8" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="36" Êîëîíêà="9" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="37" Êîëîíêà="0" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="38" Êîëîíêà="1" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="39" Êîëîíêà="3" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="40" Êîëîíêà="4" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="41" Êîëîíêà="5" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="42" Êîëîíêà="6" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="43" Êîëîíêà="8" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="44" Êîëîíêà="9" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="45" Êîëîíêà="0" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="46" Êîëîíêà="1" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="47" Êîëîíêà="3" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="48" Êîëîíêà="4" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="49" Êîëîíêà="5" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="50" Êîëîíêà="6" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="51" Êîëîíêà="8" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="52" Êîëîíêà="9" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="53" Êîëîíêà="0" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="54" Êîëîíêà="1" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="55" Êîëîíêà="3" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="56" Êîëîíêà="4" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="57" Êîëîíêà="5" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="58" Êîëîíêà="6" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="59" Êîëîíêà="8" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="60" Êîëîíêà="9" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+        </Êëàâèøè>
+        <MSR ÏîñûëàòüEnter="0" ÑòîïÏðèÎøèáêå="0">
+          <Òðåê1 Âêëþ÷åí="1"/>
+          <Òðåê2 Âêëþ÷åí="1"/>
+          <Òðåê3 Âêëþ÷åí="0"/>
+        </MSR>
+        <KeyLock>
+          <Ïîçèöèÿ Íîìåð="1" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+ENTER -ENTER"/>
+          </Ïîçèöèÿ>
+          <Ïîçèöèÿ Íîìåð="2" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0"/>
+          <Ïîçèöèÿ Íîìåð="3" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+M -M"/>
+          </Ïîçèöèÿ>
+        </KeyLock>
+      </Ñëîé>
+      <Ñëîé>
+        <Êëàâèøè>
+          <Êëàâèøà Íîìåð="1" Êîëîíêà="0" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Íîòû>
+              <Íîòà Íîìåð="1" Íîòà="46" Äëèòåëüíîñòü="0" Ãðîìêîñòü="0"/>
+            </Íîòû>
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="2" Êîëîíêà="1" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="3" Êîëîíêà="2" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="4" Êîëîíêà="3" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="5" Êîëîíêà="4" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="6" Êîëîíêà="5" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="7" Êîëîíêà="6" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="8" Êîëîíêà="7" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="9" Êîëîíêà="8" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="10" Êîëîíêà="9" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="11" Êîëîíêà="0" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="12" Êîëîíêà="1" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="13" Êîëîíêà="2" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="14" Êîëîíêà="3" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="15" Êîëîíêà="4" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="16" Êîëîíêà="5" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="17" Êîëîíêà="6" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="18" Êîëîíêà="7" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="19" Êîëîíêà="8" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="20" Êîëîíêà="9" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="21" Êîëîíêà="0" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="22" Êîëîíêà="1" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="23" Êîëîíêà="3" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="24" Êîëîíêà="4" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="25" Êîëîíêà="5" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="26" Êîëîíêà="6" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="27" Êîëîíêà="8" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="28" Êîëîíêà="9" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="29" Êîëîíêà="0" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="30" Êîëîíêà="1" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="31" Êîëîíêà="3" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="32" Êîëîíêà="4" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="33" Êîëîíêà="5" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="34" Êîëîíêà="6" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="35" Êîëîíêà="8" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="36" Êîëîíêà="9" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="37" Êîëîíêà="0" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="38" Êîëîíêà="1" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="39" Êîëîíêà="3" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="40" Êîëîíêà="4" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="41" Êîëîíêà="5" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="42" Êîëîíêà="6" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="43" Êîëîíêà="8" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="44" Êîëîíêà="9" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="45" Êîëîíêà="0" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="46" Êîëîíêà="1" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="47" Êîëîíêà="3" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="48" Êîëîíêà="4" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="49" Êîëîíêà="5" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="50" Êîëîíêà="6" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="51" Êîëîíêà="8" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="52" Êîëîíêà="9" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="53" Êîëîíêà="0" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="54" Êîëîíêà="1" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="55" Êîëîíêà="3" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="56" Êîëîíêà="4" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="57" Êîëîíêà="5" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="58" Êîëîíêà="6" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="59" Êîëîíêà="8" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="60" Êîëîíêà="9" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+        </Êëàâèøè>
+        <MSR ÏîñûëàòüEnter="0" ÑòîïÏðèÎøèáêå="0">
+          <Òðåê1 Âêëþ÷åí="1"/>
+          <Òðåê2 Âêëþ÷åí="1"/>
+          <Òðåê3 Âêëþ÷åí="0"/>
+          <Íîòû>
+            <Íîòà Íîìåð="1" Íîòà="22" Äëèòåëüíîñòü="0" Ãðîìêîñòü="0"/>
+          </Íîòû>
+        </MSR>
+        <KeyLock>
+          <Ïîçèöèÿ Íîìåð="1" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0"/>
+          <Ïîçèöèÿ Íîìåð="2" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="1"/>
+          <Ïîçèöèÿ Íîìåð="3" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="1">
+            <ÑêàíÊîäû ÑêàíÊîäû="+ENTER -ENTER"/>
+          </Ïîçèöèÿ>
+        </KeyLock>
+      </Ñëîé>
+      <Ñëîé>
+        <Êëàâèøè>
+          <Êëàâèøà Íîìåð="1" Êîëîíêà="0" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="2" Êîëîíêà="1" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="3" Êîëîíêà="2" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="4" Êîëîíêà="3" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="5" Êîëîíêà="4" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="6" Êîëîíêà="5" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="7" Êîëîíêà="6" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="8" Êîëîíêà="7" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="9" Êîëîíêà="8" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="10" Êîëîíêà="9" Ðÿä="0" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="11" Êîëîíêà="0" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="12" Êîëîíêà="1" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="13" Êîëîíêà="2" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="14" Êîëîíêà="3" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="15" Êîëîíêà="4" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="16" Êîëîíêà="5" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="17" Êîëîíêà="6" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="18" Êîëîíêà="7" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="19" Êîëîíêà="8" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="20" Êîëîíêà="9" Ðÿä="1" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="21" Êîëîíêà="0" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="22" Êîëîíêà="1" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="23" Êîëîíêà="3" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="24" Êîëîíêà="4" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="25" Êîëîíêà="5" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="26" Êîëîíêà="6" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="27" Êîëîíêà="8" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="28" Êîëîíêà="9" Ðÿä="3" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="29" Êîëîíêà="0" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="30" Êîëîíêà="1" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="31" Êîëîíêà="3" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="32" Êîëîíêà="4" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="33" Êîëîíêà="5" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="34" Êîëîíêà="6" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="35" Êîëîíêà="8" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="36" Êîëîíêà="9" Ðÿä="4" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="37" Êîëîíêà="0" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="38" Êîëîíêà="1" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="39" Êîëîíêà="3" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="40" Êîëîíêà="4" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="41" Êîëîíêà="5" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="42" Êîëîíêà="6" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="43" Êîëîíêà="8" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="44" Êîëîíêà="9" Ðÿä="5" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="45" Êîëîíêà="0" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="46" Êîëîíêà="1" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="47" Êîëîíêà="3" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="48" Êîëîíêà="4" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="49" Êîëîíêà="5" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="50" Êîëîíêà="6" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="51" Êîëîíêà="8" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="52" Êîëîíêà="9" Ðÿä="6" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="53" Êîëîíêà="0" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="54" Êîëîíêà="1" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="55" Êîëîíêà="3" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="56" Êîëîíêà="4" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="57" Êîëîíêà="5" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="58" Êîëîíêà="6" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="59" Êîëîíêà="8" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+          <Êëàâèøà Íîìåð="60" Êîëîíêà="9" Ðÿä="7" ÐàçðåøåíèåÏîâòîðà="0" ÒèïÊëàâèøè="1">
+            <Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+          </Êëàâèøà>
+        </Êëàâèøè>
+        <MSR ÏîñûëàòüEnter="0" ÑòîïÏðèÎøèáêå="0">
+          <Òðåê1 Âêëþ÷åí="1"/>
+          <Òðåê2 Âêëþ÷åí="1"/>
+          <Òðåê3 Âêëþ÷åí="0"/>
+        </MSR>
+        <KeyLock>
+          <Ïîçèöèÿ Íîìåð="1" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+L -L"/>
+          </Ïîçèöèÿ>
+          <Ïîçèöèÿ Íîìåð="2" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0"/>
+          <Ïîçèöèÿ Íîìåð="3" ÒèïÏîëîæåíèÿ="0" Áëîêèðîâêà="0">
+            <ÑêàíÊîäû ÑêàíÊîäû="+LShift +F7 -LShift -F7"/>
+          </Ïîçèöèÿ>
+        </KeyLock>
+      </Ñëîé>
+    </Ñëîè>
+    <Ãðóïïû>
+      <Ãðóïïà Top="6" Left="6" Right="6" Bottom="7"/>
+    </Ãðóïïû>
+  </Ðàñêëàäêà>

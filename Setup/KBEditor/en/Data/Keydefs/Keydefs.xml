@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Root>
+	<Group Name="English alphabetic">
+		<Key Name="A" Scancode="1E " Makecode="1C " Breakcode="F0 1C "/>
+		<Key Name="B" Scancode="30 " Makecode="32 " Breakcode="F0 32 "/>
+		<Key Name="C" Scancode="2E " Makecode="21 " Breakcode="F0 21 "/>
+		<Key Name="D" Scancode="20 " Makecode="23 " Breakcode="F0 23 "/>
+		<Key Name="E" Scancode="12 " Makecode="24 " Breakcode="F0 24 "/>
+		<Key Name="F" Scancode="21 " Makecode="2B " Breakcode="F0 2B "/>
+		<Key Name="G" Scancode="22 " Makecode="34 " Breakcode="F0 34 "/>
+		<Key Name="H" Scancode="23 " Makecode="33 " Breakcode="F0 33 "/>
+		<Key Name="I" Scancode="17 " Makecode="43 " Breakcode="F0 43 "/>
+		<Key Name="J" Scancode="24 " Makecode="3B " Breakcode="F0 3B "/>
+		<Key Name="K" Scancode="25 " Makecode="42 " Breakcode="F0 42 "/>
+		<Key Name="L" Scancode="26 " Makecode="4B " Breakcode="F0 4B "/>
+		<Key Name="M" Scancode="32 " Makecode="3A " Breakcode="F0 3A "/>
+		<Key Name="N" Scancode="31 " Makecode="31 " Breakcode="F0 31 "/>
+		<Key Name="O" Scancode="18 " Makecode="44 " Breakcode="F0 44 "/>
+		<Key Name="P" Scancode="19 " Makecode="4D " Breakcode="F0 4D "/>
+		<Key Name="Q" Scancode="10 " Makecode="15 " Breakcode="F0 15 "/>
+		<Key Name="R" Scancode="13 " Makecode="2D " Breakcode="F0 2D "/>
+		<Key Name="S" Scancode="1F " Makecode="1B " Breakcode="F0 1B "/>
+		<Key Name="T" Scancode="14 " Makecode="2C " Breakcode="F0 2C "/>
+		<Key Name="U" Scancode="16 " Makecode="3C " Breakcode="F0 3C "/>
+		<Key Name="V" Scancode="2F " Makecode="2A " Breakcode="F0 2A "/>
+		<Key Name="W" Scancode="11 " Makecode="1D " Breakcode="F0 1D "/>
+		<Key Name="X" Scancode="2D " Makecode="22 " Breakcode="F0 22 "/>
+		<Key Name="Y" Scancode="15 " Makecode="35 " Breakcode="F0 35 "/>
+		<Key Name="Z" Scancode="2C " Makecode="1A " Breakcode="F0 1A "/>
+	</Group>
+	<Group Name="Numbers">
+		<Key Name="0" Scancode="0B " Makecode="45 " Breakcode="F0 45 "/>
+		<Key Name="1" Scancode="02 " Makecode="16 " Breakcode="F0 16 "/>
+		<Key Name="2" Scancode="03 " Makecode="1E " Breakcode="F0 1E "/>
+		<Key Name="3" Scancode="04 " Makecode="26 " Breakcode="F0 26 "/>
+		<Key Name="4" Scancode="05 " Makecode="25 " Breakcode="F0 25 "/>
+		<Key Name="5" Scancode="06 " Makecode="2E " Breakcode="F0 2E "/>
+		<Key Name="6" Scancode="07 " Makecode="36 " Breakcode="F0 36 "/>
+		<Key Name="7" Scancode="08 " Makecode="3D " Breakcode="F0 3D "/>
+		<Key Name="8" Scancode="09 " Makecode="3E " Breakcode="F0 3E "/>
+		<Key Name="9" Scancode="0A " Makecode="46 " Breakcode="F0 46 "/>
+	</Group>
+	<Group Name="Symbols">
+		<Key Name="`" Scancode="29 " Makecode="0E " Breakcode="F0 0E "/>
+		<Key Name="-" Scancode="0C " Makecode="4E " Breakcode="F0 4E "/>
+		<Key Name="=" Scancode="0D " Makecode="55 " Breakcode="F0 55 "/>
+		<Key Name="\" Scancode="2B " Makecode="5D " Breakcode="F0 5D "/>
+		<Key Name="[" Scancode="1A " Makecode="54 " Breakcode="F0 54 "/>
+		<Key Name="]" Scancode="1B " Makecode="5B " Breakcode="F0 5B "/>
+		<Key Name=";" Scancode="27 " Makecode="4C " Breakcode="F0 4C "/>
+		<Key Name="'" Scancode="28 " Makecode="52 " Breakcode="F0 52 "/>
+		<Key Name="," Scancode="33 " Makecode="41 " Breakcode="F0 41 "/>
+		<Key Name="." Scancode="34 " Makecode="49 " Breakcode="F0 49 "/>
+		<Key Name="/" Scancode="35 " Makecode="4A " Breakcode="F0 4A "/>
+	</Group>
+	<Group Name="Kontrol keys">
+		<Key Name="Backspace" Scancode="0E " Makecode="66 " Breakcode="F0 66 "/>
+		<Key Name="Space" Scancode="39 " Makecode="29 " Breakcode="F0 29 "/>
+		<Key Name="TAB" Scancode="0F " Makecode="0D " Breakcode="F0 0D "/>
+		<Key Name="CAPS" Scancode="3A " Makecode="58 " Breakcode="F0 58 "/>
+		<Key Name="LShift" Scancode="2A " Makecode="12 " Breakcode="F0 12 "/>
+		<Key Name="RShift" Scancode="36 " Makecode="59 " Breakcode="F0 59 "/>
+		<Key Name="LCtrl" Scancode="1D " Makecode="14 " Breakcode="F0 14 "/>
+		<Key Name="RCtrl" Scancode="E0 1D " Makecode="E0 14 " Breakcode="E0 F0 14 "/>
+		<Key Name="LWin" Scancode="E0 5B " Makecode="E0 1F " Breakcode="E0 F0 1F "/>
+		<Key Name="LAlt" Scancode="38 " Makecode="11 " Breakcode="F0 11 "/>
+		<Key Name="RWin" Scancode="E0 5C " Makecode="E0 27 " Breakcode="E0 F0 27 "/>
+		<Key Name="RAlt" Scancode="E0 38 " Makecode="E0 11 " Breakcode="E0 F0 11 "/>
+		<Key Name="APPS" Scancode="E0 5D " Makecode="E0 2F " Breakcode="E0 F0 2F "/>
+		<Key Name="ENTER" Scancode="1C " Makecode="5A " Breakcode="F0 5A "/>
+		<Key Name="ESC" Scancode="01 " Makecode="76 " Breakcode="F0 76 "/>
+		<Key Name="F1" Scancode="3B " Makecode="05 " Breakcode="F0 05 "/>
+		<Key Name="F2" Scancode="3C " Makecode="06 " Breakcode="F0 06 "/>
+		<Key Name="F3" Scancode="3D " Makecode="04 " Breakcode="F0 04 "/>
+		<Key Name="F4" Scancode="3E " Makecode="0C " Breakcode="F0 0C "/>
+		<Key Name="F5" Scancode="3F " Makecode="03 " Breakcode="F0 03 "/>
+		<Key Name="F6" Scancode="40 " Makecode="0B " Breakcode="F0 0B "/>
+		<Key Name="F7" Scancode="41 " Makecode="83 " Breakcode="F0 83 "/>
+		<Key Name="F8" Scancode="42 " Makecode="0A " Breakcode="F0 0A "/>
+		<Key Name="F9" Scancode="43 " Makecode="01 " Breakcode="F0 01 "/>
+		<Key Name="F10" Scancode="44 " Makecode="09 " Breakcode="F0 09 "/>
+		<Key Name="F11" Scancode="57 " Makecode="78 " Breakcode="F0 78 "/>
+		<Key Name="F12" Scancode="58 " Makecode="07 " Breakcode="F0 07 "/>
+		<Key Name="Scroll" Scancode="46 " Makecode="7E " Breakcode="F0 7E "/>
+		<Key Name="INSERT" Scancode="E0 52 " Makecode="E0 70 " Breakcode="E0 F0 70 "/>
+		<Key Name="HOME" Scancode="E0 47 " Makecode="E0 6C " Breakcode="E0 F0 6C "/>
+		<Key Name="PageUp" Scancode="E0 49 " Makecode="E0 7D " Breakcode="E0 F0 7D "/>
+		<Key Name="DELETE" Scancode="E0 53 " Makecode="E0 71 " Breakcode="E0 F0 71 "/>
+		<Key Name="END" Scancode="E0 4F " Makecode="E0 69 " Breakcode="E0 F0 69 "/>
+		<Key Name="Pagedown" Scancode="E0 51 " Makecode="E0 7A " Breakcode="E0 F0 7A "/>
+		<Key Name="Up" Scancode="E0 48 " Makecode="E0 75 " Breakcode="E0 F0 75 "/>
+		<Key Name="Down" Scancode="E0 50 " Makecode="E0 72 " Breakcode="E0 F0 72 "/>
+		<Key Name="Left" Scancode="E0 4B " Makecode="E0 6B " Breakcode="E0 F0 6B "/>
+		<Key Name="Right" Scancode="E0 4D " Makecode="E0 74 " Breakcode="E0 F0 74 "/>
+		<Key Name="PrintScrn" Scancode="E0 37 " Makecode="E0 12 E0 7C " Breakcode="E0 F0 7C E0 F0 12 "/>
+		<Key Name="Pause/Break" Scancode="45 " Makecode="E1 14 77 " Breakcode="E1 F0 14 F0 77 "/>
+	</Group>
+	<Group Name="Keypad">
+		<Key Name="NumLock" Scancode="E0 45 " Makecode="77 " Breakcode="F0 77 "/>
+		<Key Name="&lt;/&gt;" Scancode="E0 35 " Makecode="E0 4A " Breakcode="E0 F0 4A "/>
+		<Key Name="&lt;*&gt;" Scancode="37 " Makecode="7C " Breakcode="F0 7C "/>
+		<Key Name="&lt;-&gt;" Scancode="4A " Makecode="7B " Breakcode="F0 7B "/>
+		<Key Name="&lt;+&gt;" Scancode="4E " Makecode="79 " Breakcode="F0 79 "/>
+		<Key Name="&lt;Enter&gt;" Scancode="E0 1C " Makecode="E0 5A " Breakcode="E0 F0 5A "/>
+		<Key Name="&lt;.&gt;" Scancode="53 " Makecode="71 " Breakcode="F0 71 "/>
+		<Key Name="&lt;0&gt;" Scancode="52 " Makecode="70 " Breakcode="F0 70 "/>
+		<Key Name="&lt;1&gt;" Scancode="4F " Makecode="69 " Breakcode="F0 69 "/>
+		<Key Name="&lt;2&gt;" Scancode="50 " Makecode="72 " Breakcode="F0 72 "/>
+		<Key Name="&lt;3&gt;" Scancode="51 " Makecode="7A " Breakcode="F0 7A "/>
+		<Key Name="&lt;4&gt;" Scancode="4B " Makecode="6B " Breakcode="F0 6B "/>
+		<Key Name="&lt;5&gt;" Scancode="4C " Makecode="73 " Breakcode="F0 73 "/>
+		<Key Name="&lt;6&gt;" Scancode="4D " Makecode="74 " Breakcode="F0 74 "/>
+		<Key Name="&lt;7&gt;" Scancode="47 " Makecode="6C " Breakcode="F0 6C "/>
+		<Key Name="&lt;8&gt;" Scancode="48 " Makecode="75 " Breakcode="F0 75 "/>
+		<Key Name="&lt;9&gt;" Scancode="49 " Makecode="7D " Breakcode="F0 7D "/>
+	</Group>
+	<Group Name="ACPI">
+		<Key Name="Power" Scancode="E0 5E " Makecode="E0 37 " Breakcode="E0 F0 37 "/>
+		<Key Name="Sleep" Scancode="E0 5F " Makecode="E0 3F " Breakcode="E0 F0 3F "/>
+		<Key Name="Wake" Scancode="E0 63 " Makecode="E0 5E " Breakcode="E0 F0 5E "/>
+	</Group>
+	<Group Name="Multimedia">
+		<Key Name="NextTrack" Scancode="E0 19 " Makecode="E0 4D " Breakcode="E0 F0 4D "/>
+		<Key Name="PreviousTrack" Scancode="E0 10 " Makecode="E0 15 " Breakcode="E0 F0 15 "/>
+		<Key Name="Stop" Scancode="E0 24 " Makecode="E0 3B " Breakcode="E0 F0 3B "/>
+		<Key Name="Play/Pause" Scancode="E0 22 " Makecode="E0 34 " Breakcode="E0 F0 34 "/>
+		<Key Name="Mute" Scancode="E0 20 " Makecode="E0 23 " Breakcode="E0 F0 23 "/>
+		<Key Name="VolumeUp" Scancode="E0 30 " Makecode="E0 32 " Breakcode="E0 F0 32 "/>
+		<Key Name="VolumeDown" Scancode="E0 2E " Makecode="E0 21 " Breakcode="E0 F0 21 "/>
+		<Key Name="MediaSelect" Scancode="E0 6D " Makecode="E0 50 " Breakcode="E0 F0 50 "/>
+		<Key Name="E-Mail" Scancode="E0 6C " Makecode="E0 48 " Breakcode="E0 F0 48 "/>
+		<Key Name="Calculator" Scancode="E0 21 " Makecode="E0 2B " Breakcode="E0 F0 2B "/>
+		<Key Name="MyComputer" Scancode="E0 6B " Makecode="E0 40 " Breakcode="E0 F0 40 "/>
+	</Group>
+	<Group Name="WWW">
+		<Key Name="WWWSearch" Scancode="E0 65 " Makecode="E0 10 " Breakcode="E0 F0 10 "/>
+		<Key Name="WWWHome" Scancode="E0 32 " Makecode="E0 3A " Breakcode="E0 F0 3A "/>
+		<Key Name="WWWBack" Scancode="E0 6A " Makecode="E0 38 " Breakcode="E0 F0 38 "/>
+		<Key Name="WWWForward" Scancode="E0 69 " Makecode="E0 30 " Breakcode="E0 F0 30 "/>
+		<Key Name="WWWStop" Scancode="E0 68 " Makecode="E0 28 " Breakcode="E0 F0 28 "/>
+		<Key Name="WWWRefresh" Scancode="E0 67 " Makecode="E0 20 " Breakcode="E0 F0 20 "/>
+		<Key Name="WWWFavorites" Scancode="E0 66 " Makecode="E0 18 " Breakcode="E0 F0 18 "/>
+	</Group>
+</Root>

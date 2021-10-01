@@ -1,0 +1,1 @@
+dpinst /U Inst.inf

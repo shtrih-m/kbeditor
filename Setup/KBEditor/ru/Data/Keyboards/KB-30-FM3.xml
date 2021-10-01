@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Keyboard Name="KB-30-FM3" KeysCount="64" ModelID="16" Height="9" Width="4" ID="16" HasReader="1" HasKey="1" KeyPos="3" Layers="4" Track1="1" Track2="1" Track3="0">
+	<Params>
+		<Group Name="Идентификационные данные">
+			<Param Name="Модель" Value="KB-30-FM3"/>
+		</Group>
+		<Group Name="Технические характеристики">
+			<Param Name="Количество клавиш" Value="30"/>
+			<Param Name="Высота в клавишах" Value="9"/>
+			<Param Name="Ширина в клавишах" Value="4"/>
+			<Param Name="Наличие ключа" Value="Да"/>
+			<Param Name="Количество позиций ключа" Value="3"/>
+			<Param Name="Наличие считывателя" Value="Да"/>
+			<Param Name="Количество треков считывателя" Value="2"/>
+			<Param Name="Количество слоев" Value="4"/>
+		</Group>
+	</Params>
+	<Key Left="1" Top="1" LogicalNumber="1"/>
+	<Key Left="2" Top="1" LogicalNumber="2"/>
+	<Key Left="3" Top="1" LogicalNumber="3"/>
+	<Key Left="4" Top="1" LogicalNumber="4"/>
+	<Key Left="1" Top="2" LogicalNumber="9"/>
+	<Key Left="2" Top="2" LogicalNumber="10"/>
+	<Key Left="3" Top="2" LogicalNumber="11"/>
+	<Key Left="4" Top="2" LogicalNumber="12"/>
+	<Key Left="1" Top="3" LogicalNumber="17"/>
+	<Key Left="2" Top="3" LogicalNumber="18"/>
+	<Key Left="3" Top="3" LogicalNumber="19"/>
+	<Key Left="4" Top="3" LogicalNumber="20"/>
+	<Key Left="1" Top="4" LogicalNumber="25"/>
+	<Key Left="2" Top="4" LogicalNumber="26"/>
+	<Key Left="3" Top="4" LogicalNumber="27"/>
+	<Key Left="4" Top="4" LogicalNumber="28"/>
+	<Key Left="1" Top="5" LogicalNumber="33"/>
+	<Key Left="2" Top="5" LogicalNumber="34"/>
+	<Key Left="3" Top="5" LogicalNumber="35"/>
+	<Key Left="4" Top="5" LogicalNumber="36"/>
+	<Key Left="1" Top="6" LogicalNumber="41"/>
+	<Key Left="2" Top="6" LogicalNumber="42"/>
+	<Key Left="3" Top="6" LogicalNumber="43"/>
+	<Key Left="4" Top="6" LogicalNumber="44"/>
+	<Key Left="1" Top="8" LogicalNumber="49"/>
+	<Key Left="2" Top="8" LogicalNumber="50"/>
+	<Key Left="3" Top="8" LogicalNumber="51"/>
+	<Key Left="1" Top="9" LogicalNumber="52"/>
+	<Key Left="2" Top="9" LogicalNumber="57"/>
+	<Key Left="3" Top="9" LogicalNumber="58"/>
+</Keyboard>

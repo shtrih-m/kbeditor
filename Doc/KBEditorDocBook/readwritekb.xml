@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE sect1 SYSTEM "./dtd/dblite.dtd">
+<sect1>
+    <title>Работа с клавиатурой</title>
+    <para>
+        <itemizedlist>
+            <title>
+                Программа KBEditor предоставляет следующие
+                функции работы с клавиатурой:
+            </title>
+            <listitem>
+                <para>
+                    Получение информации о подключенной клавиатуре
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Тест клавиатуры
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Чтение раскладки из клавиатуры
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Запись раскладки в клавиатуру
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Запись программы в клавиатуру
+                </para>
+            </listitem>
+        </itemizedlist>        
+    </para>
+    <sect2 id="DeviceInfo">
+        <title>Информации о клавиатуре</title>
+        <indexterm>
+            <primary>информация о клавиатуре</primary>
+        </indexterm>
+        <para>
+            Чтобы получить информацию о подключенной клавиатуре выберите пункт
+            <emphasis>Информация об устройстве</emphasis> меню <link linkend="DEVICEMENU">Устройство</link>.
+            <figure>
+                <title>Окно информации о клавиатуре.</title>
+                <graphic fileref="./images/info.gif"/>              
+            </figure>        
+        </para>
+        <para>
+            <itemizedlist>
+                <title>В окне информации об устройстве выводится: </title>                    
+                <listitem>
+                    <para>
+                        Версия программы клавиатуры.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Версия загрузчика клавиатуры.                        
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Объем памяти в байтах.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Тип устройства (модель клавиатуры).
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Количество слоев раскладки.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Номера присутствующих треков считывателя.                        
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Количество клавиш программируемой клавиатуры.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Количество положений ключа.
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </para>
+    </sect2>
+    <sect2 id="KbTest">
+        <title>Тест клавиатуры</title>
+        <indexterm>
+            <primary>коды клавиш</primary>
+        </indexterm>
+        <para>
+            <orderedlist>
+                <title>Чтобы узнать какие коды посылает данная клавиша:</title>                    
+                <listitem>
+                    <para>
+                        В меню <link linkend="DEVICEMENU">Устройство</link> 
+                        выберите пункт <emphasis>Тест клавиатуры</emphasis>.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Нажмите клавишу клавиатуры, посылаемые scan-коды которой вы хотите узнать.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        После нажатия клавиши в окно <emphasis>Тест клавиатуры</emphasis> 
+                        будут выведены посылаемые клавиатурой scan-коды.
+                    </para>
+                </listitem>                
+            </orderedlist>
+        </para>
+    </sect2>
+    <sect2>
+        <title>Чтение раскладки</title>
+        <indexterm>
+            <primary>чтение раскладки</primary>
+        </indexterm>
+        <para>
+            Выберите пункт <emphasis>Чтение раскладки</emphasis> меню <link linkend="DEVICEMENU">Устройство</link>.
+        </para>
+    </sect2>
+    <sect2>
+        <title>Загрузка раскладки</title>
+        <indexterm>
+            <primary>запись раскладки</primary>
+        </indexterm>
+        <para>
+            Выберите пункт <emphasis>Загрузка раскладки</emphasis> меню <link linkend="DEVICEMENU">Устройство</link>.
+        </para>
+    </sect2>
+    <sect2>
+        <title>Запись программы</title>
+        <indexterm>
+            <primary>запись программы</primary>
+        </indexterm>
+        <para>
+            Данная функция позволяет обновлять исполняемую программу клавиатуры.
+            <orderedlist>
+                <title>Чтобы записать программу в клавиатуру:</title>                    
+                <listitem>
+                    <para>
+                        Загрузите новую версию программы с 
+                        <ulink url="http://www.shtrih-m.ru/downloads/show_prod_109.html">сайта «Штрих-М»</ulink>
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Выберите пункт <emphasis>Запись программы процессора</emphasis> 
+                        меню <link linkend="DEVICEMENU">Устройство</link>.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        В появившемся диалоге выберите нужный файл программы.                    
+                    </para>
+                </listitem>                
+                <listitem>
+                    <para>
+                        После этого начнется процесс записи файла программы в клавиатуру.
+                    </para>
+                </listitem>                
+            </orderedlist>        
+        </para>
+    </sect2>
+</sect1>

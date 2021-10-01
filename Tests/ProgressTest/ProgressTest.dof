@@ -1,0 +1,120 @@
+[Compiler]
+A=0
+B=0
+C=0
+D=1
+E=0
+F=0
+G=1
+H=1
+I=0
+J=1
+K=0
+L=1
+M=0
+N=1
+O=0
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=0
+V=1
+W=0
+X=1
+Y=0
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=4194304
+ExeDescription=
+[Directories]
+OutputDir=..\..\Bin
+UnitOutputDir=DCU
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=
+Packages=VCL50;VCLX50;TEEUI50;TEEDB50;TEE50;RXDB5;tb2k_d5
+Conditionals=DEBUG
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+[Excluded Packages]
+C:\Program Files\RemObjects Software\Pascal Script for Delphi\Dcu\D5\PascalScript_Core_D5.bpl=RemObjects Pascal Script - Core Package
+$(DELPHI)\Bin\dclqrt50.bpl=QuickReport Components
+$(DELPHI)\Bin\dclnet50.bpl=Borland Internet Components
+$(DELPHI)\LIB\Dclrx5.bpl=RX Library Controls and Tools
+$(DELPHI)\Bin\DclSmp50.bpl=Borland Sample Components
+$(DELPHI)\LIB\Dclrxdb5.bpl=RX Library Database Components
+$(DELPHI)\Bin\dclsmpedit50.bpl=Borland Editor Script Enhancements
+$(DELPHI)\Bin\dclwbm50.bpl=Borland InternetExpress Components
+$(DELPHI)\Bin\dclaxserver50.bpl=Borland Sample Automation Server Components
+C:\WINDOWS\system32\\ibevnt50.bpl=Borland Interbase Event Alerter Component
+$(DELPHI)\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+$(DELPHI)\Bin\dclado50.bpl=Borland ADO DB Components
+$(DELPHI)\Bin\applet50.bpl=Borland Control Panel Applet Package
+$(DELPHI)\Bin\dcldss50.bpl=Borland Decision Cube Components
+$(DELPHI)\Bin\DCLTee50.bpl=TeeChart 5.0 Components
+$(DELPHI)\Bin\dclbde50.bpl=Borland BDE DB Components
+$(DELPHI)\Bin\dcl31w50.bpl=Delphi 1.0 Compatibility Components
+C:\Program Files\Indy 9 for Delphi 5\LibD5\dclIndy50.bpl=Internet Direct (Indy) for D5 Property and Component Editors
+$(DELPHI)\Bin\dclie50.bpl=Internet Explorer Components
+$(DELPHI)\Bin\dclmid50.bpl=Borland MIDAS Components
+$(DELPHI)\Projects\Bpl\dclusr50.bpl=Borland User Components
+$(DELPHI)\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+$(DELPHI)\LIB\Dclrxbd5.bpl=RX Library BDE Database Components
+$(DELPHI)\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+$(DELPHI)\Bin\DCLIB50.bpl=InterBase Data Access Components
+$(DELPHI)\Projects\Bpl\TntUnicodeVcl_D50.bpl=Tnt Unicode Controls
+$(DELPHI)\Bin\dclite50.bpl=Borland Integrated Translation Environment
+$(DELPHI)\Projects\Bpl\tb2kdsgn_d5.bpl=Toolbar2000 Design Package (Jordan Russell)
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlUnitOutputDirectory]
+Count=3
+Item0=DCU
+Item1=..\..\..\DCU
+Item2=..\..\DCU
+[HistoryLists\hlOutputDirectorry]
+Count=3
+Item0=Bin
+Item1=..\..\..\Bin
+Item2=..\..\Bin

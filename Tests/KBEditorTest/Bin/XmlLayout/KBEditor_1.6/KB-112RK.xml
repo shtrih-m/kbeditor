@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<Раскладка Vesion="020A">
+	<Параметры KeyboardID="1" STop="4" SLeft="15" SRight="15" SBottom="4"/>
+	<Слои>
+		<Слой>
+			<Клавиши>
+				<Клавиша Номер="1" Колонка="0" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+A -A"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="2" Колонка="1" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+B -B"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="3" Колонка="2" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+C -C"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="4" Колонка="3" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+D -D"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="5" Колонка="4" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+E -E"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="6" Колонка="5" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F -F"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="7" Колонка="6" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+G -G"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="8" Колонка="7" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+H -H"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="9" Колонка="0" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+I -I"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="10" Колонка="1" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+J -J"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="11" Колонка="2" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+K -K"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="12" Колонка="3" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+L -L"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="13" Колонка="4" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+M -M"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="14" Колонка="5" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+N -N"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="15" Колонка="6" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+O -O"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="16" Колонка="7" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+P -P"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="17" Колонка="0" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Q -Q"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="18" Колонка="1" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+R -R"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="19" Колонка="2" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+S -S"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="20" Колонка="3" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+T -T"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="21" Колонка="4" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+U -U"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="22" Колонка="5" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+V -V"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="23" Колонка="6" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+W -W"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="24" Колонка="7" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+X -X"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="25" Колонка="0" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Y -Y"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="26" Колонка="1" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Z -Z"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="27" Колонка="2" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Space -Space"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="28" Колонка="3" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +1 -1 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="29" Колонка="4" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +2 -2 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="30" Колонка="5" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +3 -3 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="31" Колонка="6" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +4 -4 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="32" Колонка="7" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +5 -5 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="33" Колонка="0" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F9 -F9 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="34" Колонка="1" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +7 -7 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="35" Колонка="2" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +; -; -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="36" Колонка="3" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +9 -9 -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="37" Колонка="4" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F5 -F5 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="38" Колонка="5" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F6 -F6 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="39" Колонка="6" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F7 -F7 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="40" Колонка="7" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F8 -F8 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="41" Колонка="0" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +. -. -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="42" Колонка="1" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+, -,"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="43" Колонка="2" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LShift +- -- -LShift"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="44" Колонка="3" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+TAB -TAB"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="45" Колонка="4" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F5 -F5 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="46" Колонка="5" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F6 -F6 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="47" Колонка="6" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F7 -F7 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="48" Колонка="7" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F8 -F8 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="49" Колонка="0" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F1 -F1 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="50" Колонка="1" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F2 -F2 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="51" Колонка="2" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F3 -F3 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="52" Колонка="3" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F4 -F4 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="53" Колонка="4" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F5 -F5 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="54" Колонка="5" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F6 -F6 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="55" Колонка="6" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F7 -F7 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="56" Колонка="7" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F8 -F8 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="57" Колонка="9" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F1 -F1"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="58" Колонка="10" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F2 -F2"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="59" Колонка="11" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+INSERT -INSERT"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="60" Колонка="12" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+HOME -HOME"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="61" Колонка="13" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+PageUp -PageUp"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="62" Колонка="14" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +1 -1 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="63" Колонка="15" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Up -Up"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="64" Колонка="16" Ряд="0" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Left -Left"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="65" Колонка="9" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F3 -F3"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="66" Колонка="10" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F4 -F4"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="67" Колонка="11" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+DELETE -DELETE"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="68" Колонка="12" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+END -END"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="69" Колонка="13" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Pagedown -Pagedown"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="70" Колонка="14" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +2 -2 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="71" Колонка="15" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Down -Down"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="72" Колонка="16" Ряд="1" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Right -Right"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="73" Колонка="9" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F5 -F5"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="74" Колонка="10" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F6 -F6"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="75" Колонка="11" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F1 -F1 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="76" Колонка="12" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F9 -F9 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="77" Колонка="13" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +F10 -F10 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="78" Колонка="14" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +4 -4 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="79" Колонка="15" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +5 -5 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="80" Колонка="16" Ряд="2" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;-&gt; -&lt;-&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="81" Колонка="9" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F7 -F7"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="82" Колонка="10" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F8 -F8"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="83" Колонка="11" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F2 -F2 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="84" Колонка="12" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+Backspace -Backspace"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="85" Колонка="13" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;7&gt; -&lt;7&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="86" Колонка="14" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;8&gt; -&lt;8&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="87" Колонка="15" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;9&gt; -&lt;9&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="88" Колонка="16" Ряд="3" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;/&gt; -&lt;/&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="89" Колонка="9" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F9 -F9"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="90" Колонка="10" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F10 -F10"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="91" Колонка="11" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F3 -F3 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="92" Колонка="12" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+ESC -ESC"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="93" Колонка="13" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;4&gt; -&lt;4&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="94" Колонка="14" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;5&gt; -&lt;5&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="95" Колонка="15" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;6&gt; -&lt;6&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="96" Колонка="16" Ряд="4" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;+&gt; -&lt;+&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="97" Колонка="9" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F11 -F11"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="98" Колонка="10" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+F12 -F12"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="99" Колонка="11" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F4 -F4 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="100" Колонка="12" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;*&gt; -&lt;*&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="101" Колонка="13" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;1&gt; -&lt;1&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="102" Колонка="14" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;2&gt; -&lt;2&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="103" Колонка="15" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;3&gt; -&lt;3&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="104" Колонка="16" Ряд="5" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+ENTER -ENTER"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="105" Колонка="9" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F7 -F7 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="106" Колонка="10" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F6 -F6 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="107" Колонка="11" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LCtrl +F5 -F5 -LCtrl"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="108" Колонка="12" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+LAlt +0 -0 -LAlt"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="109" Колонка="13" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;0&gt; -&lt;0&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="110" Колонка="14" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;0&gt; -&lt;0&gt; +&lt;0&gt; -&lt;0&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="111" Колонка="15" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+&lt;.&gt; -&lt;.&gt;"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+				<Клавиша Номер="112" Колонка="16" Ряд="6" РазрешениеПовтора="0" ТипКлавиши="1">
+					<КодыНажатия СканКоды="+ENTER -ENTER"/>
+					<Picture BackgroundColor="00FFFFFF" TextOrientation="0" FontFixels="96" FontCharset="1" FontColor="80000008" FontHeight="-11" FontName="MS Sans Serif" FontSize="8" FontStyle="0"/>
+				</Клавиша>
+			</Клавиши>
+			<MSR ПосылатьEnter="0" СтопПриОшибке="0" LightIndication="1">
+				<Трек1 Включен="1"/>
+				<Трек2 Включен="1"/>
+				<Трек3 Включен="0"/>
+			</MSR>
+			<KeyLock>
+				<Позиция Номер="1" ТипПоложения="0" Блокировка="0"/>
+				<Позиция Номер="2" ТипПоложения="0" Блокировка="0"/>
+				<Позиция Номер="3" ТипПоложения="0" Блокировка="0"/>
+			</KeyLock>
+		</Слой>
+	</Слои>
+	<Группы>
+		<Группа Top="5" Left="16" Right="16" Bottom="6"/>
+	</Группы>
+</Раскладка>

@@ -1,0 +1,72 @@
+; Copyright (c) Shtrih-M company.  All rights reserved.
+
+[Version]
+Signature="$Windows NT$"
+Class=Keyboard
+ClassGUID={4D36E96B-E325-11CE-BFC1-08002BE10318}
+Provider=%SHTRIHM%
+DriverVer=03/26/2003,5.01.0304.29
+
+[DestinationDirs]
+DefaultDestDir   = 12
+
+[Manufacturer]
+%SHTRIHM% = SHTRIHM_KBD,NTamd64
+
+[SHTRIHM_KBD.NTamd64]
+%*PNP0303.DeviceDesc% = SmKbdDrv, *PNP0303, PS2_KEYBOARD   ;Default keyboard
+
+[SmKbdDrv]
+Include=keyboard.inf
+Needs=STANDARD_Inst
+CopyFiles=SmKbdDrv.CopyFiles
+
+[SmKbdDrv.Delete]
+DelFiles=SmKbdDrv.CopyFiles
+
+[SmKbdDrv.CopyFiles]
+SmKbdDrv.sys
+
+[SmKbdDrv.Services]
+AddService = SmKbdDrv,  , SmKbdDrv_Service_Inst
+Include=keyboard.inf
+Needs=STANDARD_Inst.Services
+
+[SmKbdDrv.Services.Delete]
+DelService = SmKbdDrv
+
+[SmKbdDrv_Service_Inst]
+DisplayName    = %SmKbdDrv.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Keyboard Port
+ServiceBinary  = %12%\SmKbdDrv.sys
+
+[SmKbdDrv.HW]
+AddReg = SmKbdDrv_AddReg
+
+[SmKbdDrv_AddReg]
+HKR,,"UpperFilters",0x00010000,"SmKbdDrv"
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+
+[SourceDisksFiles]
+SmKbdDrv.sys = 1,,
+
+
+[Strings]
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = "System\CurrentControlSet\Services"
+
+
+DiskId1 = "Standart keyboard + ShtrihM keyboard or input device"
+SHTRIHM = "Standart keyboard + ShtrihM keyboard or input device"
+SmKbdDrv.SvcDesc="Standart keyboard + ShtrihM keyboard or input device"
+*PNP0303.DeviceDesc     = "Standart keyboard + ShtrihM keyboard or input device"

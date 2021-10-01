@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Keyboard Name="PKB-64R" KeysCount="64" ModelID="16" Height="8" Width="8" ID="8" HasReader="1" HasKey="0" Layers="4" Track1="1" Track2="1" Track3="0">
+	<Params>
+		<Group Name="Keyboard model parameters">
+			<Param Name="Model" Value="PKB-64R"/>
+		</Group>
+		<Group Name="Techical details">
+			<Param Name="Key count" Value="64"/>
+			<Param Name="Height, keys" Value="8"/>
+			<Param Name="Width, keys" Value="8"/>
+			<Param Name="Keylock present" Value="No"/>
+			<Param Name="MSR present" Value="Yes"/>
+			<Param Name="MSR track count" Value="2"/>
+			<Param Name="Layer count" Value="4"/>
+			<Param Name="Plastic case" Value=""/>
+		</Group>
+	</Params>
+<Key Left="8" Top="1" LogicalNumber="1"/>
+<Key Left="7" Top="1" LogicalNumber="2"/>
+<Key Left="6" Top="1" LogicalNumber="3"/>
+<Key Left="5" Top="1" LogicalNumber="4"/>
+<Key Left="4" Top="1" LogicalNumber="5"/>
+<Key Left="3" Top="1" LogicalNumber="6"/>
+<Key Left="2" Top="1" LogicalNumber="7"/>
+<Key Left="1" Top="1" LogicalNumber="8"/>
+<Key Left="8" Top="2" LogicalNumber="9"/>
+<Key Left="7" Top="2" LogicalNumber="10"/>
+<Key Left="6" Top="2" LogicalNumber="11"/>
+<Key Left="5" Top="2" LogicalNumber="12"/>
+<Key Left="4" Top="2" LogicalNumber="13"/>
+<Key Left="3" Top="2" LogicalNumber="14"/>
+<Key Left="2" Top="2" LogicalNumber="15"/>
+<Key Left="1" Top="2" LogicalNumber="16"/>
+<Key Left="8" Top="3" LogicalNumber="17"/>
+<Key Left="7" Top="3" LogicalNumber="18"/>
+<Key Left="6" Top="3" LogicalNumber="19"/>
+<Key Left="5" Top="3" LogicalNumber="20"/>
+<Key Left="4" Top="3" LogicalNumber="21"/>
+<Key Left="3" Top="3" LogicalNumber="22"/>
+<Key Left="2" Top="3" LogicalNumber="23"/>
+<Key Left="1" Top="3" LogicalNumber="24"/>
+<Key Left="8" Top="4" LogicalNumber="25"/>
+<Key Left="7" Top="4" LogicalNumber="26"/>
+<Key Left="6" Top="4" LogicalNumber="27"/>
+<Key Left="5" Top="4" LogicalNumber="28"/>
+<Key Left="4" Top="4" LogicalNumber="29"/>
+<Key Left="3" Top="4" LogicalNumber="30"/>
+<Key Left="2" Top="4" LogicalNumber="31"/>
+<Key Left="1" Top="4" LogicalNumber="32"/>
+<Key Left="8" Top="5" LogicalNumber="33"/>
+<Key Left="7" Top="5" LogicalNumber="34"/>
+<Key Left="6" Top="5" LogicalNumber="35"/>
+<Key Left="5" Top="5" LogicalNumber="36"/>
+<Key Left="4" Top="5" LogicalNumber="37"/>
+<Key Left="3" Top="5" LogicalNumber="38"/>
+<Key Left="2" Top="5" LogicalNumber="39"/>
+<Key Left="1" Top="5" LogicalNumber="40"/>
+<Key Left="8" Top="6" LogicalNumber="41"/>
+<Key Left="7" Top="6" LogicalNumber="42"/>
+<Key Left="6" Top="6" LogicalNumber="43"/>
+<Key Left="5" Top="6" LogicalNumber="44"/>
+<Key Left="4" Top="6" LogicalNumber="45"/>
+<Key Left="3" Top="6" LogicalNumber="46"/>
+<Key Left="2" Top="6" LogicalNumber="47"/>
+<Key Left="1" Top="6" LogicalNumber="48"/>
+<Key Left="8" Top="7" LogicalNumber="49"/>
+<Key Left="7" Top="7" LogicalNumber="50"/>
+<Key Left="6" Top="7" LogicalNumber="51"/>
+<Key Left="5" Top="7" LogicalNumber="52"/>
+<Key Left="4" Top="7" LogicalNumber="53"/>
+<Key Left="3" Top="7" LogicalNumber="54"/>
+<Key Left="2" Top="7" LogicalNumber="55"/>
+<Key Left="1" Top="7" LogicalNumber="56"/>
+<Key Left="8" Top="8" LogicalNumber="57"/>
+<Key Left="7" Top="8" LogicalNumber="58"/>
+<Key Left="6" Top="8" LogicalNumber="59"/>
+<Key Left="5" Top="8" LogicalNumber="60"/>
+<Key Left="4" Top="8" LogicalNumber="61"/>
+<Key Left="3" Top="8" LogicalNumber="62"/>
+<Key Left="2" Top="8" LogicalNumber="63"/>
+<Key Left="1" Top="8" LogicalNumber="64"/>
+</Keyboard>

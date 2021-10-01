@@ -1,0 +1,41 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE article SYSTEM "./dtd/dblite.dtd">
+<article id="KBEditorHelp" lang="ru" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title><link id="HEADER" linkend="INDEX">KBEditor</link></title>
+
+  <articleinfo id="INDEX">
+
+    <title><inlinemediaobject><imageobject>
+    <imagedata fileref="./images/logo.gif"/></imageobject></inlinemediaobject></title>
+
+    <subtitle>
+
+      <para>Редактор раскладки для программируемой клавиатуры</para>
+
+      <xi:include href="../version.xml"/>
+    </subtitle>
+
+    <releaseinfo>Наш сайт: <ulink url="http://www.shtrih-m.ru">
+    http://www.shtrih-m.ru</ulink></releaseinfo>
+
+    <releaseinfo>Наш форум: <ulink url="http://forum.shtrih-m.ru/">
+    http://forum.shtrih-m.ru</ulink></releaseinfo>
+
+    <releaseinfo>Скачать обновления: 
+    <ulink url="http://www.shtrih-m.ru/downloads/show_prod_109.html">
+    http://www.shtrih-m.ru/downloads/show_prod_109.html</ulink></releaseinfo>
+
+    <releaseinfo>Обратная связь: 
+    <ulink url="http://forum.shtrih-m.ru/viewtopic.php?t=1673">
+    http://forum.shtrih-m.ru/viewtopic.php?t=1673</ulink></releaseinfo>
+
+  </articleinfo>
+
+  <xi:include href="./introduction.xml"/>
+  <xi:include href="./editlayout.xml"/>
+  <xi:include href="./readwritekb.xml"/>
+  <xi:include href="./appendix.xml"/>
+  <xi:include href="./contacts.xml"/>
+</article>
+

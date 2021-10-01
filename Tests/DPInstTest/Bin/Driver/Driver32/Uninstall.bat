@@ -1,0 +1,1 @@
+DPInst.exe /Q /U Inst.inf

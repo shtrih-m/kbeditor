@@ -1,0 +1,5 @@
+My guess is you are installing by right clicking on the INF in the explorer 
+or using Rundll32. In that case, remove .NT and .NTam64 decorations and see 
+if it works. It seems shell install only understand DefaultInstall section. 
+If it works on XP and not on Vista, this could be a compat issue introduced 
+by shell team.

@@ -1,0 +1,88 @@
+; kbfiltr.inf
+;
+; Installation inf for the Device that needs filtering adapter.
+;
+; (c) Copyright 1999 Microsoft
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%ShtrihM_kb%
+ClassGUID={4D36E96B-E325-11CE-BFC1-08002BE10318}
+Class=Keyboard
+DriverVer=09/23/2011,1.0.0.7
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+;
+; Driver information
+;
+
+[Manufacturer]
+%ShtrihM_kb% = ShtrihM_kb.Mfg
+ 
+[ShtrihM_kb.Mfg]
+%*PNP0303.DeviceDesc% = SmKbdDrv, *PNP0303, PS2_KEYBOARD   ;Default keyboard
+
+[SmKbdDrv]
+; perform port related actions from keyboard.inf
+Include=keyboard.inf
+Needs=STANDARD_Inst
+CopyFiles=SmKbdDrv.CopyFiles
+
+;
+; File sections
+;
+
+
+[SmKbdDrv.CopyFiles]
+SmKbdDrv.sys
+
+[SmKbdDrv.Services]
+AddService = SmKbdDrv,  , SmKbdDrv_Service_Inst
+; Install the port driver and mouclass from keyboard.inf
+Include=keyboard.inf
+Needs=STANDARD_Inst.Services
+
+[SmKbdDrv.Services.Delete]
+DelService = SmKbdDrv
+
+[SmKbdDrv_Service_Inst]
+DisplayName    = %SmKbdDrv.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Keyboard Port
+ServiceBinary  = %12%\SmKbdDrv.sys
+
+[SmKbdDrv.HW]
+; Add the device upper filter
+AddReg = SmKbdDrv_AddReg
+
+[SmKbdDrv_AddReg]
+HKR,,"UpperFilters",0x00010000,"SmKbdDrv"
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+
+[SourceDisksFiles]
+SmKbdDrv.sys = 1,,
+
+[Strings]
+;
+; Non-Localizable Strings
+;
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = "System\CurrentControlSet\Services"
+;
+; Localizable Strings
+;
+DiskId1 = "Standart keyboard + ShtrihM keyboard or input device"
+ShtrihM_kb = "Standart keyboard + ShtrihM keyboard or input device"
+SmKbdDrv.SvcDesc="Standart keyboard + ShtrihM keyboard or input device"
+*PNP0303.DeviceDesc     = "Standart keyboard + ShtrihM keyboard or input device"

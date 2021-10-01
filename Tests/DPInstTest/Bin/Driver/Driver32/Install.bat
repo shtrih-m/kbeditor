@@ -1,0 +1,1 @@
+DPInst.exe /F /LM /D /SA

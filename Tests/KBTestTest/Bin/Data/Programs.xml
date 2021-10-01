@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Programs>
+	<Program>
+		<Model>16</Model>
+		<Filename>KB-64xx_v3.7.prg</Filename>
+	</Program>
+	<Program>
+		<Model>32</Model>
+		<Filename>KB-64RiB_v2.15.prg</Filename>
+	</Program>
+	<Program>
+		<Model>17</Model>
+		<Filename>KB-128xx_v3.6.prg</Filename>
+	</Program>
+</Programs>
