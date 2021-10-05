@@ -47,6 +47,7 @@ Source: "..\DriverU\Driver32\smkbddrv.sys"; DestDir: "{app}\Driver\Driver32"; On
 Source: "..\Driver\Driver64\Inst.inf"; DestDir: "{app}\Driver\Driver64"; 
 Source: "..\Driver\Driver64\dpinst.exe"; DestDir: "{app}\Driver\Driver64"; 
 Source: "..\Driver\Driver64\smkbddrv.cat"; DestDir: "{app}\Driver\Driver64"; MinVersion: 6.0;
+Source: "..\Driver\Driver64\smkbddrv.sys"; DestDir: "{app}\Driver\Driver64"; MinVersion: 6.0;
 Source: "..\DriverU\Driver64\smkbddrv.sys"; DestDir: "{app}\Driver\Driver64"; OnlyBelowVersion: 6.0;
 
 Source: "en\Data\*"; DestDir: "{app}\Data\"; Excludes: ".svn"; Flags: recursesubdirs; Languages: en;
